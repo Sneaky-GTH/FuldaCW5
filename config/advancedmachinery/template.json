@@ -1,0 +1,42 @@
+{
+  "name": "TileTemplateMachine",
+  "offset_x": 100,
+  "offset_y": 10,
+  "sound_duration": 30,
+  "structure": {
+    "height": 2,
+    "length" : 1,
+    "width" : 3,
+    "layer1": {
+      "line0" : "minecraft:air, motors, minecraft:glass"
+    },
+    "layer2": {
+      "line0" : "minecraft:planks, minecraft:stone, c"
+    }
+  },
+  "nei" : {
+    "backOffsetX": 84,
+    "backOffsetY" : 66,
+    "backWidth" : 41,
+    "backHeight" : 32,
+    "foreOffsetX" : 132,
+    "foreOffsetY" : 66,
+    "foreWidth" : 41,
+    "foreHeight" : 32,
+    "direction" : "EAST",
+    "recipeName" : "Lathe"
+  },
+  "unlocalized_name": "template_machine",
+  "libvulpes_examples_for_blocks": {
+    "core_tile_block" : "c",
+    "rf_input" : "P",
+    "item_input" : "I",
+    "item_output" : "O",
+    "fluid_input" : "L",
+    "fluid_output" : "l",
+    "any" : "*",
+    "coils" : "blockCoil",
+    "motors": "motors",
+    "structure_block" : "struct"
+  }
+}

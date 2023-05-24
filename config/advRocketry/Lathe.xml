@@ -1,0 +1,113 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="1800" power ="20">
+		<input>
+			<oreDict>blockSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>flansmod:SMP_Part_Misc_EngineMotorblock</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>hbm:item.blade_tungsten</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="20">
+		<input>
+			<oreDict>ingotTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>hbm:item.bolt_compound</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>flansmod:44_Receiver</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>logWood</oreDict>
+		</input>
+		<output>
+			<itemStack>flansmod:44_PistolStock</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>flansmod:44_Gun_Barrel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="600" power ="20">
+		<input>
+			<itemStack>flansmod:round_steel_bar 18</itemStack>
+		</input>
+		<output>
+			<itemStack>flansmod:44_Tank_Barrel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<itemStack>ImmersiveEngineering:metalDecoration 10 1</itemStack>
+		</input>
+		<output>
+			<itemStack>flansmod:44_FighterAircraftBody</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="20">
+		<input>
+			<itemStack>flansmod:44_Metal_Rod</itemStack>
+		</input>
+		<output>
+			<itemStack>flansmod:44_Engine_Piston</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="20">
+		<input>
+			<itemStack>ImmersiveEngineering:metal 1 20</itemStack>
+		</input>
+		<output>
+			<itemStack>ImmersiveEngineering:graphiteElectrode 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<itemStack>ImmersiveEngineering:material;1;14;{display:{Name: "Witty Engineer's Hammer"}}</itemStack>
+		</input>
+		<motorLevel>1</motorLevel>
+		<output>
+			<itemStack>minefantasy2:MF_Com_bolt;1;0;{display:{Name: "Witty Engineer's Hammer"}}</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

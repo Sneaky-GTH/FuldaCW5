@@ -1,0 +1,55 @@
+# Ancient Warfare Structure Template File
+# Auto-generated structure template file. created on: 7/1/2020 at: 16:16:22
+# Lines beginning with # denote comments
+
+header:
+version=2.1
+name=test
+size=4,1,7
+offset=1,0,6
+:endheader
+
+#### VALIDATION ####
+validation:
+type=ground
+survival=false
+worldGenEnabled=false
+unique=false
+preserveBlocks=false
+selectionWeight=0
+clusterValue=0
+minDuplicateDistance=0
+dimensionWhiteList=false
+dimensionList=
+biomeWhiteList=false
+biomeList=
+leveling=0
+fill=0
+border=0
+validTargetBlocks=
+blockSwap=false
+data:
+:enddata
+:endvalidation
+
+#### LAYERS ####
+layer: 0
+1,1,1,1
+1,1,1,1
+1,1,1,1
+1,1,1,1
+1,1,1,1
+1,1,1,1
+1,1,1,1
+:endlayer
+
+#### RULES ####
+rule:
+plugin=vanillaBlocks
+number=1
+data:
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:grass","id":"ss"},"meta":{"val":"0","id":"pi"}},"id":"ct"}}
+:enddata
+:endrule
+
+#### ENTITIES ####

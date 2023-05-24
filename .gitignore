@@ -1,13 +1,17 @@
-*
-!*/
-
-# track this file
-!.gitignore
-!README.md
-
-!config/
-!Flan/
-!mods/
-!scripts/
-
+asm/
+generated/
+imScripts/
+invention/
+journeymap/
+logs/
+mcdata/
+resourcepacks/
+saves/
+schematics/
+shaderpacks/
+minetweaker.log
+*.txt
+*.log
+usernamecache.json
+.mixin.out/
 

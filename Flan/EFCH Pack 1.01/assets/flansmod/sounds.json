@@ -1,0 +1,118 @@
+{
+	"Lab1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lab1" ]
+	},
+	"Lab2": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lab2" ]
+	},
+	"Lab3": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lab3" ]
+	},
+	"Lab4": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lab4" ]
+	},
+	"ambient1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ambient1" ]
+	},
+	"AK74Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AK74Shoot" ]
+	},
+	"AK101Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AK101Shoot" ]
+	},
+	"AK107Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AK107Shoot" ]
+	},
+	"AK74Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AK74Reload" ]
+	},
+	"AK107Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AK107Reload" ]
+	},
+	"AKS74UShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AKS74UShoot" ]
+	},
+	"AKMShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AKMShoot" ]
+	},
+	"AKMReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AKMReload" ]
+	},
+	"M4Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M4Shoot" ]
+	},
+	"SCARLShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SCARLShoot" ]
+	},
+	"SCARHShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SCARHShoot" ]
+	},
+	"HK416Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:HK416Shoot" ]
+	},
+	"M4Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M4Reload" ]
+	},
+	"SA58Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SA58Shoot" ]
+	},
+	"SA58Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SA58Reload" ]
+	},
+	"SVDShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SVDShoot" ]
+	},
+	"SVDReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SVDReload" ]
+	},
+	"M110Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M110Shoot" ]
+	},
+	"RSASSShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RSASSShoot" ]
+	},
+	"RSASSReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RSASSReload" ]
+	},
+	"PMShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PMShoot" ]
+	},
+	"PMReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PMReload" ]
+	},
+	"G17Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G17Shoot" ]
+	},
+	"G17Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G17Reload" ]
+	}
+}

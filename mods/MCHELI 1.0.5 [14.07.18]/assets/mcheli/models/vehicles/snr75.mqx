@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetasequoiaDocument>
+    <IncludedBy>snr75.mqo</IncludedBy>
+    <Plugin.56A31D20.71F282AB name="Bone">
+        <BoneSet2 normalize="1" skinning="0" config="std">
+            <Bone id="1" name="root" pos="0,0,0" color="eb7d44" upVector="0,-90,0"/>
+            <Bone id="2" name="root_end" parent="1" pos="0,0,-0.100000001" dummy="1" color="c057d4" upVector="0,2.50447806e-06,0"/>
+        </BoneSet2>
+    </Plugin.56A31D20.71F282AB>
+</MetasequoiaDocument>

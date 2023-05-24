@@ -1,0 +1,91 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+    <!-->
+	<Recipe timeRequired="300" power ="1">
+		<input>
+			<itemStack>flansmod:square_steel_bar 1</itemStack>
+		</input>
+		<output>
+			<itemStack>flansmod:round_steel_bar 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="1">
+		<input>
+			<oreDict>blockSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>flansmod:44_Armor_Plate_Sheet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="1">
+		<input>
+			<oreDict>plateAluminum 10</oreDict>
+			<itemStack>ImmersiveEngineering:metalDecoration 10 1</itemStack>
+		</input>
+		<output>
+			<itemStack>flansmod:44_Aircraft_Wing_Section</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="1">
+		<input>
+			<oreDict>plateCopper 1</oreDict>
+		</input>
+		<output>
+			<oreDict>sheetCopper 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="1">
+		<input>
+			<itemStack>ImmersiveEngineering:metal 1 7</itemStack>
+		</input>
+		<output>
+			<itemStack>ImmersiveEngineering:metal 1 38</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="1">
+		<input>
+			<itemStack>ImmersiveEngineering:metal 1 0</itemStack>
+		</input>
+		<output>
+			<oreDict>plateCopper 1</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="1">
+		<input>
+			<itemStack>minecraft:iron_ingot 1</itemStack>
+		</input>
+		<output>
+			<itemStack>ImmersiveEngineering:metal 1 30</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="1">
+        <input>
+            <itemStack>ImmersiveEngineering:metal 1 20</itemStack>
+        </input>
+        <output>
+            <itemStack>hbm:item.neutron_reflector</itemStack>
+        </output>
+    </Recipe>
+    <!-->
+</Recipes>

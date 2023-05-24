@@ -1,0 +1,170 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/yeet.png",
+            "posX" : -257,
+            "posY" : 0,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        },
+        "fuldah":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 105,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "top_center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Play on Fulda",
+            "posX" : -100,
+            "posY" : 130,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "top_center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "127.0.0.1"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "discord":
+        {
+            "text" : "Discord",
+            "posX" : -100,
+            "posY" : 119,
+            "width" : 200,
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/W47zJAamu9"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 142,
+            "width" : 98,
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 142,
+            "width" : 98,
+            "texture" : "custommainmenu:textures/gui/transparent.png",  
+            "height" : 20,
+            "normalTextColor" : 8388608,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        "welcometofulda":
+        {
+            "text": "Fulda: Cold War 4.5B Edition",
+            "posX" : -67,
+            "posY" : 86,
+            "color" : -1,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "other":
+    {
+    }
+}
