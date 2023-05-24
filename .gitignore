@@ -1,0 +1,13 @@
+*
+!*/
+
+# track this file
+!.gitignore
+!README.md
+
+!config/
+!Flan/
+!mods/
+!scripts/
+
+
