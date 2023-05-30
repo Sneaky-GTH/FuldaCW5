@@ -15,6 +15,7 @@ recipes.remove(<item:ImmersiveEngineering:material:14>);
 recipes.remove(<item:ImmersiveEngineering:metal:30>);
 recipes.remove(<item:libVulpes:libVulpesproductrod:4>);
 furnace.remove(<item:Magneticraft:item.pebbles>);
+furnace.remove(<item:flansmod:SMP_Part_Mat_Block_Steel>);
 
 val array = [
 <item:minecraft:sticky_piston>,
@@ -22,13 +23,20 @@ val array = [
 <item:minefantasy2:MF_Com_ingotCopper>,
 <item:minefantasy2:MF_Com_ingotCopper:1>,
 <item:libVulpes:libVulpesproductingot:4>,
-<item:libVulpes:libVulpesproductrod:1>
+<item:libVulpes:libVulpesproductrod:1>,
+<item:flansmod:SMP_Part_Mat_Block_Steel>,
+<item:flansmod:SMP_Part_Mat_Block_DuraSteel>,
+<item:AncientWarfareAutomation:torque_conduit:2>,
+<item:AncientWarfareAutomation:torque_shaft:2>,
+<item:AncientWarfareAutomation:torque_distributor:2>
 ] as IItemStack[];
 
 for item in array {
     NEI.hide(item);
     recipes.remove(item);
 }
+
+
 
 mods.magneticraft.Crusher.removeRecipe(<item:minecraft:iron_ore>);
 mods.magneticraft.Crusher.removeRecipe(<item:minecraft:gold_ore>);

@@ -144,14 +144,21 @@ recipes.addShaped(<item:Magneticraft:mb_controls>,
 // Refinery Control
 recipes.addShaped(<item:Magneticraft:refinery_control>,
  [[IRON_MECH_COMP, TITANIUM_BLOCK, IRON_MECH_COMP],
-  [IRON_MECH_COMP, TITANIUM_BLOCK, IRON_MECH_COMP],
+  [STEEL_MECH_COMP, TITANIUM_BLOCK, STEEL_MECH_COMP],
   [<item:Magneticraft:chasis>, IRON_BLOCK, <item:Magneticraft:chasis>]]);
+
+
+// Refinery Tank
+recipes.addShaped(<item:Magneticraft:refinery_tank>,
+ [[IRON_PLATE, TITANIUM, IRON_PLATE],
+  [IRON_PLATE, STEEL_MECH_COMP, IRON_PLATE],
+  [<item:Magneticraft:chasis>, <item:Magneticraft:chasis>, <item:Magneticraft:chasis>]]);
 
 
 // Polymerizer Control
 recipes.addShaped(<item:Magneticraft:polimerizer_control>,
  [[IRON_PLATE, TITANIUM_BLOCK, IRON_PLATE],
-  [IRON_MECH_COMP, IRON_HEAT_COIL, IRON_MECH_COMP],
+  [STEEL_MECH_COMP, IRON_HEAT_COIL, STEEL_MECH_COMP],
   [<item:Magneticraft:chasis>, TITANIUM_BLOCK, <item:Magneticraft:chasis>]]);
 
 
@@ -160,13 +167,6 @@ recipes.addShaped(<item:Magneticraft:heater>,
  [[COPPER_HEAT_COIL, IRON_ROD, COPPER_HEAT_COIL],
   [COPPER_HEAT_COIL, <item:Magneticraft:chasis>, COPPER_HEAT_COIL],
   [COPPER_HEAT_COIL, IRON_ROD, COPPER_HEAT_COIL]]);
-
-
-// Fluid Tank
-recipes.addShaped(<item:Magneticraft:mg_tank>,
- [[COPPER_ROD, <item:minecraft:glass>, COPPER_ROD],
-  [<item:minecraft:glass>, null, <item:minecraft:glass>],
-  [COPPER_ROD, <item:minecraft:glass>, COPPER_ROD]]);
 
 
 // Steel! Worth 4 iron

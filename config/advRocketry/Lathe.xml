@@ -21,6 +21,7 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+    <!-->
 	<Recipe timeRequired="1800" power ="20">
 		<input>
 			<oreDict>blockSteel</oreDict>
@@ -110,4 +111,5 @@
 			<itemStack>minefantasy2:MF_Com_bolt;1;0;{display:{Name: "Witty Engineer's Hammer"}}</itemStack>
 		</output>
 	</Recipe>
+    <!-->
 </Recipes>

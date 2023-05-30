@@ -5,6 +5,7 @@ import mods.advancedrocketry.AdvancedRocketryManager;
 
 val pAssembler = AdvancedRocketryManager.findMachine("TilePrecisionAssembler");
 
+mods.magneticraft.Refinery.removeRecipe(<liquid:hotcrude>);
 mods.magneticraft.Refinery.addRecipe(<liquid:hotcrude> * 100, <liquid:heavyoil> * 100, <liquid:lightoil> * 35, <liquid:sulphurized_naturalgas> * 50);
 
 mods.magneticraft.Refinery.addRecipe(<liquid:heavyoil> * 60, <liquid:diesel> * 10, <liquid:diesel> * 10, <liquid:diesel> * 10);
@@ -18,7 +19,9 @@ IERefinery.addRecipe(<liquid:kerosene> * 50, <liquid:lightoil> * 100, <liquid:wa
 Polymerizer.removeRecipe(<minecraft:coal>);
 Polymerizer.removeRecipe(<Magneticraft:item.dustSulfur>);
 
-Polymerizer.addRecipe(<liquid:naturalgas> * 1000, <item:minecraft:coal:1>, <item:Magneticraft:item.plastic>, 1000);
+Polymerizer.addRecipe(<liquid:naturalgas> * 1000, <item:minecraft:coal:1>, <item:tc:rawPlastic>, 1000);
+
+Polymerizer.addRecipe(<liquid:water> * 4000, <item:tc:rawPlastic> * 4, <item:Magneticraft:item.plastic>, 1000);
 
 Polymerizer.addRecipe(<liquid:naturalgas> * 5000, <item:Magneticraft:item.dustSulfur> * 16, <item:Magneticraft:item.rubber>, 1000);
 
