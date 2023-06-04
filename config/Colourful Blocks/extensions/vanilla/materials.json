@@ -1,0 +1,69 @@
+{
+	"materials": [
+		{
+			"name": "WOOD",
+			"durability": 59,
+			"bufferMultiplier": 0.0,
+			"color": "110:65:43",
+			"recipe": "VANILLA",
+			"ingredients": [
+				{
+					"name": "<MATERIAL>",
+					"value": "oreDict:plankWood"
+				}
+			]
+		},
+		{
+			"name": "STONE",
+			"durability": 131,
+			"bufferMultiplier": 1.0,
+			"color": "77:77:77",
+			"recipe": "VANILLA",
+			"ingredients": [
+				{
+					"name": "<MATERIAL>",
+					"value": "oreDict:cobblestone"
+				}
+			]
+		},
+		{
+			"name": "IRON",
+			"durability": 250,
+			"bufferMultiplier": 2.0,
+			"color": "153:153:153",
+			"recipe": "VANILLA",
+			"ingredients": [
+				{
+					"name": "<MATERIAL>",
+					"value": "oreDict:ingotIron"
+				}
+			]
+		},
+		{
+			"name": "GOLD",
+			"durability": 32,
+			"bufferMultiplier": 0.0,
+			"color": "186:154:9",
+			"recipe": "VANILLA",
+			"ingredients": [
+				{
+					"name": "<MATERIAL>",
+					"value": "oreDict:ingotGold"
+				}
+			]
+		},
+		{
+			"name": "DIAMOND",
+			"durability": 1561,
+			"bufferMultiplier": 3.0,
+			"color": "39:207:230",
+			"recipe": "VANILLA",
+			"ingredients": [
+				{
+					"name": "<MATERIAL>",
+					"value": "oreDict:gemDiamond"
+				}
+			]
+		}
+	]
+}

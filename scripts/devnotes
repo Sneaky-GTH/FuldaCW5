@@ -34,29 +34,29 @@ Usable Materials:
 
 Titanium Ingot | Tier 0
 Titanium Block (9 Titanium) | Tier 0
-Titanium Plate (1 Titanium, requires Rolling Machine) | Tier 1
-Titanium Rod (1 Titanium, requires Cutting Machine) | Tier 1.5
+Titanium Gear (5 Titanium, requires Rolling Machine) | Tier 1
+Titanium Rod (18 Titanium, requires Cutting Machine) | Tier 1.5
 
 
 Tier 0
 Iron Ingots (worth 1 iron)
 Copper Ingots (worth 2 iron)
 Iron Torque Set (worth 3 iron)
-Iron Bushing Set Set (worth 4 iron)
-Iron Gear Set (worth 5 iron)
 Iron Blocks (worth 9 iron
+Iron Bushing Set Set (worth 13 iron)
 Aluminum (worth 16 iron)
+Iron Gear Set (worth 21 iron)
 
-Tier 1 - requires a rolling machine
-Iron Plates (worth 1 iron, requires Rolling Machine)
-Iron Frame (worth 24 iron)
+Tier 1 - requires a lathe and/or rolling machine 
+Iron Rods (worth 1 iron)
+Iron Plates (worth 4 iron)
+Iron Frame (worth 46 iron)
 Aluminum Plate (worth 64 iron)
 
 
 Tier 1.5 - requires a cutting machine
-Iron Rods (worth 1 iron)
-Copper Rods (worth 2 iron)
-Iron Mech Component (worth 6 iron)
+Copper Rods (worth 8 iron)
+Iron Mech Component (worth 12 iron)
 Basic Circuit (worth 14 iron)
 Aluminum Rod (worth 32 iron)
 
@@ -69,12 +69,13 @@ Copper Coil (worth 50 iron)
 
 Tier 2.5 - requires a MGC Sifter & Grinder (access to Steel essentially)
 Steel Ingot (worth 4 iron)
+Steel Plate (worth 4 iron)
 Steel Scaffolding (worth 5 iron)
 Steel Torque Shaft (worth 12 iron)
-Steel Bushing Set (worth 16 iron)
-Steel Mech Component (worth 18 iron)
-Steel Gear Set (worth 12 iron)
-Steel Blocks (worth 36 iron)
+Steel Gear Set (worth 16 iron)
+Steel Bushing Set (worth 20 iron)
+Steel Mech Component (worth 24 iron)
+Steel Block (worth 36 iron)
 
 
 Tier 2.75 - requires a MGC Polymerizer and Refinery, as well as access to Steel

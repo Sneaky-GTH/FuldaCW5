@@ -1,0 +1,23 @@
+{
+	"recipes": [
+		{
+			"name": "VANILLA",
+			"types": [
+				{
+					"type": "BRUSH",
+					"recipe": [
+						"  #",
+						" % ",
+						"$  ",
+						"#",
+						"minecraft:wool",
+						"%",
+						"<MATERIAL>",
+						"$",
+						"oreDict:stickWood"
+					]
+				}
+			]
+		}
+	]
+}

@@ -70,24 +70,26 @@ val STEEL = <item:ImmersiveEngineering:metal:7>;
 recipes.remove(<item:ImmersiveEngineering:metalDecoration:5>);
 recipes.remove(<item:ImmersiveEngineering:metalDecoration:7>);
 
-//Heavy Engineering Block
+// Heavy Engineering Block
+// 40 Iron
 recipes.addShaped(<item:ImmersiveEngineering:metalDecoration:5>,
- [[STEEL_PLATE, TITANIUM_ROD, STEEL_PLATE],
-  [TITANIUM_ROD, STEEL_MECH_COMP, TITANIUM_ROD],
-  [STEEL_PLATE, TITANIUM_ROD, STEEL_PLATE]]);
+ [[STEEL_PLATE, TITANIUM, STEEL_PLATE],
+  [TITANIUM, STEEL_MECH_COMP, TITANIUM],
+  [STEEL_PLATE, TITANIUM, STEEL_PLATE]]);
 
 
-//Light Engineering Block
+// Light Engineering Block
+// 20 Iron
 recipes.addShaped(<item:ImmersiveEngineering:metalDecoration:7>,
  [[IRON_PLATE, IRON_ROD, IRON_PLATE],
-  [IRON_ROD,IRON_MECH_COMP, IRON_ROD],
+  [IRON_ROD, IRON_MECH_COMP, IRON_ROD],
   [IRON_PLATE, IRON_ROD, IRON_PLATE]]);
 
 //Precision Assembler
 recipes.addShaped(<item:advancedRocketry:precisionassemblingmachine>,
- [[TITANIUM_GEAR, STEEL_MECH_COMP, TITANIUM_GEAR],
+ [[<item:hbm:item.ingot_dura_steel>, STEEL_MECH_COMP, <item:hbm:item.ingot_dura_steel>],
   [<item:hbm:item.ingot_dura_steel>, <item:libVulpes:blockStructureBlock>, <item:hbm:item.ingot_dura_steel>],
-  [TITANIUM_BLOCK, TITANIUM_BLOCK, TITANIUM_BLOCK]]);
+  [TITANIUM_BLOCK, TITANIUM_ROD, TITANIUM_BLOCK]]);
 
 //HSS Bolt
 pAssembler.addRecipe([<item:hbm:item.bolt_dura_steel>], [], [<item:hbm:item.ingot_dura_steel>*4], [], 600, 100);
