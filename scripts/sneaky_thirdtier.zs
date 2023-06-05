@@ -85,7 +85,11 @@ recipes.addShaped(<item:ImmersiveEngineering:metalDecoration:7>,
   [IRON_ROD, IRON_MECH_COMP, IRON_ROD],
   [IRON_PLATE, IRON_ROD, IRON_PLATE]]);
 
+// Arc Furnace
+// 7 HEB, 14 LEB, 10 Steel Scaffolding, 11 Steel Blocks, 
+
 //Precision Assembler
+//
 recipes.addShaped(<item:advancedRocketry:precisionassemblingmachine>,
  [[<item:hbm:item.ingot_dura_steel>, STEEL_MECH_COMP, <item:hbm:item.ingot_dura_steel>],
   [<item:hbm:item.ingot_dura_steel>, <item:libVulpes:blockStructureBlock>, <item:hbm:item.ingot_dura_steel>],

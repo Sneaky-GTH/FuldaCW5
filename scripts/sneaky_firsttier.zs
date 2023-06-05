@@ -256,3 +256,6 @@ cuttingMachine.addRecipe([ALUMINIUM_ROD], [], [ALUMINIUM*2], [], 600, 20);
 
 //Steel Plate
 rollingMachine.addRecipe([STEEL_PLATE], [], [STEEL], [], 600, 20);
+
+//Graphite Electrode
+lathe.addRecipe([<item:ImmersiveEngineering:graphiteElectrode>], [], [<item:ImmersiveEngineering:metal:20> * 8], [], 600, 20);

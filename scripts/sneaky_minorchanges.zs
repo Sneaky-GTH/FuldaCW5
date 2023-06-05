@@ -90,13 +90,13 @@ recipes.addShaped(<item:Magneticraft:item.copper_pipe>*24,
 
 
 //Stuff for automation
-recipes.addShaped(<item:Magneticraft:conveyor_low>*8,
+recipes.addShaped(<item:Magneticraft:conveyor_low>*24,
  [[null, null, null],
   [IRON_PLATE, null, IRON_PLATE],
   [IRON, IRON_MECH_COMP, IRON]]);
 
-recipes.addShaped(<item:Magneticraft:inserter>*2,
+recipes.addShaped(<item:Magneticraft:inserter>*4,
  [[null, IRON_ROD, IRON],
-  [null, IRON_GEAR_SET, null],
+  [null, IRON_ROD, null],
   [IRON_PLATE, IRON_MECH_COMP, IRON_PLATE]]);
 

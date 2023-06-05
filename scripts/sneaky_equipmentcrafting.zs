@@ -44,6 +44,9 @@ val RUBBER = <item:Magneticraft:item.rubber>;
 val FABRIC = <item:Magneticraft:item.string_fabric>;
 val TUNGSTEN = <item:hbm:item.ingot_tungsten>;
 
+val BASIC_CIRCUIT = <item:advancedRocketry:circuitIC>;
+val ADVANCED_CIRCUIT = <item:advancedRocketry:circuitIC:2>;
+
 
 
 var COIN = <item:minecraft:gold_ingot>; // soft currency
@@ -99,15 +102,33 @@ lathe.addRecipe([<item:flansmod:44_Tank_Barrel>], [], [IRON_ROD * 4], [], 600, 2
 rollingMachine.addRecipe([<item:flansmod:44_Metal_Turret>], [], [IRON_BLOCK], [], 600, 20);
 
 // Light Tank Turret
+// 26 Iron
 recipes.addShaped(<item:flansmod:44_Light_Tank_Turret>,
- [[null, null, null],
+ [[null, IRON_PLATE, null],
   [<item:flansmod:44_Tank_Gun_Breach>, <item:flansmod:44_Metal_Turret>, <item:flansmod:44_Tank_Barrel>],
-  [null, null, null]]);
+  [null, IRON_PLATE, null]]);
+
+// Medium Tank Turret
+// 40 Iron
+recipes.addShaped(<item:flansmod:44_Medium_Tank_Turret>,
+ [[null, STEEL_PLATE, null],
+  [<item:flansmod:44_Tank_Gun_Breach>, <item:flansmod:44_Metal_Turret>, <item:flansmod:44_Tank_Barrel>],
+  [BASIC_CIRCUIT, STEEL_PLATE, null]]);
+
+
+// Heavy Tank Turret
+// 36 Iron + advanced circuit
+recipes.addShaped(<item:flansmod:44_Heavy_Tank_Turret>,
+ [[null, <item:flansmod:44_Armor_Plate_Sheet>, null],
+  [<item:flansmod:44_Tank_Gun_Breach>, <item:flansmod:44_Metal_Turret>, <item:flansmod:44_Tank_Barrel>],
+  [ADVANCED_CIRCUIT, <item:flansmod:44_Armor_Plate_Sheet>, null]]);
+
 
 // Tank Wheel
 cuttingMachine.addRecipe([<item:flansmod:44_Tank_Wheel>], [], [IRON], [], 600, 20);
 
 // Tank Track
+// 3 Iron
 recipes.addShaped(<item:flansmod:44_Tank_Track>,
  [[<item:flansmod:44_Track_Link>, <item:flansmod:44_Track_Link>, <item:flansmod:44_Track_Link>],
   [<item:flansmod:44_Track_Link>, <item:flansmod:44_Tank_Wheel>, <item:flansmod:44_Track_Link>],
@@ -119,9 +140,61 @@ recipes.addShaped(<item:flansmod:44_Track_Link>*64,
   [IRON_ROD, <item:AncientWarfare:component:4>, IRON_ROD],
   [null, IRON_ROD, null]]);
 
+
+// Armor Plate Sheet
+cuttingMachine.addRecipe([<item:flansmod:44_Armor_Plate_Sheet>], [], [IRON_BLOCK], [], 600, 20);
+
+
+// Metal Rod
+cuttingMachine.addRecipe([<item:flansmod:44_Metal_Rod> * 4], [], [STEEL_PLATE], [], 600, 20);
+
+
+// Low Powered Engine
+// 20 iron
+recipes.addShaped(<item:flansmod:44_Low_Powered_Engine>,
+ [[<item:minefantasy2:MF_Com_iron_strut> , IRON_ROD, <item:minefantasy2:MF_Com_iron_strut> ],
+  [<item:minefantasy2:MF_Com_iron_strut> , IRON_MECH_COMP, <item:minefantasy2:MF_Com_iron_strut>],
+  [<item:minefantasy2:MF_Com_iron_strut> , IRON_ROD, <item:minefantasy2:MF_Com_iron_strut> ]]);
+
+// Medium Powered Engine
+// 34 Iron
+recipes.addShaped(<item:flansmod:44_Medium_Powered_Engine>,
+ [[STEEL_ROD, <item:minefantasy2:MF_Com_iron_strut>, STEEL_ROD],
+  [STEEL_ROD, <item:flansmod:44_Low_Powered_Engine>, STEEL_ROD],
+  [STEEL_ROD, <item:minefantasy2:MF_Com_iron_strut>, STEEL_ROD]]);
+
+// High Powered Engine
+// 72 Iron
+recipes.addShaped(<item:flansmod:44_High_Powered_Engine>,
+ [[STEEL_PLATE, STEEL_ROD, STEEL_PLATE],
+  [<item:hbm:item.ingot_dura_steel>, <item:flansmod:44_Medium_Powered_Engine>, <item:hbm:item.ingot_dura_steel>],
+  [STEEL_PLATE, STEEL_ROD, STEEL_PLATE]]);
+
+
+//Iron Strut
+//1 Iron
+lathe.addRecipe([<item:minefantasy2:MF_Com_iron_strut> * 4], [], [IRON_PLATE], [], 600, 20);
+
+
 // Light Tank Chassis
+// 42 Iron
 recipes.addShaped(<item:flansmod:44_Light_Tank_Chassis>,
  [[null, null, null],
-  [IRON_BLOCK, IRON_PLATE, IRON_BLOCK],
+  [IRON_PLATE, <item:flansmod:44_Low_Powered_Engine>, IRON_BLOCK],
   [<item:flansmod:44_Tank_Track>, <item:flansmod:44_Tank_Track>, <item:flansmod:44_Tank_Track>]]);
 
+
+// Medium Tank Chassis
+// 56 Iron
+recipes.addShaped(<item:flansmod:44_Medium_Tank_Chassis>,
+ [[null, null, null],
+  [IRON_PLATE, <item:flansmod:44_Medium_Powered_Engine>, <item:flansmod:44_Armor_Plate_Sheet>],
+  [<item:flansmod:44_Tank_Track>, <item:flansmod:44_Tank_Track>, <item:flansmod:44_Tank_Track>]]);
+
+
+// Heavy Tank Chassis
+// 153 Iron
+recipes.addShaped(<item:flansmod:44_Heavy_Tank_Chassis>,
+ [[null, null, null],
+  [<item:ImmersiveEngineering:storage:7>, <item:flansmod:44_High_Powered_Engine>, <item:ImmersiveEngineering:storage:7>],
+  [<item:flansmod:44_Tank_Track>, <item:flansmod:44_Tank_Track>, <item:flansmod:44_Tank_Track>]]);

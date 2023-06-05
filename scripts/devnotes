@@ -89,7 +89,7 @@ HSS Steel Ingot (worth 9 iron) | 1 Titanium
 
 
 Tier 3.5 - requires a Precision Assembler
-HSS Steel Bolt (worth 27 iron) | 4 Titanium
+HSS Steel Bolt (worth 36 iron) | 4 Titanium
 Advanced Circuit (worth ???) 1 Titanium
 
 
@@ -100,14 +100,24 @@ Equipment-Specific Materials:
 
 
 Tier 1:
+Iron Strut (worth 1 iron)
 Tank Gun Barrel (worth 4 iron)
 Tank Gun Breech (worth 5 iron)
 Metal Turret (9 iron)
-Light Tank Turret (worth 18 iron)
 Tank Wheel (worth 1 iron)
-Track Link (worth 0.125 iron)
-Tank Track (2 iron)
-Light Tank Chassis (25 iron)
+Track Link (worth 0.25 iron)
+Tank Track (worth 3 iron)
+Armor Plate Sheet (worth 9 iron)
+Low Powered Engine (worth 20 iron)
+Light Tank Turret (worth 26 iron)
+Light Tank Chassis (worth 42 iron)
 
 Tier 2:
+Medium Powered Engine (worth 34 iron)
+Medium Tank Turret (worth 40 iron)
+Medium Tank Chassis (worth 56 iron)
 
+Tier 3:
+High Powered Engine (worth 60 iron) | 2 Titanium
+Heavy Tank Turret (worth 36 iron + oil) | 1 Titanium 
+Heavy Tank Chassis (worth 153 iron) | 2 Titanium

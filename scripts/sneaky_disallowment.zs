@@ -11,6 +11,7 @@ mods.immersiveengineering.MetalPress.removeRecipe(<item:libVulpes:libVulpesprodu
 mods.immersiveengineering.MetalPress.removeRecipe(<item:ImmersiveEngineering:metal:38>);
 mods.immersiveengineering.MetalPress.removeRecipe(<item:advancedRocketry:advancedRocketryproductrod>);
 mods.immersiveengineering.MetalPress.removeRecipe(<item:advancedRocketry:advancedRocketryproductgear>);
+mods.immersiveengineering.MetalPress.removeRecipe(<item:ImmersiveEngineering:material:15>);
 recipes.remove(<item:ImmersiveEngineering:material:14>);
 recipes.remove(<item:ImmersiveEngineering:metal:30>);
 recipes.remove(<item:libVulpes:libVulpesproductrod:4>);
