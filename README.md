@@ -1,4 +1,4 @@
 # Fulda-CW5
 This be the GitHub for the Fulda Cold War 5 modpack yo
-# FuldaCW5
-# FuldaCW5
+
+Almost all of the actual new stuff is in the 'sneakybranch' so go check that out if you actually want up-to-date stuff
