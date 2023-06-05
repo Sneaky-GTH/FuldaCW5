@@ -1,13 +1,6 @@
 import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
-import mods.magneticraft.Crusher;
-import mods.magneticraft.Grinder;
-import mods.magneticraft.Sifter;
-import mods.immersiveengineering.ArcFurnace;
-import mods.immersiveengineering.Crusher as IECRusher;
-import mods.advancedrocketry.AdvancedRocketryManager;
-
-val pAssembler = AdvancedRocketryManager.findMachine("TilePrecisionAssembler");
+import mods.nei.NEI;
 
 /*
 All the initial variables from items_and_recipes.zs (not sure if there was a way to import variables from another .zs file)
@@ -67,56 +60,43 @@ val TITANIUM_ROD = <item:advancedRocketry:advancedRocketryproductrod>;
 val TITANIUM_GEAR = <item:advancedRocketry:advancedRocketryproductgear>;
 val STEEL = <item:ImmersiveEngineering:metal:7>;
 
-recipes.remove(<item:ImmersiveEngineering:metalDecoration:5>);
-recipes.remove(<item:ImmersiveEngineering:metalDecoration:7>);
 
-// Heavy Engineering Block
-// 40 Iron
-recipes.addShaped(<item:ImmersiveEngineering:metalDecoration:5>,
- [[STEEL_PLATE, TITANIUM, STEEL_PLATE],
-  [TITANIUM, STEEL_MECH_COMP, TITANIUM],
-  [STEEL_PLATE, TITANIUM, STEEL_PLATE]]);
+// RF Alternator
+recipes.addShaped(<item:Magneticraft:rf_alternator>,
+ [[COPPER_HEAT_COIL, <item:ImmersiveEngineering:coil>, COPPER_HEAT_COIL],
+  [<item:ImmersiveEngineering:coil>, IRON_PLATE, <item:ImmersiveEngineering:coil>],
+  [COPPER_HEAT_COIL, <item:ImmersiveEngineering:coil>, COPPER_HEAT_COIL]]);
 
 
-// Light Engineering Block
-// 20 Iron
-recipes.addShaped(<item:ImmersiveEngineering:metalDecoration:7>,
+//removing tanks that can keep storage
+recipes.remove(<item:ImmersiveEngineering:woodenDevice:6>);
+NEI.hide(<item:ImmersiveEngineering:woodenDevice:6>);
+recipes.remove(<item:ImmersiveEngineering:metalDevice2:7>);
+NEI.hide(<item:ImmersiveEngineering:metalDevice2:7>);
+recipes.remove(<item:ImmersiveEngineering:woodenDevice:4>);
+NEI.hide(<item:ImmersiveEngineering:woodenDevice:4>);
+
+
+// MGC pipes
+recipes.addShaped(<item:Magneticraft:item.iron_pipe>*8,
  [[IRON_PLATE, IRON_ROD, IRON_PLATE],
-  [IRON_ROD, IRON_MECH_COMP, IRON_ROD],
+  [IRON_ROD, null, IRON_ROD],
   [IRON_PLATE, IRON_ROD, IRON_PLATE]]);
 
-// Arc Furnace
-// 7 HEB, 14 LEB, 10 Steel Scaffolding, 11 Steel Blocks, 
-
-//Precision Assembler
-//
-recipes.addShaped(<item:advancedRocketry:precisionassemblingmachine>,
- [[<item:hbm:item.ingot_dura_steel>, STEEL_MECH_COMP, <item:hbm:item.ingot_dura_steel>],
-  [<item:hbm:item.ingot_dura_steel>, <item:libVulpes:blockStructureBlock>, <item:hbm:item.ingot_dura_steel>],
-  [TITANIUM_BLOCK, TITANIUM_ROD, TITANIUM_BLOCK]]);
-
-//HSS Bolt
-pAssembler.addRecipe([<item:hbm:item.bolt_dura_steel>], [], [<item:hbm:item.ingot_dura_steel>*4], [], 600, 100);
-
-//Arc Furnace HSS
-mods.immersiveengineering.ArcFurnace.removeRecipe(<item:hbm:item.ingot_dura_steel>);
-furnace.remove(<item:hbm:item.ingot_dura_steel>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<item:hbm:item.ingot_dura_steel>, <item:hbm:item.powder_dura_steel>, <item:ImmersiveEngineering:material:13>, 1200, 120, [<item:advancedRocketry:advancedRocketryproductdust>]);
+recipes.addShaped(<item:Magneticraft:item.copper_pipe>*24,
+ [[COPPER, COPPER_ROD, COPPER],
+  [COPPER_ROD, null, COPPER_ROD],
+  [COPPER, COPPER_ROD, COPPER]]);
 
 
-//HSS Dust
-IECRusher.addRecipe(<item:Magneticraft:item.pebbles>, <item:minecraft:iron_block>, 40);
-recipes.addShaped(<item:hbm:item.powder_dura_steel>,
- [[<item:minefantasy2:MF_Com_coal_flux>, <item:minefantasy2:MF_Com_coal_flux>, <item:minefantasy2:MF_Com_coal_flux>],
-  [<item:minefantasy2:MF_Com_coal_flux>, <item:Magneticraft:item.pebbles>, <item:minefantasy2:MF_Com_coal_flux>],
-  [<item:minefantasy2:MF_Com_coal_flux>, <item:minefantasy2:MF_Com_coal_flux>, <item:minefantasy2:MF_Com_coal_flux>]]);
+//Stuff for automation
+recipes.addShaped(<item:Magneticraft:conveyor_low>*24,
+ [[null, null, null],
+  [IRON_PLATE, null, IRON_PLATE],
+  [IRON, IRON_MECH_COMP, IRON]]);
 
-
-//Industrial Squeezer
-recipes.remove(<item:ImmersiveEngineering:metalMultiblock:2>);
-
-recipes.addShaped(<item:ImmersiveEngineering:metalMultiblock:2>*2,
- [[IRON_PLATE, STEEL_PLATE, IRON_PLATE],
-  [TITANIUM_ROD, <item:ImmersiveEngineering:metalDecoration:7>, TITANIUM_ROD],
-  [IRON_PLATE, STEEL_PLATE, IRON_PLATE]]);
+recipes.addShaped(<item:Magneticraft:inserter>*4,
+ [[null, IRON_ROD, IRON],
+  [null, IRON_ROD, null],
+  [IRON_PLATE, IRON_MECH_COMP, IRON_PLATE]]);
 

@@ -1,0 +1,315 @@
+//Misc Items
+
+recipes.removeShaped(<item:universalmodcore:item_conductor_whistle>);
+
+recipes.removeShaped(<item:universalmodcore:item_radio_control_card>.withTag({}));
+
+recipes.addShaped(<item:universalmodcore:item_radio_control_card>.withTag({}),
+  [[<item:ImmersiveEngineering:metal:28>, <item:minecraft:iron_bars>, <item:ImmersiveEngineering:metal:28>],
+  [<item:OpenComputers:item:23>, <item:OpenComputers:item:29>, <item:OpenComputers:item:23>],
+  [<item:ImmersiveEngineering:metal:38>, <item:minecraft:redstone>, <item:ImmersiveEngineering:metal:38>]]);
+
+//Small Plate
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 0})*8,
+  [[null, <ImmersiveEngineering:tool>, null],
+  [null, <ore:blockSteel>, null],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, plate: 0})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 0}), null],
+  [null, null, null]]);
+
+//Medium Plate
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 1})*4,
+  [[null, <ImmersiveEngineering:tool>, null],
+  [null, <ore:blockSteel>, <ore:blockSteel>],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, plate: 1})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 1}), null],
+  [null, null, null]]);
+
+//Large Plate
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}),
+  [[null, <ImmersiveEngineering:tool>, null],
+  [null, <ore:blockSteel>, <ore:blockSteel>],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, plate: 2})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), null],
+  [null, null, null]]);
+
+//Rails
+
+ recipes.addShaped(<universalmodcore:item_rail_part>.withTag({gauge: 1.435})*12,
+  [[null, <ImmersiveEngineering:tool>, <minecraft:water_bucket>],
+  [null, <universalmodcore:item_cast_rail>.withTag({gauge: 1.435, componentType: 0, raw_cast: 1 as byte}), null],
+  [null, null, null]]);
+
+ recipes.addShaped(<universalmodcore:item_rail_part>.withTag({gauge: 0.9144})*12,
+  [[null, <ImmersiveEngineering:tool>, <minecraft:water_bucket>],
+  [null, <universalmodcore:item_cast_rail>.withTag({gauge: 0.9144, componentType: 0, raw_cast: 1 as byte}), null],
+  [null, null, null]]);
+
+
+//A1 Peppercorn
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/a1_peppercorn.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/a1_peppercorn.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/a1_peppercorn.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/a1_peppercorn.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Big Boy
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/big_boy.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/big_boy.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/big_boy.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/big_boy.json", plate: 3}), null],
+  [null, null, null]]);
+
+//K4 Pacific
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/k4_pacific.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/k4_pacific.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/k4_pacific.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/k4_pacific.json", plate: 3}), null],
+  [null, null, null]]);
+
+//E6 Atlantic
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/e6_atlantic.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/e6_atlantic.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/e6_atlantic.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/e6_atlantic.json", plate: 3}), null],
+  [null, null, null]]);
+
+//A5 Switcher
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/a5_switcher.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/a5_switcher.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/a5_switcher.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/a5_switcher.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Class 38
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/class_38.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/class_38.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/class_38.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/class_38.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Rodger's Ten Wheeler
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rodgers_460.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/rodgers_460.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/rodgers_460.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rodgers_460.json", plate: 3}), null],
+  [null, null, null]]);
+
+//BR01
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/br01.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/br01.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/br01.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/br01.json", plate: 3}), null],
+  [null, null, null]]);
+
+//DSP&P Mogul 
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/cooke_mogul.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/cooke_mogul.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/cooke_mogul.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/cooke_mogul.json", plate: 3}), null],
+  [null, null, null]]);
+
+//D&RGW K36
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/k36.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/k36.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/k36.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/k36.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Firefly [BROKEN] 
+
+//Iron Duke 
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/iron_duke.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/iron_duke.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/iron_duke.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/iron_duke.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Santa Fe addon recipes
+
+//Rockport Pacific Suburban 
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_suburban.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/rp_suburban.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/rp_suburban.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_suburban.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Rockport Pacific Mountain
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_baldwin_mountain.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/rp_baldwin_mountain.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/rp_baldwin_mountain.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_baldwin_mountain.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Rockport MK1 Northern
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_mk1_northern.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/rp_mk1_northern.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/rp_mk1_northern.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_mk1_northern.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Rockport MK1 Northern Skyline
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_mk1_northern_x.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/rp_mk1_northern_x.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/rp_mk1_northern_x.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_mk1_northern_x.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Rockport MK1 Midwestern
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_mk1_midwestern.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/rp_mk1_midwestern.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/rp_mk1_midwestern.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_mk1_midwestern.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Rockport Pacific San Jose
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_baldwin_san_jose_type.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/rp_baldwin_san_jose_type.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/rp_baldwin_san_jose_type.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/rp_baldwin_san_jose_type.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Truckee Central Northern
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/tc_northern.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/tc_northern.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/tc_northern.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/tc_northern.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Truckee Central Midwestern
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/tc_midwestern.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/tc_midwestern.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/tc_midwestern.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/tc_midwestern.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Baldwin Midwestern Skyline
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/baldwin_skylined_midwestern.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/baldwin_skylined_midwestern.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/baldwin_skylined_midwestern.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/baldwin_skylined_midwestern.json", plate: 3}), null],
+  [null, null, null]]);
+
+//Texas Midwestern El Paso
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/tmw_el_paso.json", plate: 3}),
+  [[null, null, null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, plate: 2}), <universalmodcore:item_rolling_stock_component>.withTag({defID: "rolling_stock/locomotives/tmw_el_paso.json", gauge: 1.435, componentType: 0, raw_cast: 0 as byte}).reuse()],
+  [null, null, null]]);
+
+recipes.addShaped(<item:universalmodcore:item_plate>.withTag({gauge: 0.9144, defID:"rolling_stock/locomotives/tmw_el_paso.json", plate: 3})*2,
+  [[null, <universalmodcore:item_large_wrench>.reuse(), null],
+  [null, <item:universalmodcore:item_plate>.withTag({gauge: 1.435, defID:"rolling_stock/locomotives/tmw_el_paso.json", plate: 3}), null],
+  [null, null, null]]);

@@ -1,0 +1,306 @@
+//Open Computers Recipes
+
+//I'm just gonna remove all this shit by hand, The script Wit gave me only half works 
+
+
+//Items and Components
+
+recipes.removeShaped(<item:OpenComputers:item:27>);
+
+recipes.addShaped(<item:OpenComputers:item:27> ,
+  [[<item:ImmersiveEngineering:metal:21>, <item:minecraft:repeater>, <item:ImmersiveEngineering:metal:21>],
+  [<item:OpenComputers:item:24>, <item:ImmersiveEngineering:metal:6>, <item:OpenComputers:item:24>],
+  [<item:ImmersiveEngineering:metal:21>, <item:minecraft:repeater>, <item:ImmersiveEngineering:metal:21>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:22>);
+
+recipes.addShaped(<item:OpenComputers:item:22> ,
+  [[<item:minecraft:stone_button>, <item:minecraft:stone_button>, <item:minecraft:stone_button>],
+  [<item:minecraft:stone_button>, <item:OpenComputers:item:27>, <item:minecraft:stone_button>],
+  [<item:minecraft:stone_button>, <item:minecraft:stone_button>, <item:minecraft:stone_button>]]);
+
+recipes.removeShaped(<item:OpenComputers:keyboard>);
+
+recipes.addShaped(<item:OpenComputers:keyboard>,
+  [[<item:OpenComputers:item:20>, <item:OpenComputers:item:20>, <item:OpenComputers:item:22>],
+  [<item:OpenComputers:item:20>, <item:OpenComputers:item:20>, <item:OpenComputers:item:21>],
+  [<item:OpenComputers:item:23>, <item:minecraft:stone_button>, <item:OpenComputers:item:23>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:28>);
+
+recipes.addShaped(<item:OpenComputers:item:28> ,
+  [[<item:ImmersiveEngineering:metal:21>, <item:OpenComputers:item:27>, <item:ImmersiveEngineering:metal:21>],
+  [<item:ImmersiveEngineering:metal:21>, <item:OpenComputers:item:32>, <item:ImmersiveEngineering:metal:21>],
+  [<item:ImmersiveEngineering:metal:21>, <item:OpenComputers:item:27>, <item:ImmersiveEngineering:metal:21>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:29>);
+
+recipes.addShaped(<item:OpenComputers:item:29> ,
+  [[<item:ImmersiveEngineering:metal:6>, <item:OpenComputers:item:24>, <item:ImmersiveEngineering:metal:6>],
+  [<item:minecraft:clock>, <item:OpenComputers:item:28>, <item:minecraft:clock>],
+  [<item:ImmersiveEngineering:metal:6>, <item:OpenComputers:item:24>, <item:ImmersiveEngineering:metal:6>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:19>);
+
+recipes.addShaped(<item:OpenComputers:item:19> ,
+  [[null, <item:ImmersiveEngineering:metal:21>, null],
+  [<item:ImmersiveEngineering:metal:21>, <item:ImmersiveEngineering:metal:30>, <item:ImmersiveEngineering:metal:21>],
+  [null, <item:ImmersiveEngineering:metal:21>, null]]);
+
+recipes.removeShaped(<item:OpenComputers:item:5>);
+
+recipes.addShaped(<item:OpenComputers:item:5> ,
+  [[<item:ImmersiveEngineering:metal:29>, <item:OpenComputers:item:19>, <item:ImmersiveEngineering:metal:29>],
+  [<item:OpenComputers:item:24>, <item:OpenComputers:item:32>, <item:OpenComputers:item:24>],
+  [<item:ImmersiveEngineering:metal:29>, <item:minecraft:redstone>, <item:ImmersiveEngineering:metal:29>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:1>);
+
+recipes.addShaped(<item:OpenComputers:item:1> ,
+  [[<item:ImmersiveEngineering:metal:28>, <item:OpenComputers:item:24>, <item:ImmersiveEngineering:metal:28>],
+  [<item:OpenComputers:item:24>, <item:OpenComputers:item:32>, <item:OpenComputers:item:24>],
+  [<item:ImmersiveEngineering:metal:28>, <item:OpenComputers:item:24>, <item:ImmersiveEngineering:metal:28>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:50>);
+
+recipes.addShaped(<item:OpenComputers:item:50> *2,
+  [[<item:ImmersiveEngineering:metal:29>, <item:minecraft:redstone>, <item:ImmersiveEngineering:metal:29>],
+  [<item:OpenComputers:item:1>, <item:ImmersiveEngineering:metal:6>, <item:OpenComputers:item:1>],
+  [<item:ImmersiveEngineering:metal:29>, <item:minecraft:redstone>, <item:ImmersiveEngineering:metal:29>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:8>);
+
+recipes.addShaped(<item:OpenComputers:item:8> ,
+  [[<item:ImmersiveEngineering:metal:29>, <item:OpenComputers:item:28>, <item:ImmersiveEngineering:metal:29>],
+  [<item:OpenComputers:item:1>, <item:OpenComputers:item:32>, <item:OpenComputers:item:1>],
+  [<item:ImmersiveEngineering:metal:29>, <item:minecraft:repeater>, <item:ImmersiveEngineering:metal:29>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:21>);
+
+recipes.addShaped(<item:OpenComputers:item:21> ,
+  [[null, <item:minecraft:stone_button>, null],
+  [<item:minecraft:stone_button>, <item:minecraft:stone_button>, <item:minecraft:stone_button>],
+  [null, <item:OpenComputers:item:23>, null]]);
+
+recipes.removeShaped(<item:OpenComputers:item:20>);
+
+recipes.addShaped(<item:OpenComputers:item:20> ,
+  [[<item:minecraft:stone_button>, <item:minecraft:stone_button>, <item:minecraft:stone_button>],
+  [<item:minecraft:stone_button>, <item:minecraft:stone_button>, <item:minecraft:stone_button>],
+  [<item:OpenComputers:item:23>, <item:OpenComputers:item:23>, <item:OpenComputers:item:23>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:24>);
+
+recipes.addShaped(<item:OpenComputers:item:24> *2,
+  [[<item:OpenComputers:item:23>, <item:ImmersiveEngineering:stoneDevice:4>, <item:OpenComputers:item:23>],
+  [<item:ImmersiveEngineering:metal:28>, <item:minecraft:redstone>, <item:ImmersiveEngineering:metal:28>],
+  [<item:OpenComputers:item:23>, <item:ImmersiveEngineering:stoneDevice:4>, <item:OpenComputers:item:23>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:30>);
+
+recipes.addShaped(<item:OpenComputers:item:30> *3,
+  [[<item:ImmersiveEngineering:stoneDevice:4>, <item:ImmersiveEngineering:stoneDevice:4>, <item:ImmersiveEngineering:stoneDevice:4>],
+  [<item:ImmersiveEngineering:metal:6>, <item:ImmersiveEngineering:metal:6>, <item:ImmersiveEngineering:metal:6>],
+  [<item:ImmersiveEngineering:stoneDevice:4>, <item:ImmersiveEngineering:stoneDevice:4>, <item:ImmersiveEngineering:stoneDevice:4>]]);
+
+recipes.removeShaped(<item:OpenComputers:item:23>);
+
+recipes.addShaped(<item:OpenComputers:item:23> *4,
+  [[null, <item:ImmersiveEngineering:metal>, <item:ImmersiveEngineering:tool:1>],
+  [null, <item:ImmersiveEngineering:stoneDevice:4>, null],
+  [null, null, null]]);
+
+recipes.removeShaped(<item:OpenComputers:item:4>);
+
+recipes.addShaped(<item:OpenComputers:item:4> ,
+  [[null, null, null],
+  [<item:ImmersiveEngineering:metal:21>, <item:minecraft:book>, <item:ImmersiveEngineering:metal:21>],
+  [<item:ImmersiveEngineering:metal:21>, <item:OpenComputers:item:1>, <item:ImmersiveEngineering:metal:21>]]);
+
+recipes.addShaped(<item:OpenComputers:item:4> ,
+  [[null, null, null],
+  [<item:ImmersiveEngineering:metal:21>, <item:minecraft:book>, <item:ImmersiveEngineering:metal:21>],
+  [<item:ImmersiveEngineering:metal:21>, <item:OpenComputers:item:1>, <item:ImmersiveEngineering:metal:21>]]);
+
+recipes.removeShaped(<item:OpenComputers:item>);
+
+recipes.addShaped(<item:OpenComputers:item>,
+  [[<item:ImmersiveEngineering:metal:28>, <item:OpenComputers:item:28>, <item:ImmersiveEngineering:metal:28>],
+  [<item:OpenComputers:item:24>, <item:ImmersiveEngineering:tool:2>, <item:OpenComputers:item:24>],
+  [null, null, null]]);
+
+recipes.removeShaped(<item:OpenComputers:wrench>);
+
+recipes.addShaped(<item:OpenComputers:wrench> ,
+  [[<item:minecraft:iron_ingot>, null, <item:minecraft:iron_ingot>],
+  [null, <item:OpenComputers:item:24>, null],
+  [null, <item:minecraft:iron_ingot>, null]]);
+
+
+//Blocks 
+
+recipes.removeShaped(<item:OpenComputers:case1>);
+
+recipes.addShaped(<item:OpenComputers:case1> ,
+  [[<item:ImmersiveEngineering:metal:38>, <item:minecraft:stone_button>, <item:ImmersiveEngineering:metal:38>],
+  [<item:ImmersiveEngineering:metal:38>, null, <item:ImmersiveEngineering:metal:38>],
+  [<item:ImmersiveEngineering:metal:38>, <item:ImmersiveEngineering:metalDevice:1>, <item:ImmersiveEngineering:metal:38>]]);
+
+recipes.removeShaped(<item:OpenComputers:screen1>);
+
+recipes.addShaped(<item:OpenComputers:screen1> ,
+  [[<item:ImmersiveEngineering:metal:38>, <item:minecraft:stone_button>, <item:ImmersiveEngineering:metal:38>],
+  [<item:OpenComputers:item:32>, <item:minecraft:glass_pane>, <item:OpenComputers:item:32>],
+  [<item:ImmersiveEngineering:metal:38>, <item:minecraft:redstone_lamp>, <item:ImmersiveEngineering:metal:38>]]);
+
+recipes.removeShaped(<item:OpenComputers:diskDrive>);
+
+recipes.addShaped(<item:OpenComputers:diskDrive> ,
+  [[<item:ImmersiveEngineering:metal:38>, <item:minecraft:stone_button>, <item:ImmersiveEngineering:metal:38>],
+  [<item:OpenComputers:item:32>, null, <item:OpenComputers:item:32>],
+  [<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:item:5>, <item:ImmersiveEngineering:metal:38>]]);
+
+recipes.removeShaped(<item:OpenComputers:adapter>);
+
+recipes.addShaped(<item:OpenComputers:adapter>,
+  [[<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>],
+  [<item:OpenComputers:cable>, <item:ImmersiveEngineering:storage:8>, <item:OpenComputers:cable>],
+  [<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>]]);
+
+recipes.removeShaped(<item:OpenComputers:redstone>);
+
+recipes.addShaped(<item:OpenComputers:redstone>,
+  [[<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>],
+  [<item:OpenComputers:cable>, <item:minecraft:redstone_block>, <item:OpenComputers:cable>],
+  [<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>]]);
+
+recipes.removeShaped(<item:OpenComputers:capacitor>);
+
+recipes.addShaped(<item:OpenComputers:capacitor>,
+  [[<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>],
+  [<item:OpenComputers:cable>, <item:ImmersiveEngineering:metalDevice:1>, <item:OpenComputers:cable>],
+  [<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>]]);
+
+recipes.removeShaped(<item:OpenComputers:powerConverter>);
+
+recipes.addShaped(<item:OpenComputers:powerConverter>,
+  [[<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>],
+  [<item:OpenComputers:cable>, <item:ImmersiveEngineering:metalDevice:4>, <item:OpenComputers:cable>],
+  [<item:ImmersiveEngineering:metal:38>, <item:OpenComputers:cable>, <item:ImmersiveEngineering:metal:38>]]);
+
+//Removals 
+
+recipes.removeShaped(<item:OpenComputers:accessPoint>);
+recipes.removeShaped(<item:OpenComputers:assembler>);
+recipes.removeShaped(<item:OpenComputers:capacitor>);
+recipes.removeShaped(<item:OpenComputers:case3>);
+recipes.removeShaped(<item:OpenComputers:case2>);
+recipes.removeShaped(<item:OpenComputers:charger>);
+recipes.removeShaped(<item:OpenComputers:disassembler>);
+recipes.removeShaped(<item:OpenComputers:geolyzer>);
+recipes.removeShaped(<item:OpenComputers:hologram1>);
+recipes.removeShaped(<item:OpenComputers:hologram2>);
+recipes.removeShaped(<item:OpenComputers:motionSensor>);
+recipes.removeShaped(<item:OpenComputers:powerDistributor>);
+recipes.removeShaped(<item:OpenComputers:raid>);
+recipes.removeShaped(<item:OpenComputers:relay>);
+recipes.removeShaped(<item:OpenComputers:screen3>);
+recipes.removeShaped(<item:OpenComputers:screen2>);
+recipes.removeShaped(<item:OpenComputers:rack>);
+recipes.removeShaped(<item:OpenComputers:switch>);
+recipes.removeShaped(<item:OpenComputers:printer>);
+recipes.removeShaped(<item:OpenComputers:chameliumBlock>);
+recipes.removeShaped(<item:OpenComputers:waypoint>);
+recipes.removeShaped(<item:OpenComputers:endstone>);
+recipes.removeShaped(<item:OpenComputers:netSplitter>);
+recipes.removeShaped(<item:OpenComputers:transposer>);
+recipes.removeShaped(<item:OpenComputers:carpetedCapacitor>);
+recipes.removeShaped(<item:OpenComputers:item:101>);
+recipes.removeShaped(<item:OpenComputers:hoverBoots>);
+recipes.removeShaped(<item:OpenComputers:item:102>);
+recipes.removeShaped(<item:OpenComputers:item:103>);
+recipes.removeShaped(<item:OpenComputers:item:18>);
+recipes.removeShaped(<item:OpenComputers:item:42>);
+recipes.removeShaped(<item:OpenComputers:item:43>);
+recipes.removeShaped(<item:OpenComputers:item:33>);
+recipes.removeShaped(<item:OpenComputers:item:96>);
+recipes.removeShaped(<item:OpenComputers:item:70>);
+recipes.removeShaped(<item:OpenComputers:item:71>);
+recipes.removeShaped(<item:OpenComputers:item:72>);
+recipes.removeShaped(<item:OpenComputers:item:17>);
+recipes.removeShaped(<item:OpenComputers:item:104>);
+recipes.removeShaped(<item:OpenComputers:item:105>);
+recipes.removeShaped(<item:OpenComputers:item:106>);
+recipes.removeShaped(<item:OpenComputers:item:73>);
+recipes.removeShaped(<item:OpenComputers:item:81>);
+recipes.removeShaped(<item:OpenComputers:item:111>);
+recipes.removeShaped(<item:OpenComputers:item:109>);
+recipes.removeShaped(<item:OpenComputers:item:83>);
+recipes.removeShaped(<item:OpenComputers:item:87>);
+recipes.removeShaped(<item:OpenComputers:item:91>);
+recipes.removeShaped(<item:OpenComputers:item:9>);
+recipes.removeShaped(<item:OpenComputers:item:10>);
+recipes.removeShaped(<item:OpenComputers:item:6>);
+recipes.removeShaped(<item:OpenComputers:item:7>);
+recipes.removeShaped(<item:OpenComputers:item:95>);
+recipes.removeShaped(<item:OpenComputers:item:94>);
+recipes.removeShaped(<item:OpenComputers:item:44>);
+recipes.removeShaped(<item:OpenComputers:item:48>);
+recipes.removeShaped(<item:OpenComputers:item:51>);
+recipes.removeShaped(<item:OpenComputers:item:2>);
+recipes.removeShaped(<item:OpenComputers:item:3>);
+recipes.removeShaped(<item:OpenComputers:item:38>);
+recipes.removeShaped(<item:OpenComputers:item:39>);
+recipes.removeShaped(<item:OpenComputers:item:25>);
+recipes.removeShaped(<item:OpenComputers:item:26>);
+recipes.removeShaped(<item:OpenComputers:item:82>);
+recipes.removeShaped(<item:OpenComputers:item:86>);
+recipes.removeShaped(<item:OpenComputers:item:90>);
+recipes.removeShaped(<item:OpenComputers:item:107>);
+recipes.removeShaped(<item:OpenComputers:item:11>);
+recipes.removeShaped(<item:OpenComputers:item:66>);
+recipes.removeShaped(<item:OpenComputers:item:12>);
+recipes.removeShaped(<item:OpenComputers:item:45>);
+recipes.removeShaped(<item:OpenComputers:item:46>);
+recipes.removeShaped(<item:OpenComputers:item:40>);
+recipes.removeShaped(<item:OpenComputers:item:74>);
+recipes.removeShaped(<item:OpenComputers:item:92>);
+recipes.removeShaped(<item:OpenComputers:item:41>);
+recipes.removeShaped(<item:OpenComputers:item:108>);
+recipes.removeShaped(<item:OpenComputers:item:97>);
+recipes.removeShaped(<item:OpenComputers:item:49>);
+recipes.removeShaped(<item:OpenComputers:item:63>);
+recipes.removeShaped(<item:OpenComputers:item:64>);
+recipes.removeShaped(<item:OpenComputers:item:65>);
+recipes.removeShaped(<item:OpenComputers:item:62>);
+recipes.removeShaped(<item:OpenComputers:item:57>);
+recipes.removeShaped(<item:OpenComputers:item:58>);
+recipes.removeShaped(<item:OpenComputers:item:59>);
+recipes.removeShaped(<item:OpenComputers:item:54>);
+recipes.removeShaped(<item:OpenComputers:item:55>);
+recipes.removeShaped(<item:OpenComputers:item:56>);
+recipes.removeShaped(<item:OpenComputers:item:14>);
+recipes.removeShaped(<item:OpenComputers:item:78>);
+recipes.removeShaped(<item:OpenComputers:item:79>);
+recipes.removeShaped(<item:OpenComputers:item:80>);
+recipes.removeShaped(<item:OpenComputers:item:52>);
+recipes.removeShaped(<item:OpenComputers:item:15>);
+recipes.removeShaped(<item:OpenComputers:item:99>);
+recipes.removeShaped(<item:OpenComputers:item:100>);
+recipes.removeShaped(<item:OpenComputers:item:53>);
+recipes.removeShaped(<item:OpenComputers:item:61>);
+recipes.removeShaped(<item:OpenComputers:item:85>);
+recipes.removeShaped(<item:OpenComputers:item:112>);
+recipes.removeShaped(<item:OpenComputers:item:36>);
+recipes.removeShaped(<item:OpenComputers:item:75>);
+recipes.removeShaped(<item:OpenComputers:item:35>);
+recipes.removeShaped(<item:OpenComputers:item:34>);
+recipes.removeShaped(<item:OpenComputers:item:76>);
+recipes.removeShaped(<item:OpenComputers:item:77>);
+recipes.removeShaped(<item:OpenComputers:item:67>);
+recipes.removeShaped(<item:OpenComputers:item:110>);
+recipes.removeShaped(<item:OpenComputers:item:113>);
+recipes.removeShaped(<item:OpenComputers:item:13>);
+recipes.removeShaped(<item:OpenComputers:item:84>);
+
+

@@ -64,6 +64,7 @@ val TITANIUM_ROD = <item:advancedRocketry:advancedRocketryproductrod>;
 val TITANIUM_GEAR = <item:advancedRocketry:advancedRocketryproductgear>;
 val STEEL = <item:ImmersiveEngineering:metal:7>;
 val ALUMINIUM = <item:ImmersiveEngineering:metal:1>;
+val IRON_BUSHING_SET = <item:AncientWarfare:component:4>;
 
 // from what I understood we'll probably be using admin shops for these but I wanted to add these simply as a way for preliminary balance
 
@@ -105,117 +106,130 @@ recipes.addShaped(TITANIUM_GEAR,
   [null, TITANIUM, null]]);
 
 
+recipes.remove(IRON_BUSHING_SET);
+recipes.remove(IRON_GEAR_SET);
+
+recipes.addShaped(IRON_BUSHING_SET,
+ [[null, null, null],
+  [IRON, null, IRON],
+  [IRON, IRON_BLOCK, IRON]]);
+
+recipes.addShaped(IRON_GEAR_SET,
+ [[null, IRON_TORQUE_SHAFT, null],
+  [IRON_TORQUE_SHAFT, IRON_BLOCK, IRON_TORQUE_SHAFT],
+  [null, IRON_TORQUE_SHAFT, null]]);
+
 // simple AR machines and stuff
 
-// Rolling Machine - 17 iron
+// Rolling Machine - 93 iron
 recipes.addShaped(<item:advancedRocketry:tile.rollingMachine>,
- [[IRON_TORQUE_SHAFT, IRON_ROD, IRON_TORQUE_SHAFT],
+ [[IRON_GEAR_SET, IRON_ROD, IRON_GEAR_SET],
   [IRON_ROD, <item:libVulpes:blockStructureBlock>, IRON_ROD],
-  [IRON_TORQUE_SHAFT, IRON_ROD, IRON_TORQUE_SHAFT]]);
+  [IRON_GEAR_SET, IRON_ROD, IRON_GEAR_SET]]);
 
-// Machine Structure - 1 iron
-recipes.addShaped(<item:libVulpes:blockStructureBlock>*9,
+// Machine Structure - 5 iron
+recipes.addShaped(<item:libVulpes:blockStructureBlock>*5,
  [[null, IRON, null],
   [IRON, IRON_GEAR_SET, IRON],
   [null, IRON, null]]);
 
-// Input Block - 4 iron
+// Input Block - 11 iron
 recipes.remove(<item:libVulpes:blockHatch>);
 recipes.addShaped(<item:libVulpes:blockHatch>,
  [[null, <item:minecraft:chest>, null],
   [IRON, <item:libVulpes:blockStructureBlock>, IRON],
-  [null, IRON, null]]);
+  [IRON, IRON, IRON]]);
 
-// Fluid Input Block - 7 iron
+// Fluid Input Block - 14 iron
 recipes.remove(<item:libVulpes:blockHatch:2>);
 recipes.addShaped(<item:libVulpes:blockHatch:2>,
  [[null, <item:minecraft:bucket>, null],
   [IRON, <item:libVulpes:blockStructureBlock>, IRON],
-  [null, IRON, null]]);
+  [IRON, IRON, IRON]]);
 
-// Output Block - 4 iron
+// Output Block - 11 iron
 recipes.remove(<item:libVulpes:blockHatch:1>);
 recipes.addShaped(<item:libVulpes:blockHatch:1>,
- [[null, IRON, null],
+ [[IRON, IRON, IRON],
   [IRON, <item:libVulpes:blockStructureBlock>, IRON],
   [null, <item:minecraft:chest>, null]]);
 
-// Fluid Output Block - 7 iron
+// Fluid Output Block - 14 iron
 recipes.remove(<item:libVulpes:blockHatch:3>);
 recipes.addShaped(<item:libVulpes:blockHatch:3>,
- [[null, IRON, null],
+ [[IRON, IRON, IRON],
   [IRON, <item:libVulpes:blockStructureBlock>, IRON],
   [null, <item:minecraft:bucket>, null]]);
 
 // assuming 1 copper = 2 iron
-// RF Input Block - 9 iron
+// RF Input Block - 21 iron
 recipes.addShaped(<item:libVulpes:rfBattery>,
- [[null, <item:ImmersiveEngineering:coil>, null],
+ [[<item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>],
   [<item:ImmersiveEngineering:coil>, <item:libVulpes:blockStructureBlock>, <item:ImmersiveEngineering:coil>],
-  [null, <item:ImmersiveEngineering:coil>, null]]);
+  [<item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>]]);
 
-// Motor - 9 iron
+// Motor - 26 iron
 recipes.addShaped(<item:libVulpes:tile.motor>,
- [[null, <item:ImmersiveEngineering:coil>, null],
-  [IRON, IRON_TORQUE_SHAFT, IRON],
-  [null, <item:ImmersiveEngineering:coil>, null]]);
+ [[<item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>],
+  [IRON_TORQUE_SHAFT, IRON_TORQUE_SHAFT, IRON_TORQUE_SHAFT],
+  [IRON, IRON_BLOCK, IRON]]);
 
 //Total for a rolling machine:
 // 1 Motor, 2 Coils, 1 Power Input, 2 Input, 1 Fluid Input, 2 Output, 6 Machine Structure
-//~71 iron
+// 225 iron
 
-rollingMachine.addRecipe([IRON_PLATE], [], [IRON], [], 600, 20);
+rollingMachine.addRecipe([IRON_PLATE], [], [IRON * 4], [], 600, 20);
 
 // Lathe
-// 25 iron
+// 89 iron
 recipes.addShaped(<item:advancedRocketry:tile.lathe>,
- [[IRON_TORQUE_SHAFT, IRON, IRON_TORQUE_SHAFT],
-  [IRON, IRON_BLOCK, IRON],
-  [IRON_TORQUE_SHAFT, IRON, IRON_TORQUE_SHAFT]]);
+ [[IRON_GEAR_SET, IRON, IRON_GEAR_SET],
+  [IRON, <item:libVulpes:blockStructureBlock>, IRON],
+  [IRON_GEAR_SET, IRON, IRON_GEAR_SET]]);
 
 // 1 Motor, 1 Power Input, 1 Input, 1 Output, 2 Machine Structures
-//Total: 42 iron
+//Total: 205 iron
 
 //Iron Rods (requires Lathe)
 lathe.addRecipe([IRON_ROD], [], [IRON], [], 600, 20);
 
 //Cutting Machine
-// 17 iron
+// 103 iron
 recipes.addShaped(<item:advancedRocketry:cuttingMachine>,
- [[IRON_ROD, IRON_PLATE, IRON_ROD],
-  [IRON_PLATE, IRON_BLOCK, IRON_PLATE],
-  [IRON_ROD, IRON_PLATE, IRON_ROD]]);
+ [[IRON_GEAR_SET, IRON_PLATE, IRON_GEAR_SET],
+  [IRON_TORQUE_SHAFT, <item:libVulpes:blockStructureBlock>, IRON_TORQUE_SHAFT],
+  [IRON_GEAR_SET, IRON_PLATE, IRON_GEAR_SET]]);
 
-// 5 iron or 15 coins
+// 8 iron
 recipes.addShaped(<item:advancedRocketry:sawBlade>,
  [[null, IRON, null],
   [IRON, IRON_PLATE, IRON],
   [null, IRON, null]]);
 
-// 10 iron or 30 coins
+// 33 iron
 recipes.addShaped(<item:advancedRocketry:tile.sawBlade>,
  [[null, null, null],
   [IRON_ROD, <item:advancedRocketry:sawBlade>, IRON_ROD],
-  [IRON_PLATE, <item:libVulpes:blockStructureBlock>, IRON_PLATE]]);
+  [IRON_BLOCK, <item:libVulpes:blockStructureBlock>, IRON_BLOCK]]);
 
 // Cutting Machine total:
 // 1 Motor, 1 Saw Blade Assembly, 1 Power Input, 1 Input, 1 Output
 // 56 iron
 
 //Copper Rods (requires Cutting Machine)
-cuttingMachine.addRecipe([COPPER_ROD], [], [COPPER], [], 600, 20);
+cuttingMachine.addRecipe([COPPER_ROD], [], [COPPER * 4], [], 600, 20);
 
 //Titanium rods
-cuttingMachine.addRecipe([TITANIUM_ROD], [], [TITANIUM], [], 600, 20);
+cuttingMachine.addRecipe([TITANIUM_ROD], [], [TITANIUM_BLOCK * 2], [], 600, 20);
 
-//Iron Frame (generic expensive early equipment component), worth 24 iron or 72 coins, requires a Rolling Machine
+//Iron Frame (generic expensive early equipment component), worth 46 iron, requires a Rolling Machine
 recipes.addShaped(<item:minefantasy2:MF_Com_iron_frame>,
- [[IRON_ROD, IRON_BLOCK, IRON_ROD],
+ [[IRON_BLOCK, IRON_ROD, IRON_BLOCK],
   [IRON_PLATE, null, IRON_PLATE],
-  [IRON_ROD, IRON_BLOCK, IRON_ROD]]);
+  [IRON_BLOCK, IRON_ROD, IRON_BLOCK]]);
 
 
-// Iron Mechanical Component (generic cheap early equipment component), worth 6 iron or 18 coins, requires a Cutting Machine
+// Iron Mechanical Component (generic cheap early equipment component), worth 12, requires a Cutting Machine
 recipes.remove(IRON_MECH_COMP);
 recipes.addShaped(IRON_MECH_COMP,
  [[IRON, null, IRON],
@@ -224,9 +238,9 @@ recipes.addShaped(IRON_MECH_COMP,
 
 //Basic circuit
 recipes.addShaped(<item:advancedRocketry:circuitIC>,
- [[null, COPPER_ROD, null],
+ [[COPPER, COPPER_ROD, COPPER],
   [<item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>, <item:ImmersiveEngineering:coil>],
-  [COPPER, COPPER, COPPER]]);
+  [COPPER, COPPER_ROD, COPPER]]);
 
 
 
@@ -239,3 +253,9 @@ rollingMachine.addRecipe([ALUMINIUM_PLATE], [], [ALUMINIUM*4], [], 600, 20);
 //Titanium rods
 recipes.remove(ALUMINIUM_ROD);
 cuttingMachine.addRecipe([ALUMINIUM_ROD], [], [ALUMINIUM*2], [], 600, 20);
+
+//Steel Plate
+rollingMachine.addRecipe([STEEL_PLATE], [], [STEEL], [], 600, 20);
+
+//Graphite Electrode
+lathe.addRecipe([<item:ImmersiveEngineering:graphiteElectrode>], [], [<item:ImmersiveEngineering:metal:20> * 8], [], 600, 20);

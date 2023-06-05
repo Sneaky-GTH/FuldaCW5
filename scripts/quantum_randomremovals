@@ -1,0 +1,33 @@
+//This is random shit I forgot to remove and I didn't want to bother with putting it in the original documents
+
+
+import mods.nei.NEI;
+import minetweaker.item.IItemStack;
+
+val removals = [
+<item:universalmodcore:immersiverailroading:block_rail_preview>,
+<item:universalmodcore:immersiverailroading:block_rail_gag>,
+<item:universalmodcore:immersiverailroading:block_rail>,
+<item:universalmodcore:immersiverailroading:multiblock>,
+<item:Railcraft:emblem>,
+<item:Railcraft:firestone.cracked:112>,
+<item:Railcraft:dust:2>,
+<item:Railcraft:fluid.creosote>,
+<item:Railcraft:fluid.steam>,
+<item:Railcraft:residual.heat>,
+<item:Railcraft:machine.gamma:5>,
+<item:Railcraft:firestone.recharge>,
+<item:Railcraft:fluid.creosote.bucket>,
+<item:Railcraft:fluid.creosote.bottle>,
+<item:Railcraft:fluid.creosote.can>,
+<item:Railcraft:fluid.creosote.cell>,
+<item:Railcraft:fluid.creosote.wax>,
+<item:Railcraft:fluid.creosote.refactory>,
+<item:Railcraft:part.railbed:1>,
+<item:Railcraft:part.tie:1>,
+<item:universalmodcore:item_conductor_whistle>
+] as IItemStack[];
+
+for item in removals {
+    NEI.hide(item);
+}
