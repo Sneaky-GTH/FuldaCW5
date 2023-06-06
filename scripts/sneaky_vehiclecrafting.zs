@@ -9,6 +9,7 @@ val HT_TURRET = <item:flansmod:44_Heavy_Tank_Turret>;
 val HT_CHASSIS = <item:flansmod:44_Heavy_Tank_Chassis>;
 
 <item:mcheli:m26>.addTooltip("Pretend that this is a Tier 1 vehicle");
+<item:mcheli:m26>.addTooltip("Costs 68 iron to craft using factories");
 recipes.addShaped(<item:mcheli:m26>,
  [[null, null, null],
   [null, LT_TURRET, null],
@@ -16,6 +17,7 @@ recipes.addShaped(<item:mcheli:m26>,
 
 
 <item:mcheli:t55>.addTooltip("Pretend that this is a Tier 2 vehicle");
+<item:mcheli:m26>.addTooltip("Costs 96 iron to craft using factories");
 recipes.addShaped(<item:mcheli:t55>,
  [[null, null, null],
   [null, MT_TURRET, null],
