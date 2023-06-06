@@ -14,4 +14,5 @@ minetweaker.log
 *.log
 usernamecache.json
 .mixin.out/
+usercache.json
 
