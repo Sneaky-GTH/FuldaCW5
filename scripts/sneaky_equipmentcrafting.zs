@@ -149,6 +149,10 @@ cuttingMachine.addRecipe([<item:flansmod:44_Armor_Plate_Sheet>], [], [IRON_BLOCK
 cuttingMachine.addRecipe([<item:flansmod:44_Metal_Rod> * 4], [], [STEEL_PLATE], [], 600, 20);
 
 
+// Steel Rod
+cuttingMachine.addRecipe([STEEL_ROD], [], [STEEL], [], 600, 20);
+
+
 // Low Powered Engine
 // 20 iron
 recipes.addShaped(<item:flansmod:44_Low_Powered_Engine>,
@@ -160,7 +164,7 @@ recipes.addShaped(<item:flansmod:44_Low_Powered_Engine>,
 // 34 Iron
 recipes.addShaped(<item:flansmod:44_Medium_Powered_Engine>,
  [[STEEL_ROD, <item:minefantasy2:MF_Com_iron_strut>, STEEL_ROD],
-  [STEEL_ROD, <item:flansmod:44_Low_Powered_Engine>, STEEL_ROD],
+  [IRON_HEAT_COIL, <item:flansmod:44_Low_Powered_Engine>, IRON_HEAT_COIL],
   [STEEL_ROD, <item:minefantasy2:MF_Com_iron_strut>, STEEL_ROD]]);
 
 // High Powered Engine

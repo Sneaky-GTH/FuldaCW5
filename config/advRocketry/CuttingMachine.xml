@@ -21,6 +21,7 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+    <!-->
 	<Recipe timeRequired="300" power ="100">
 		<input>
 			<oreDict>slabSteel 2</oreDict>
@@ -53,4 +54,5 @@
 			<itemStack>flansmod:44_Glass_Lens 1 </itemStack>
 		</output>
 	</Recipe>
+    <!-->
 </Recipes>

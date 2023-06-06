@@ -29,6 +29,15 @@ Precision Assembler
 -Crystallizer
 
 
+Basic Resource Value:
+Iron Ore - 0.5 gold
+Hay Bale (9 wheat) - 0.5 gold
+Fish - 1 gold
+
+
+
+Copper - 0.5 gold
+
 
 Usable Materials:
 
@@ -70,6 +79,7 @@ Copper Coil (worth 50 iron)
 Tier 2.5 - requires a MGC Sifter & Grinder (access to Steel essentially)
 Steel Ingot (worth 4 iron)
 Steel Plate (worth 4 iron)
+Steel Rod (worth 4 iron)
 Steel Scaffolding (worth 5 iron)
 Steel Torque Shaft (worth 12 iron)
 Steel Gear Set (worth 16 iron)

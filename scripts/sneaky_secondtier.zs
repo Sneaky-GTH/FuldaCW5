@@ -136,6 +136,7 @@ recipes.addShaped(<item:Magneticraft:sifter_control>,
 mods.magneticraft.Sifter.addRecipe(<item:minecraft:coal:1>, <item:minefantasy2:MF_Com_coal_flux>, null, 0);
 
 //Steel Dust
+recipes.remove(<item:libVulpes:libVulpesproductdust:6>);
 recipes.addShapeless(<item:libVulpes:libVulpesproductdust:6>,[<item:minefantasy2:MF_Com_coal_flux>, <item:Magneticraft:item.dust>]);
 
 // Multiblock Component - 7 iron per block
@@ -164,7 +165,7 @@ recipes.addShaped(<item:Magneticraft:refinery_control>,
 // Refinery Tank
 // 43 Iron for 4
 recipes.addShaped(<item:Magneticraft:refinery_tank>*4,
- [[IRON_PLATE, TITANIUM, IRON_PLATE],
+ [[IRON_PLATE, TITANIUM_BLOCK, IRON_PLATE],
   [IRON_PLATE, STEEL_MECH_COMP, IRON_PLATE],
   [<item:Magneticraft:chasis>, <item:Magneticraft:chasis>, <item:Magneticraft:chasis>]]);
 

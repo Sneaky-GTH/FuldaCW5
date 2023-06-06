@@ -117,6 +117,6 @@ recipes.remove(<item:ImmersiveEngineering:metalMultiblock:2>);
 
 recipes.addShaped(<item:ImmersiveEngineering:metalMultiblock:2>*2,
  [[IRON_PLATE, STEEL_PLATE, IRON_PLATE],
-  [TITANIUM_ROD, <item:ImmersiveEngineering:metalDecoration:7>, TITANIUM_ROD],
+  [TITANIUM, <item:ImmersiveEngineering:metalDecoration:7>, TITANIUM],
   [IRON_PLATE, STEEL_PLATE, IRON_PLATE]]);
 

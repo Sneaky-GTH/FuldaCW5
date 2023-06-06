@@ -1,4 +1,5 @@
 import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.ArcFurnace;
 import minetweaker.item.IItemStack;
 import mods.nei.NEI;
 import mods.magneticraft.Crusher;
@@ -12,11 +13,17 @@ mods.immersiveengineering.MetalPress.removeRecipe(<item:ImmersiveEngineering:met
 mods.immersiveengineering.MetalPress.removeRecipe(<item:advancedRocketry:advancedRocketryproductrod>);
 mods.immersiveengineering.MetalPress.removeRecipe(<item:advancedRocketry:advancedRocketryproductgear>);
 mods.immersiveengineering.MetalPress.removeRecipe(<item:ImmersiveEngineering:material:15>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<item:ImmersiveEngineering:metal:7>);
+mods.immersiveengineering.MetalPress.removeRecipe(<item:Railcraft:part.gear:1>);
 recipes.remove(<item:ImmersiveEngineering:material:14>);
 recipes.remove(<item:ImmersiveEngineering:metal:30>);
 recipes.remove(<item:libVulpes:libVulpesproductrod:4>);
 furnace.remove(<item:Magneticraft:item.pebbles>);
 furnace.remove(<item:flansmod:SMP_Part_Mat_Block_Steel>);
+recipes.remove(<item:Railcraft:part.gear:1>);
+recipes.remove(<item:ImmersiveEngineering:mold:1>);
+recipes.remove(<item:Railcraft:part.gear:2>);
+
 
 val array = [
 <item:minecraft:sticky_piston>,
