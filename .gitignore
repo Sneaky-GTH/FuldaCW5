@@ -14,4 +14,6 @@ minetweaker.log
 usernamecache.json
 .mixin.out/
 usercache.json
-
+options.txt
+optionsof.txt
+crash-reports/
