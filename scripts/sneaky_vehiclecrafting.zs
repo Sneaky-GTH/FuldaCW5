@@ -17,7 +17,7 @@ recipes.addShaped(<item:mcheli:m26>,
 
 
 <item:mcheli:t55>.addTooltip("Pretend that this is a Tier 2 vehicle");
-<item:mcheli:m26>.addTooltip("Costs 96 iron to craft using factories");
+<item:mcheli:t55>.addTooltip("Costs 96 iron to craft using factories");
 recipes.addShaped(<item:mcheli:t55>,
  [[null, null, null],
   [null, MT_TURRET, null],
