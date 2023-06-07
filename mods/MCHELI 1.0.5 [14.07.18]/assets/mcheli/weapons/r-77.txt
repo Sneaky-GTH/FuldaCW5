@@ -1,0 +1,17 @@
+DisplayName = R-73 Vympel [ARH]
+Type = AAMissile
+Power = 0
+Acceleration = 3
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 20
+ReloadTime = 110
+Round = 4
+LockTime = 2
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

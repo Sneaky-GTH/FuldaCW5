@@ -1,0 +1,16 @@
+DisplayName = DT28 7.62mm Machine Gun
+Type = MachineGun1
+Power = 10
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+SoundDelay = 2
+Accuracy = 1.5
+SoundPitch = 0.5
+
+MaxAmmo = 63
+SuppliedNum = 63
+Item =  2, iron_ingot
+Item =  2, gunpowder

@@ -1,0 +1,22 @@
+DisplayName = M64 500lb Bomb
+Type = Bomb
+Power = 0
+ModelBullet = mk82_f100
+Acceleration = 1.0
+Gravity = -0.04905
+Explosion = 5
+ExplosionBlock = 5
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 2
+ReloadTime = 230
+Round = 40
+Sound = bomb_snd
+
+Penetration = 1
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  1, hbm:item.warhead_generic_small
+

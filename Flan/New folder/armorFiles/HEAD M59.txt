@@ -1,0 +1,10 @@
+Name M59 Steel Helmet
+ShortName M59
+Icon M56
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.YugoslavianHelmet
+ArmourTexture SkinYugoSlaviaOD
+Description Tier 2_Yugoslavian Combat Helmet_Year: 1959
+headArmor 120

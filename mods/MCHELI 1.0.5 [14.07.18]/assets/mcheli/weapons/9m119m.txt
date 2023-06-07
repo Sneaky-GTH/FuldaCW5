@@ -1,0 +1,18 @@
+DisplayName = 9M119M Invar [ATGM]
+Type = TVMissile
+Power = 24
+Acceleration = 2.0
+Explosion = 0
+ExplosionBlock = 0
+Flaming = true
+Sight = MoveSight
+Delay = 180
+ModelBullet = 9M113
+Sound = missile_2_snd
+Group = MainGun
+
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo
+

@@ -1,0 +1,14 @@
+Name French Army Uniform (Lizard Pattern)
+ShortName FRLizard
+Icon FRarmor
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.FrenchLizardJacket
+ArmourTexture SkinLizardJacket
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 1.5_French Battle Dress_Year: 1947_French Lizard Pattern

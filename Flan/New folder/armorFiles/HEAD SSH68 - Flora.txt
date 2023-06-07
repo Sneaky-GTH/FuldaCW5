@@ -1,0 +1,10 @@
+Name SSH-68 Steel Helmet - Flora Cover
+ShortName SSH68Flora
+Icon RU
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.SSH68
+ArmourTexture SkinSSH68Flora
+Description Russian Combat Helmet_Year: 1992_Flora Woodland
+headArmor 150

@@ -1,0 +1,20 @@
+DisplayName = Tsar bomba
+Type = Bomb
+Power = 58000
+Acceleration = 0.01
+Explosion = 20000
+ExplosionBlock = 90000
+ExplosionInWater = 90000
+Flaming = true
+Sight = None
+Delay = 20
+Sound = bomb_snd
+ModelBullet = tsar
+
+ReloadTime = 1500
+Round = 1
+MaxAmmo = 2
+SuppliedNum = 2
+
+Item = 90, iron_ingot
+Item = 80, gunpowder

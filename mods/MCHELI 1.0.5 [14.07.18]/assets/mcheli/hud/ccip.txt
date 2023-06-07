@@ -1,0 +1,2 @@
+Call = plane
+Call = su25bomb

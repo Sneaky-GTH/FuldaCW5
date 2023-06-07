@@ -1,0 +1,11 @@
+Name M1 Pot Steel Helmet - Mitchell Cover
+ShortName M1PotMitchell
+Icon M1PotMitchell
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.M1PotElite
+ArmourTexture SkinM1PotEliteMitchel
+Description Tier 1_American Combat Helmet_Year: 1941American Combat Helmet_Year: 1959_Mitchell Pattern Helmet Cover
+headArmor 120
+ShapelessRecipe M1PotClouds

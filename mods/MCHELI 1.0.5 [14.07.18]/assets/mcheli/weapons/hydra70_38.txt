@@ -1,0 +1,21 @@
+DisplayName = Hydra 70mm Rocket
+Type = Rocket
+Power = 0
+ModelBullet = hydra70
+Acceleration = 4
+Explosion = 4
+ExplosionBlock = 2
+Flaming = false
+Sound = rocket_snd
+Sight = MoveSight
+Delay = 0
+ReloadTime = 6
+Round = 2
+Accuracy = 2
+MaxAmmo = 38
+SuppliedNum = 2
+Item =  2, hbm:item.ammo_rocket
+
+TrajectoryParticle = darksmoke
+
+DisableSmoke = true

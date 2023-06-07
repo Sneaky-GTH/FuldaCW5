@@ -1,0 +1,14 @@
+Name Japanese Ground Self Defense Force Uniform (Mark 1 Camouflage)
+ShortName jap80s
+Icon IconJapan
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.JapaneseFangUniform
+ArmourTexture SkinJapaneseFangUniform
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Japanese Combat Jacket_Year: 1988_Mk1 "Hokkaido" Camouflage

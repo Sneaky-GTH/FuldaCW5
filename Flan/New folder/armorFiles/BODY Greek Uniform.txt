@@ -1,0 +1,13 @@
+Name Hellenic Army Cold War Uniform (Lizard)
+ShortName greekLizard
+Icon GRK
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.GreekBodyCW
+ArmourTexture SkinGreekArmyCW
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 2.5_Greek Battle Dress_Year: 1960s_Frogskin
+bodyArmor 10
+armArmor 10

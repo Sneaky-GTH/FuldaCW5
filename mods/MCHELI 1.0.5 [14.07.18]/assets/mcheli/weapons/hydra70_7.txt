@@ -1,0 +1,18 @@
+DisplayName = M255 Hydra 70mm Rocket 
+Type = Rocket
+Power = 50
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 2
+Explosionblock = 0
+Flaming = false
+Sound = rocket_snd
+Sight = MoveSight
+Delay = 3
+ReloadTime = 110
+Round = 14
+
+MaxAmmo = 14
+SuppliedNum = 14
+Item =  2, iron_ingot
+Item =  2, gunpowder

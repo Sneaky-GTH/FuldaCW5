@@ -1,0 +1,14 @@
+Name Iranian WW2 Uniform
+ShortName iranWW2
+Icon IRN
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model dunk.IranWW2Body
+ArmourTexture SkinIranGallon
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 0_Iranian Battle Dress_Year: 1930s_OD
+bodyArmor 10
+armArmor 10
+

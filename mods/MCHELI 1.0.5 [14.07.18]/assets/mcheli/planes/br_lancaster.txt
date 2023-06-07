@@ -1,0 +1,103 @@
+DisplayName = UKARVO LANCASTER
+AddDisplayName = en_US, [UK] Lancaster (Bomber)
+AddDisplayName = ja_JP, ARVO LANCASTER
+ItemID = 28729
+MaxHp = 2500
+
+Speed = 0.6
+ThrottleUpDown = 0.3
+
+MobilityYaw = 0.4
+MobilityPitch = 0.4
+MobilityRoll = 0.1
+MinRotationPitch = -40
+MaxRotationPitch =  40
+MinRotationRoll  = -40
+MaxRotationRoll  =  40
+
+Sound = prop_bomber_b
+onGroundPitch = 8
+AutoPilotRot = 0.00
+CameraPosition = 2.0, 1.40, -4.0
+;EnableNightVision = true
+;EnableEntityRadar = true
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+InventorySize = 18
+MaxFuel         = 4800
+FuelConsumption = 2.0
+ThirdPersonDist = 40
+
+UnmountPosition = 3.0, 2.0, -4.0
+
+; W = WWII.  A = Attacker(攻撃機)
+Category = UK.B
+
+HUD = plane_wwii, gunner, none, gunner, gunner, gunner
+
+
+AddSeat =  0.3326,  4.158, 4.558
+AddSeat =  0.00, 4.074, 7.462
+AddSeat =  0.00, 5.425, -8.747
+AddSeat =  0.00, 4.106, -17.34
+
+AddPartWeapon = 7.7mm_f, false, true, true,  0.00, 4.074, 7.462
+AddPartWeaponChild = false, true,0.00, 4.074, 7.462
+
+AddPartWeapon = 7.7mm_tm, false, true, true,  0.00, 5.425, -8.747
+AddPartWeaponChild = false, true,0.00, 5.425, -8.747
+
+AddPartWeapon = 12_7mm_r, false, true, true,  0.00, 4.106, -17.34
+AddPartWeaponChild = false, true,0.00, 4.106, -17.34
+
+AddPartWeaponBay = 250kg ,  -0.8950, 2.381, 0, 0, 0,-1, 90
+AddPartWeaponBay = 250kg ,   0.8950, 2.381, 0, 0, 0, 1, 90
+
+
+AddPartLG =   -1.575, 2.414, 1.105,  1,0, 0, 90
+AddPartLG =    1.575, 2.414, 1.105,  1,0, 0, 90
+
+
+
+AddPartRotor =   -10.10,  3.462,  1.105,   0, 0, 1
+AddBlade = 1,0,  -10.10,  3.462,  1.105,   0, 0, 1
+AddPartRotor =  -4.609,  3.075,  1.105,   0, 0, 1
+AddBlade = 1,0, -4.609,  3.075,  1.105,   0, 0, 1
+AddPartRotor =   4.609,  3.075,  1.105,   0, 0, -1
+AddBlade = 1,0,  4.609,  3.075,  1.105,   0, 0, -1
+AddPartRotor =    10.10,  3.462,  1.105,   0, 0, -1
+AddBlade = 1,0,   10.10,  3.462,  1.105,   0, 0, -1
+
+AddRecipe = "I I",  "TTT",  "I I",  I,iron_block, T,tnt
+
+
+AddWeapon = 7.7mm_f,   0.00, 4.074, 7.462,  0.0, 0.0, false,  2,    0, -120, 120, -60, 60
+
+AddWeapon = 7.7mm_tm,  0.00, 5.425, -8.747,  0.0, 0.0, false,  3,    0, -360, 360, -60, 3
+
+AddWeapon = 12_7mm_r,   0.00, 4.106, -17.34,  0.0, 0.0, false, 4, -180,  -180,  180, -75, 60
+
+AddWeapon = cbu-100,       0.55,  1.08,  -6.0, 0, 90, true,  1
+AddWeapon = cbu-100,      -0.55,  1.08,  -6.0, 0, 90, true,  1
+AddWeapon = cbu-100,       0.55,  1.08, -13.0, 0, 90, true,  1
+AddWeapon = cbu-100,      -0.55,  1.08, -13.0, 0, 90, true,  1
+AddWeapon = cbu-100,       0.55,  1.08,  -8.0, 0, 90, true,  1
+AddWeapon = cbu-100,      -0.55,  1.08,  -8.0, 0, 90, true,  1
+AddWeapon = cbu-100,       0.55,  1.08, -16.0, 0, 90, true,  1
+AddWeapon = cbu-100,      -0.55,  1.08, -16.0, 0, 90, true,  1
+
+
+BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
+BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0, 0.75
+BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
+BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
+BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+
+BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0, 1.25
+BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0, 1.25
+BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0, 0.75
+BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0, 1.25
+BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0, 0.75
+BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0, 1.25

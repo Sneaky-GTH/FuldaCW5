@@ -1,0 +1,10 @@
+Name Mk6 Helmet - DPM
+ShortName Mk6DPM
+Icon UK
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinMk6Helmet
+Model NewArmor.BritishMk6Covered
+Description Tier 3.5_British Ballistic-Nylon Helmet_Temperate DPM Cover
+headArmor 180

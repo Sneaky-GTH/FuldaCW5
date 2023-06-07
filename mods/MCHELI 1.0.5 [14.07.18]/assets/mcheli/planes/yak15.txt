@@ -1,0 +1,64 @@
+﻿DisplayName = Mikoyan-Gurevich MiG-15
+AddDisplayName = en_US, YaK-15 [Fighter]
+AddDisplayName = ko_KR, 미그-15
+AddDisplayName = ja_JP, MiG-15
+ItemID = 40004
+MaxHp = 30
+Speed = 1.00
+Sound = plane
+ThrottleUpDown = 0.6
+MaxFuel = 42600
+FuelConsumption = 60
+ThrottleUpDownOnEntity = 2.0
+EnableEjectionSeat = false
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.6
+ThirdPersonDist = 12
+range = 400
+alt=300
+; M = Military.  F = Fighter
+Category = us.f
+HUD = plane_wwii
+
+
+
+onGroundPitch = 15
+
+mass = 5046
+wingArea = 29.12
+
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+AddSeat = 0.0, 0.5, 0.5
+
+;AddPartCanopy = -0.511,2.534, 2.896, -1,0,0, 45
+AddPartSlideCanopy = 0.0, 0.05, -0.7
+
+
+AddPartLG =  1.9, 0.7, 0.176,  0,0, -1, 90
+AddPartLG =  -1.9, 0.7, -0.176,  0,0, 1, 90
+
+
+AddWeapon = M2, -0.3981, 1.051, 5.23,   0.0, -2.5
+AddWeapon = M2,  0.3981, 1.051, 5.23,   0.0, -2.5
+
+;AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
+
+
+;<HitBoxes>
+BoundingBox =  0.00, 1.6, 4.75,  1.6, 1.6, 0.8
+BoundingBox =  0.00, 1.6, 2.11,  2.0, 1.8
+BoundingBox =  0.00, 1.6, -0.70,  1.6, 1.6
+BoundingBox =  0.00, 1.6, -3.5,  1.5, 1.5
+
+BoundingBox = -2.41, 1.6,  -0.11,  2.0, 0.6
+BoundingBox =  2.41, 1.6,  -0.11,  2.0, 0.6
+
+BoundingBox =  -4.7, 1.6,  -1.44,  1.6, 0.5, 0.7
+BoundingBox =  4.7, 1.6,  -1.44,  1.6, 0.5, 0.7
+
+MobilityYaw = 1.82
+MobilityPitch = 0.82
+MobilityRoll = 7

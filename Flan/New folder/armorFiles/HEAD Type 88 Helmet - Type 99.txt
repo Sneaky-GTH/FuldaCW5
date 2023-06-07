@@ -1,0 +1,10 @@
+Name GK80 Steel Helmet - Type 99 Woodland
+ShortName gk80woodland
+Icon CN
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.China90sHelmet
+ArmourTexture SkinGK80Helmet90s
+Description Tier 4_Chinese Combat Helmet_Year: 1990
+headArmor 120

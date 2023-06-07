@@ -1,0 +1,18 @@
+DisplayName = ARMAT [ARM]
+Type = ARM
+Power = 10
+Acceleration = 4.0
+Explosion = 9
+ExplosionBlock = 2
+Flaming = true
+Sight = MoveSight
+Delay = 0
+ModelBullet = agm88
+Sound = missile_2_snd
+Radius = 1200
+
+
+Round = 2
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

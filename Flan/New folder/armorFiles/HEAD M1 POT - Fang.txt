@@ -1,0 +1,10 @@
+Name M1 Pot Steel Helmet - Mark 1 Camouflage
+ShortName M1PotCloudsMk1Camo
+Icon IconJapan
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.JapaneseFangHelmet
+ArmourTexture SkinJapaneseFangUniform
+Description Tier 3.5_Japanese Combat Helmet_Year: 1988_Mk1 "Hokkaido" Camouflage
+headArmor 120

@@ -1,0 +1,13 @@
+Name Desert DPM British Army Uniform
+ShortName britbongDpmDesert
+Icon british1980desert
+Colour 255 255 255
+Type Chest
+Defence 0.3
+ArmourTexture SkinBritishPattern84
+Model NewArmor.BritishArmyDPM
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+Description Tier 3.5_British Battle Dress_Year: 1989_Desert DPM

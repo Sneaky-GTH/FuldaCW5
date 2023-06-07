@@ -1,0 +1,14 @@
+Name NVA Felddienstuniform (Grey)
+ShortName eastGermoidGrey
+Icon GERDDRGreu
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.EastGermanGray
+ArmourTexture SkinEastGermanGray
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 2_East German Battle Dress_Year: 1950s_Grey

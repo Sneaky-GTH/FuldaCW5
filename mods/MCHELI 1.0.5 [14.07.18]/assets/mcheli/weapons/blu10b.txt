@@ -1,0 +1,18 @@
+DisplayName = BLU-10/B
+Type = Bomb
+Power = 75
+Acceleration = 0.1
+Explosion = 12
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 5
+Sound = bomb_snd
+ModelBullet = blu10b
+
+ReloadTime = 150
+Round = 6
+
+MaxAmmo = 12
+SuppliedNum = 6
+Item =  6, hbm:item.warhead_generic_small

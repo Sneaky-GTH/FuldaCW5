@@ -1,0 +1,15 @@
+DisplayName = FAB-250
+Type = Bomb
+Power = 45
+Acceleration = 0.1
+Explosion = 24
+ExplosionBlock = 8
+Flaming = true
+Sight = None
+Delay = 0
+ModelBullet = cbu87
+Sound = bomb_snd
+ReloadTime = 100
+MaxAmmo = 10
+SuppliedNum = 5
+Item =  5, hbm:item.warhead_generic_medium

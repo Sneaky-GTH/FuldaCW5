@@ -1,0 +1,16 @@
+Name Ranger Body Armor 
+ShortName rba
+Icon US
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.RBA
+ArmourTexture SkinRBA
+
+KnockbackModifier 0.8
+bodyArmor 250
+backArmor 100
+MoveSpeedModifier 0.85
+Durability 50
+ModelScale 1.05
+Description Tier 3.5_American Body Armour_Year: 1989_U.S Woodland

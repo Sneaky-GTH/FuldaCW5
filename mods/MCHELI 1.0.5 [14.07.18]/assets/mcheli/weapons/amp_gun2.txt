@@ -1,0 +1,20 @@
+DisplayName = RifleGun2
+Type = MachineGun2
+Power = 45
+Acceleration = 7
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 5
+SoundVolume = 0.9
+SoundPitch = 1.0
+Accuracy = 0.0
+HeatCount = 15
+MaxHeatCount = 150
+ModeNum = 2
+Sound = cannon_1_snd
+
+MaxAmmo = 300
+SuppliedNum = 60
+Item =  3, iron_ingot
+Item =  3, gunpowder

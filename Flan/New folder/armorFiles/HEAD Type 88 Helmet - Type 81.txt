@@ -1,0 +1,11 @@
+Name GK80 Steel Helmet
+ShortName gk80
+Icon CN
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.China80sHelmet
+ArmourTexture SkinGK80
+
+Description Tier 2.5_Chinese Combat Helmet_Year: 1966(In elite units)
+headArmor 120

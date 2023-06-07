@@ -1,0 +1,19 @@
+DrawTexture = config, -width/2, -height/2,  width, height, 0, 0, 330,200
+	
+DrawTexture = vehicle_hud, -128, -128,  256,256,  0,0, 128,128
+	
+Color = 0x80FFFFFF
+DrawLine = -128,    0,   128, 0
+DrawLine = 0, -128,      0, 128
+
+
+Color = 0xFFDF0408
+DrawEnemyRadar  = 90, 0, 0,  256,256
+;DrawEnemyRadar  = -yaw-180, 144, 21,  64,64
+	;DrawTexture = vehicle_hud, -128, -128,  32,64  128,0, 32,128, radar_rot
+	;DrawTexture = vehicle_hud, 144+16, 21,  32,64,  128,0, 64,128, radar_rot
+
+	
+If = tdcmode == 0
+	DrawTexture = cursor, tdcx, tdcy,  8,8,  0,0, 28,25
+EndIf

@@ -1,0 +1,30 @@
+﻿DisplayName = BQM-74E CHUKAR III(Target drone)
+AddDisplayName = en_US, Target Drone
+ItemID = 28736
+MaxHp = 10
+Speed = 1.2
+Sound = fighter_jet
+onGroundPitch = 20
+UAV = true
+TargetDrone = true
+AutoPilotRot = -1.0
+ThrottleUpDown = 20.0
+MaxFuel         = 180
+FuelConsumption = 1.0
+Stealth = 1.5
+
+; M = Military(軍用機).  Q = Drone(無人航空機)
+Category = A.Q
+
+ParticlesScale = 2.5
+AddPartNozzle = 0.00, 0.02, -1.59, -1,0,0
+
+
+BoundingBox =  0.0, 1.2, 0.0,  5.0, 2.5
+
+ArmorDamageFactor = 0
+;Rear
+ArmorMaxDamage = 0
+ ;Front
+ArmorMinDamage = 0
+ ;Side

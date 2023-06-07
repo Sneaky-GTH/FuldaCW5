@@ -1,0 +1,10 @@
+Name Generic Turban - White
+ShortName genericturban
+Icon persianHat
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinTurban
+Model NewAge.GenericTurban
+Description Tier -3_Middle Eastern Headwear_Years: No Idea
+headArmor 10

@@ -1,0 +1,15 @@
+Name Egyptian Army Uniform (1967)
+ShortName egypt67
+Icon EGT
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.Egypt1967
+ArmourTexture SkinEgypt1967
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+Description Tier 2.5_Egyptian Battle Dress Uniform_Year: 1967
+ModelScale 1.05

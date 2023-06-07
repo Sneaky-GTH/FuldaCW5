@@ -1,0 +1,18 @@
+DisplayName = AGM-158 JASSM [Cruise]
+Type = ASMissile
+Power = 0
+Acceleration = 5.0
+Explosion = 15
+ExplosionBlock = 7
+Sight = MoveSight
+Delay = 20
+ModeNum = 2
+ModelBullet = agm158
+Sound = missile_1_snd
+DisableSmoke = true
+ProximityFuse = 10
+Radius = 1000
+
+MaxAmmo = 20
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

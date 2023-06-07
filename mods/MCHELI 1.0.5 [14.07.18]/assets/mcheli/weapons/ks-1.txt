@@ -1,0 +1,16 @@
+DisplayName = KS-1 Komet
+Type = ASMissile
+Power = 65
+Acceleration = 4.0
+Explosion = 30
+ExplosionBlock 16
+Flaming = true
+Sight = MoveSight
+Delay = 2
+Sound = missile_2_snd
+Radius = 450
+MaxAmmo = 2
+SuppliedNum = 1
+ModelBullet = mig-15
+Item =  3, hbm:item.warhead_generic_small
+Item =  1, mcheli:mig-15

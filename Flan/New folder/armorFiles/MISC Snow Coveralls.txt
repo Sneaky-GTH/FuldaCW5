@@ -1,0 +1,15 @@
+Name Generic Winter Uniform
+ShortName winterClothes
+Icon IconWinterClothes
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.USArmyBDUBody
+ArmourTexture SkinGenericSnowCamo
+MoveSpeedModifier 1.0
+KnockbackModifier 0.0
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+
+Description Tier 2_Generic Cold Weather Combat Uniform Printed In White

@@ -1,0 +1,13 @@
+Name USMC Frogskin Uniform (Coastal)
+ShortName frogskinUSMCArid
+Icon US
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.USMCFrogskinBody
+ArmourTexture SkinUSMCFrogskinArid
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 1_American Battle Dress_Year: 1942_Frogskin Coastal
+bodyArmor 10
+armArmor 10

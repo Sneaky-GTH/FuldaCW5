@@ -1,0 +1,21 @@
+DisplayName = villager missile
+Type = Rocket
+Power = 35
+ModelBullet = villagerm
+Acceleration = 4.0
+Explosion = 8
+Sound = villager
+Flaming = false
+Sight = MoveSight
+Delay = 7
+ReloadTime = 1
+Round = 19
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 5
+SuppliedNum =5
+Item =  3, iron_ingot
+Item =  3, gunpowder

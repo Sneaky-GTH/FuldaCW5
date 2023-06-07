@@ -1,0 +1,12 @@
+DisplayName = SirenShort
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = true
+Sight = None
+Delay = 20
+ModelBullet = 0_none
+Particle = none
+Sound = jppsirensht_snd
+SoundVolume = 5.0
+SoundPitchRandom = 0

@@ -1,0 +1,15 @@
+Name Variable Body Armor
+ShortName vba
+Icon US
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.usaVBAVest
+ArmourTexture SkinVBA
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 200
+backArmor 200
+ModelScale 1.05
+Durability 50
+Description Tier 2.5_American Body Armour_Year: 1968_ERDL Highland

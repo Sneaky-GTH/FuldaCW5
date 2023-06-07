@@ -1,0 +1,13 @@
+Name 60s British Army Uniform
+ShortName britbong60s
+Icon british1960
+Colour 255 255 255
+Type Chest
+Defence 0.3
+ArmourTexture SkinBritishPattern60
+Model NewArmor.BritishArmy60s
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+Description Tier 2_British Battle Dress_Year: 1950s_OD

@@ -1,0 +1,14 @@
+DisplayName = 1.2mt Nuclear Bomb
+Type = Nuke
+Power = 104
+Acceleration = 0.1
+Sight = None
+Sound = bomb_snd
+Delay = 60
+SoundVolume = 8
+Gravity = -0.1
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item = hbm:item.gun_fatman_ammo
+DispenseItem = hbm:item.grenade_nuclear

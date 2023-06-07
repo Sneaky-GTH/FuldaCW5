@@ -1,0 +1,14 @@
+Name US Army Jungle Fatigues (ERDL)
+ShortName us70sERDL
+Icon USERDL
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.ERDLUniform
+ArmourTexture SkinERDL
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 2.5_American Battle Dress_Year: 1968_ERDL
+bodyArmor 10
+armArmor 10
+ModelScale 1.05

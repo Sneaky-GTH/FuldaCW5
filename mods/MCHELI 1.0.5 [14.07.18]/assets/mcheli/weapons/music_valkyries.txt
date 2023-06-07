@@ -1,0 +1,12 @@
+DisplayName = Ride of the Valkyries
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = true
+Sight = None
+Delay = 80
+ModelBullet = 0_none
+Particle = none
+Sound = music_valkyries
+SoundVolume = 5.0
+SoundPitchRandom = 0

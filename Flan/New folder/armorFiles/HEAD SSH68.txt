@@ -1,0 +1,10 @@
+Name SSH-68 Steel Helmet
+ShortName SSH68
+Icon USSR
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.SSH68
+ArmourTexture SkinSSH68
+Description Soviet Combat Helmet_Year: 1968
+headArmor 120

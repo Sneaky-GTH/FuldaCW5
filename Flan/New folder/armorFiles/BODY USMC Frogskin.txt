@@ -1,0 +1,13 @@
+Name USMC Frogskin Uniform
+ShortName frogskinUSMC
+Icon US
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.USMCFrogskinBody
+ArmourTexture SkinUSMCFrogskin
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 1_American Battle Dress_Year: 1942_Frogskin
+bodyArmor 10
+armArmor 10

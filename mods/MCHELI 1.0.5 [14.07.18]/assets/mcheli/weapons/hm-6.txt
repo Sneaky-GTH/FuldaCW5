@@ -1,0 +1,21 @@
+DisplayName = HM-6 Concussion Missile [AG]
+Type = TVMissile
+Power = 80
+Acceleration = 3.5
+Explosion = 6
+Flaming = true
+Sight = MoveSight
+Delay = 20
+ReloadTime = 100
+Round = 6
+ModeNum = 2
+ModelBullet = mg7
+Sound = missile_3_snd
+
+DamageFactor = tank, 2.5
+
+MaxAmmo = 12
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

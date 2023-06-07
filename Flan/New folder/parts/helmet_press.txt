@@ -1,0 +1,9 @@
+Name Helmet Die
+ShortName 44_Helmet_Die
+Icon helmet_press
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 25279
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 64

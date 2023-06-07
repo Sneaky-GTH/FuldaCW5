@@ -1,0 +1,29 @@
+DisplayName = 10.5 cm KwK 45 L/52 Ausf. B
+Type = MachineGun2
+Power = 70
+ModelBullet = bullet76mm
+Acceleration = 11.0
+Explosion = 5
+ExplosionBlock = 5
+Flaming = false
+Sight = MoveSight
+ModeNum = 2
+SoundVolume = 0.6
+SoundPitch = 0.6
+Sound = cannon_1_snd
+Recoil = 2.0
+
+
+Delay = 1
+ReloadTime = 140
+Round = 1
+
+MaxAmmo = 48
+SuppliedNum = 24
+Item =  2, iron_ingot
+Item =  4, gunpowder
+
+AddMuzzleFlash = 7.0, 1.0, 6, 220, 240,140,0
+AddMuzzleFlashSmoke = 7.0, 10, 4.0,  3.0,  65,  220,140,140,140
+
+RecoilBufCount = 20, 5

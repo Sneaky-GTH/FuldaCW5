@@ -1,0 +1,10 @@
+Name Syrian Kepi - M81 Woodland
+ShortName kepisyria
+Icon SYR
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.SyrianModernKepi
+ArmourTexture SkinSyriaModern
+Description Tier 4_Syrian Patrol Cap_Year: 1990s_US Woodland
+headArmor 10

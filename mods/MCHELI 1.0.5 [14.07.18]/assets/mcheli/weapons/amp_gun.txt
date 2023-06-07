@@ -1,0 +1,23 @@
+DisplayName = RifleGun
+Type = MachineGun2
+Power = 25
+Acceleration = 10.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 0.8
+SoundPitch = 1.0
+Accuracy = 0.0
+HeatCount = 3
+MaxHeatCount = 250
+ModeNum = 2
+Sound = gun_h3_snd
+
+; SetCartridge = model_name, Acceleration, Yaw, Pitch, ModelScale, Gravity, Bound
+SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
+
+MaxAmmo = 1500
+SuppliedNum = 300
+Item =  2, iron_ingot
+Item =  2, gunpowder

@@ -1,0 +1,20 @@
+DisplayName = Pontiac M39
+Type = MachineGun2
+ModelBullet = bullet
+Power = 12
+Acceleration = 7.8
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+SoundDelay = 3
+SoundPitch = 0.7
+Accuracy = 3.0
+HeatCount = 1
+MaxHeatCount = 150
+Sound = gun_l1_snd
+
+MaxAmmo = 800
+SuppliedNum = 400
+Item =  3, iron_ingot
+Item =  3, gunpowder

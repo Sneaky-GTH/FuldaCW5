@@ -1,0 +1,12 @@
+DisplayName = 100kt Nuclear Bomb
+Type = Nuke
+Power = 50
+Acceleration = 0.1
+Sight = None
+Sound = bomb_snd
+Delay = 60
+SoundVolume = 8
+Gravity = -0.06
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 1, hbm:item.warhead_generic_small

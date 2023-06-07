@@ -1,0 +1,11 @@
+Name Bosnian Helmet
+ShortName bosniahelm
+ItemID 31257
+Icon BOS
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinBosniaHelm1960
+Model invalid.yugo1960sbosniahelm
+Description Tier 2_Bosnian Steel Helmet_Years: 1959
+headArmor 120

@@ -1,0 +1,17 @@
+DisplayName = 30 mm MK 108 cannon
+Type = MachineGun1
+Power = 9
+Acceleration = 8.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 1
+HeatCount = 6
+MaxHeatCount = 150
+SoundPitch = 0.9
+SetCartridge = cartridge, 0.1,  90, 0, 1.50, -0.04, 0.40
+Sound = gun_l1_snd
+
+MaxAmmo = 360
+SuppliedNum = 360
+Item =  36, hbm:item.turret_heavy_ammo

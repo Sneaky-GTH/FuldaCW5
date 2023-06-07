@@ -10,7 +10,6 @@ saves/
 schematics/
 shaderpacks/
 minetweaker.log
-*.txt
 *.log
 usernamecache.json
 .mixin.out/

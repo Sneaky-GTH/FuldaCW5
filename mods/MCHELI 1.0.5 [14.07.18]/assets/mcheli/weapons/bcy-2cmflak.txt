@@ -1,0 +1,24 @@
+DisplayName = 2 cm Flak 38
+Type = MachineGun2
+Power = 9
+ModelBullet = bullet76mm
+Acceleration = 12.0
+Explosion = 3
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+ModeNum = 1
+SoundVolume = 0.6
+Sound = cannon_1_snd
+Accuracy = 1
+
+Delay = 4
+ReloadTime = 60
+Round = 20
+TimeFuse = 10
+
+MaxAmmo = 340
+SuppliedNum = 170
+Item =  2, iron_ingot
+Item =  3, gunpowder
+

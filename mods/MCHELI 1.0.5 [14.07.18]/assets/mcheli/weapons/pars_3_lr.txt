@@ -1,0 +1,18 @@
+DisplayName = HOT 2 [ATGM]
+Type = TVMissile
+Power = 25
+Acceleration = 4.0
+Explosion = 2
+Flaming = false
+Sight = MissileSight 
+Delay = 30
+LockTime = 25
+ModeNum = 2
+Round = 8
+ReloadTime = 120
+Sound = missile_1_snd
+RidableOnly = true
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

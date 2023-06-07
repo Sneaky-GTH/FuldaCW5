@@ -1,0 +1,15 @@
+Name Korean Combat Vest Mk1
+ShortName fragVestSORK
+Icon IconROK
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.ROK90sVest
+ArmourTexture SkinROK90
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+backArmor 100
+Durability 55
+ModelScale 1.05
+Description Tier 4_Korean Flak Jacket_Year: 1990_Korean Woodland

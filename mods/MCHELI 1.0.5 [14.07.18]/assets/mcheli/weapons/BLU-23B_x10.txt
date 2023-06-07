@@ -1,0 +1,21 @@
+DisplayName = Mk47 Napalm Bomb
+Type = Dispenser
+Power = 40
+Acceleration = 0.1
+Explosion = 10
+ExplosionBlock = 0
+FAE = true
+Flaming = true
+Sight = MoveSight
+Delay = 5
+ModelBullet = cbu87
+Sound = bomb_snd
+DisableSmoke = true
+
+MaxAmmo = 10
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  5, gunpowder
+
+DispenseItem=flint_and_steel
+DispenseRange = 15

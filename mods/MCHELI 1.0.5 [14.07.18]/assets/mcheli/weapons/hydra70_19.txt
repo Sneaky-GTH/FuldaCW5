@@ -1,0 +1,16 @@
+DisplayName = M229 Hydra 70mm Rocket
+Type = Rocket
+Power = 35
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 1
+Flaming = false
+Sound = rocket_snd
+Sight = MoveSight
+Delay = 3
+ReloadTime = 110
+Round = 38
+
+MaxAmmo = 38
+SuppliedNum = 19
+Item =  19, hbm:item.gun_rpg_ammo

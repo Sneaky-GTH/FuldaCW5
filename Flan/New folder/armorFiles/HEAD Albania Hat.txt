@@ -1,0 +1,10 @@
+Name Albanian Field Cap
+ShortName albHat
+Icon albania
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.AlbaniaHead
+ArmourTexture SkinAlbania
+Description Tier 3_Albanian Field Cap_Year: 1970s_Olive Drab
+headArmor 10

@@ -1,0 +1,10 @@
+Name M1 Pot Steel Helmet - Iran
+ShortName M1PotIran
+Icon M1PotIran
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.M1PotElite
+ArmourTexture SkinM1PotEliteIran
+Description Tier 3.5_American Combat Helmet_Year: 1941American/Iranian Combat Helmet_Year: 1980
+headArmor 120

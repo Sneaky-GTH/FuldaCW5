@@ -1,0 +1,20 @@
+DisplayName = HJ-10 [AT]
+Type = TVMissile
+Power = 25
+Acceleration = 4.0
+Explosion = 0
+Flaming = true
+Sight = MissileSight 
+Delay = 35
+LockTime = 15
+ModeNum = 35
+ProximityFuseDist = 1
+ModelBullet = HJ10
+Sound = missile_1_snd
+RidableOnly = true
+FixMode = 2
+DamageFactor = tank, 2.0
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, hbm:item.gun_stinger_ammo

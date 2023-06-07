@@ -1,0 +1,188 @@
+DisplayName = F-4 Phantom II.0 (New Cockpit)
+AddDisplayName = ja_JP, F-4 ファントムⅡ
+ItemID = 28734
+MaxHp = 250
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.56
+FlareType = 3
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1200
+FuelConsumption = 1.0
+AutoPilotRot = 50
+CameraZoom = 2
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+onGroundPitch = -2.0
+ThirdPersonDist = 50
+MotionFactor = 0.965
+ThrottleUpDown = 0.8
+EntityWidth  = 0.8
+EntityHeight  = 0.8
+VariableSweepWing = true
+SweepWingSpeed = 2.0
+
+
+mass = 5046
+wingArea = 29.12
+RadarPower=5000
+RadarMax = 60
+
+Sound = fighter_jet
+
+AddPartWing =  -2.18, 2.13, -5.14,  0,-1,0, 40
+AddPartWing =   2.18, 2.13, -5.14,  0, 1,0, 40
+AddTexture = f4camo
+AddTexture = f4camo1
+AddTexture = f4camo2
+AddTexture = f4camo3
+AddTexture = f4uk1
+AddTexture = f4uk2
+AddTexture = f4uk3
+AddTexture = f4uk4
+AddTexture = f4luftwaffe1
+AddTexture = f4luftwaffe2
+AddTexture = f4luftwaffe3
+AddTexture = f4idf
+AddTexture = f4idf1
+AddTexture = f4idf2
+AddTexture = f4japan1
+AddTexture = f4japan2
+AddTexture = f4japan3
+AddTexture = f4rok1
+AddTexture = f4sp1
+AddTexture = f4ir1
+
+MobilityRoll = 2.0
+
+HUD = plane, plane_gnr
+
+AddSeat       = 0.00,  1.26, 0.0366  
+AddGunnerSeat = 0.00,  1.57, -1.43, 0.0, 0.31, -1.9862, true
+
+AddPartCanopy =  0.00, 2.8011, -0.6250,  1,0,0,  -50
+AddPartCanopy =  0.00, 2.8668, -2.0178,  1,0,0,  -50
+
+;AddPartNozzle =  0.73, 2.06, -13.29, -1,0,0
+;AddPartNozzle = -0.73, 2.06, -13.29, -1,0,0
+AddPartNozzle = 0.73, 1.14, -10.5, -1,0,0
+AddPartNozzle = -0.73, 1.14, -10.5, -1,0,0
+
+;Front
+AddPartLGRev    =  1.1681, 0.9541, -5.1359,  0,0,-1,  100
+AddPartLGRev    =  2.6182, 1.0752, -6.234,  0,0,1,  90, 0,-1,0, 30 
+AddPartLGRev    =  2.9837, 0.9714, -6.2985,  0,0.0053,-0.1292,  -90
+AddPartLGRev    =  0.3028, 0.8572, 0.7937,  0,0,1, 90
+AddPartLGRev    =  0.00, 0.8440, 1.1795,  1,0,0,  -90
+AddPartLGRev    =  -1.1681, 0.9541, -5.1359,  0,0,1,  100
+AddPartLGRev    =  -2.6182, 1.0752, -6.234,  0,0,-1,  90, 0,-1,0, -30 
+AddPartLGRev    =  -2.9837, 0.9714, -6.2985,  0,0.0053,-0.1292,  90
+AddPartLG    =  0.00, 0.991, 1.0106,  1,0,0,  110
+AddPartLG   = 2.561, 1.132, -6.315, 0,1,0, 30, 0,0,-1,90
+AddPartLG    =  -2.6182, 1.0752, -6.234, 0,-1,0,30, 0,0,1,90
+
+
+; 使用直後は非表示
+;AddPartWeaponMissile  = aim9,   false,  false,  false,   3.1296, 0.5352, -4.736
+;AddPartRotWeapon  = m61a1_gunpod,   false,  false,  false,   0.00, 0.5352, -4.7862
+;AddPartWeaponMissile  = aim9,   false,  false,  false,   -3.1296, 0.5352, -4.736
+;AddPartWeaponMissile = aim7_f,   false,  false,  false,    0.5343, 0.9202, 0.7853
+;AddPartWeaponMissile = aim7_f,   false,  false,  false,   -0.5343, 0.9202, 0.7853
+;AddPartWeaponMissile = aim7_f,   false,  false,  false,    1.1668, 0.9202, -5.3736
+;AddPartWeaponMissile = aim7_f,   false,  false,  false,   -1.1668, 0.9202, -5.3736
+;AddPartWeaponMissile = mk82,   false,  false,  false,   4.5457, 0.7549, -5.9708
+;AddPartWeaponMissile = mk82,   false,  false,  false,   -4.5457, 0.7549, -5.9708
+
+AddWeapon = m61a1_gunpod, 0.00, 0.5352, -4.7862,   0.0,-1.0
+
+;AddWeapon = agm65, -3.7296, 0.5352, -4.736,   -0.5,-1.0
+
+AddLoadout = Rockeye (Cluster Bombs)
+AddLoadout = GBU-12 (LGB)
+AddLoadout = 500lb Bombs
+AddLoadout = Air to Air
+
+;Inner wing pylons
+
+AddWeaponLoadout = aim9_x4,  2.9, 0.50, -3.9708,   0.0, 0.0, Air to Air
+AddWeaponLoadout = aim9_x4,  -2.9, 0.50, -3.9708,   0.0, 0.0, Air to Air
+
+AddWeaponLoadout = aim9_x4,  2.3, 0.5, -3.9708,   0.0, 0.0, Air to Air
+AddWeaponLoadout = aim9_x4,  -2.3, 0.5, -3.9708,   0.0, 0.0, Air to Air
+
+;After fuselage pylons
+AddWeaponLoadout = aim7_x4,  0.83, 0.75, -7.5,   0.0, 0.0, Air to Air
+AddWeaponLoadout = aim7_x4,  -0.83, 0.75, -7.5,   0.0, 0.0, Air to Air
+
+;Forward fuselage pylons
+AddWeaponLoadout = aim7_x4,  0.6, 0.75, -2.0,   0.0, 0.0, Air to Air
+AddWeaponLoadout = aim7_x4,  -0.6, 0.75, -2.0,   0.0, 0.0, Air to Air
+
+
+
+;Outer wing pylons
+AddWeaponLoadout = mk82_x18,  4.15, 0.7549, -5.0708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -4.15, 0.7549, -5.0708,   0.0, 0.0, 500lb Bombs
+
+AddWeaponLoadout = mk82_x18,  4.15, 0.7549, -7.5708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -4.15, 0.7549, -7.5708,   0.0, 0.0, 500lb Bombs
+
+AddWeaponLoadout = mk82_x18,  3.7, 0.5, -5.0708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -3.7, 0.5, -5.0708,   0.0, 0.0, 500lb Bombs
+
+AddWeaponLoadout = mk82_x18,  3.7, 0.5, -7.5708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -3.7, 0.5, -7.5708,   0.0, 0.0, 500lb Bombs
+
+AddWeaponLoadout = mk82_x18,  3.25, 0.7549, -5.0708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -3.25, 0.7549, -5.0708,   0.0, 0.0, 500lb Bombs
+
+AddWeaponLoadout = mk82_x18,  3.25, 0.7549, -7.5708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -3.25, 0.7549, -7.5708,   0.0, 0.0, 500lb Bombs
+
+
+;Inner wing pylons
+AddWeaponLoadout = mk82_x18,  3.05, 0.7549, -3.9708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -3.05, 0.7549, -3.9708,   0.0, 0.0, 500lb Bombs
+
+AddWeaponLoadout = mk82_x18,  2.6, 0.50, -3.9708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -2.6, 0.50, -3.9708,   0.0, 0.0, 500lb Bombs
+
+AddWeaponLoadout = mk82_x18,  2.15, 0.7549, -3.9708,   0.0, 0.0, 500lb Bombs
+AddWeaponLoadout = mk82_x18,  -2.15, 0.7549, -3.9708,   0.0, 0.0, 500lb Bombs
+
+
+
+AddWeaponLoadout = cbu-100,  2.5457, 0.7549, -3.9708,   0.0, 0.0, Rockeye (Cluster Bombs)
+AddWeaponLoadout = cbu-100, -2.5457, 0.7549, -3.9708,   0.0, 0.0, Rockeye (Cluster Bombs)
+
+
+AddWeaponLoadout = gbu-12,  2.5457, 0.7549, -3.9708,   0.0, 0.0, GBU-12 (LGB)
+AddWeaponLoadout = gbu-12, -2.5457, 0.7549, -3.9708,   0.0, 0.0, GBU-12 (LGB)
+AddWeaponLoadout = targeting_pod_block, -2.5457, 0.7549, -3.9708,   0.0, 0.0, GBU-12 (LGB)
+
+
+;AddWeapon = aim9, 3.7296, 0.5352, -4.736,   0.5,-1.0
+;AddWeapon = aim9, -3.7296, 0.5352, -4.736,   -0.5,-1.0
+;AddWeapon = aim7_f,    0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
+;AddWeapon = aim7_f,   -0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
+;AddWeapon = aim7_f,    1.1668, 0.9202, -5.3736,   0.0, 0.0,true, 2
+;AddWeapon = aim7_f,   -1.1668, 0.9202, -5.3736,  0.0, 0.0,true, 2
+;AddWeapon = mk82,  2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
+;AddWeapon = mk82, -2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
+
+BoundingBox =  0.00, 1.65,  0.00,   1.2, 1.5
+BoundingBox =  0.00, 1.80, -1.80,   1.8, 1.8
+BoundingBox =  0.00, 1.80, -3.80,   1.8, 1.8
+BoundingBox =  0.00, 1.80, -5.80,   1.8, 1.8
+BoundingBox =  0.00, 1.80, -7.80,   1.8, 1.8
+BoundingBox =  0.00, 1.80, -9.70,   1.5, 1.7
+BoundingBox =  0.00, 2.20, -11.6,   1.0, 1.0,  0.9
+
+BoundingBox =  2.23, 1.05, -6.70,   2.5, 0.3
+BoundingBox = -2.23, 1.05, -6.70,   2.5, 0.3
+BoundingBox =  1.72, 1.10, -4.50,   1.5, 0.3
+BoundingBox = -1.72, 1.10, -4.50,   1.5, 0.3
+BoundingBox =  4.30, 1.14, -7.75,   1.8, 0.2,  0.8
+BoundingBox = -4.30, 1.14, -7.75,   1.8, 0.2,  0.8

@@ -1,0 +1,24 @@
+DisplayName = 250kg sc250ja
+Type = ASMissile
+Power = 50
+Acceleration = 1.8
+Explosion = 7
+ExplosionBlock = 6
+Flaming = false
+Sight = MoveSight
+Delay = 1
+Round = 1
+ReloadTime = 200
+SoundVolume = 6
+SoundPitch = -0.2
+Sound = bomb
+ModelBullet = bomb
+Gravity = -0.01
+DisableSmoke = true
+Piercing  = 3
+
+MaxAmmo = 1
+SuppliedNum = 3
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

@@ -1,0 +1,60 @@
+////Name and icon
+Name Type 24 Stick Grenade
+ShortName 44_stielhandgranate
+Icon Stielhandgranate
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 1
+////Visuals
+Model W44.Stielhandgranate
+Texture Skin44_Stielhandgranate
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 3
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 30
+//ThrowSound <sound>
+ThrowSound GrenadeThrowModern
+//DropItemOnThrow <itemID.damage>
+////Physics
+ThrowSound GrenadeThrowModern
+DetonateOnImpact false
+Bounciness 0.1
+HitEntityDamage 1
+ThrowSpeed 3.0
+FallSpeed 1.0
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 80
+DetonateWhenShot false
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 2.5
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+//Detonate Sound <sound>
+////Misc
+MeleeDamage 4
+
+////Detonation
+FireRadius 0.0
+ExplosionRadius 3.0
+ExplosionDamageVsPlayer 2.10
+ExplosionDamageVsPlane 5.0
+ExplosionDamageVsVehicle 0.01
+
+Description Chinese/German Fragmentation Grenade_Chinese Model_4.5 Second Fuse_2.5 Meter Kill radius

@@ -1,0 +1,16 @@
+DisplayName = Villager Air to Surface Missile
+Type = ASMissile
+Power = 50
+Acceleration = 4.0
+Explosion = 10
+Flaming = true
+Sight = MoveSight
+Delay = 50
+ModelBullet = villagerm
+Sound = missile_2_snd
+
+MaxAmmo = 2
+SuppliedNum = 8
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

@@ -1,0 +1,17 @@
+DisplayName = HJ-73 [ATGM]
+Type = TVMissile
+Power = 20
+Acceleration = 2.0
+Explosion = 0
+Flaming = true
+Sight = MoveSight
+Delay = 180
+ModelBullet = 9M113
+Sound = missile_2_snd
+Group = MainGun
+Round = 2
+DamageFactor = tank, 1.2
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

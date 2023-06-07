@@ -1,0 +1,19 @@
+﻿DisplayName = Vikhr [ATGM]
+Type = TVMissile
+Power = 26
+Acceleration = 6
+Explosion = 0
+Flaming = false
+Sight = None
+Delay =30
+ModeNum = 2
+
+SoundVolume = 10.0
+Sound = missile_15_snd
+Rounds = 16
+
+DisableSmoke = true
+ModelBullet = vikhr
+MaxAmmo = 16
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

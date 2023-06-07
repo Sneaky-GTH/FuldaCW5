@@ -1,0 +1,20 @@
+﻿DisplayName = SPG-9
+AddDisplayName = ja_JP, SPG-9
+ItemID = 28602
+MaxHp = 200
+HideEntity = true
+MinRotationPitch = -7
+MaxRotationPitch =  3
+DamageFactor = 0.1
+CameraZoom = 4
+CameraPosition = 0.0, 2.27, 0.0
+
+; M = Military,  A = AAGun(対空砲)
+Category = M.A
+
+HUD = vehicle
+
+AddSeat = 0.00,  1.37, 0.00
+
+; AddPart = DrawFirstPerson[T/F], RotationYaw[T/F], RotationPitch[T/F], PartType[0~], PoxX, PoxY, Pox
+

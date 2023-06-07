@@ -1,0 +1,22 @@
+DisplayName = M242 25mm cannon
+Type = MachineGun1
+Power = 3
+ModelBullet = bullet
+Acceleration = 5.0
+Explosion = 1
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Delay = 6
+HeatCount = 50
+MaxHeatCount = 900
+ReloadTime = 30
+Sound =cannon_5_snd
+SoundVolume = 3
+;gun_h1_snd
+;cannon_5_snd
+MaxAmmo = 500
+SuppliedNum = 80
+Item =  8, hbm:item.casing_50
+
+DamageFactor = player,50

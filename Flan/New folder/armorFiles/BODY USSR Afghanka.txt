@@ -1,0 +1,14 @@
+Name Obr.88 "Afghanka" 
+ShortName USSRafghanka
+Icon RUAfghanka
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.SovietAfghankaBody
+ArmourTexture SkinSovietAfghanka
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+Description Tier 3.5_Soviet Battle Dress_Year: 1988_Khaki

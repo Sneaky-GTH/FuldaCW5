@@ -1,0 +1,14 @@
+DisplayName = 300kt Nuclear Bomb
+Type = Nuke
+Power = 78
+Acceleration = 1.0
+Gravity = -0.02905
+Sight = None
+Sound = bomb_snd
+Delay = 60
+SoundVolume = 8
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item = 1, hbm:item.warhead_generic_large
+DispenseItem = hbm:item.grenade_nuclear

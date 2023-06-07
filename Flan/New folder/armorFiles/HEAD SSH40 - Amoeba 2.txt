@@ -1,0 +1,10 @@
+Name SSH-40 Steel Helmet (Amoeba Autum Cover)
+ShortName SSH68amoeba2
+Icon USSR
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.SSH40
+ArmourTexture SkinSSH40AmoebaAutum
+Description Tier 1_Soviet Combat Helmet_Year: 1940_No Helmet Cover
+headArmor 120

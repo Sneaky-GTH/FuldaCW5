@@ -1,0 +1,11 @@
+Name Altyn
+ShortName altyn
+Icon USSR
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.Altyn
+ArmourTexture SkinAtlyn
+Description Tier 3.5_Soviet Titanium Helmet_Year: 1984_Olive Drab
+headArmor 200
+faceArmor 125

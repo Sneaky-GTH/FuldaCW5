@@ -1,0 +1,21 @@
+DisplayName = S-53 85mm [HE]
+Type = MachineGun1
+Power = 0
+Acceleration = 8.0
+Explosion = 4
+ExplosionBlock = 3
+Sight = None
+ReloadTime = 160
+Round = 1
+Delay = 200
+SoundVolume = 6.0
+Accuracy = 6.0
+ModeNum = 2
+Gravity = -0.03
+Particle = largeexplode
+Sound = ww2tankshot_snd
+
+
+MaxAmmo = 50
+SuppliedNum = 10
+Item =  10, hbm:item.turret_spitfire_ammo

@@ -1,0 +1,22 @@
+DisplayName = 7.92mm MG34-CMG
+Type = MachineGun1
+Power = 8
+Acceleration = 8.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+ReloadTime = 80
+Round = 1000
+SoundVolume = 0.6
+HeatCount = 3
+MaxHeatCount = 90
+Sound = gun_h2_snd
+Accuracy = 1.0
+
+MaxAmmo = 1000
+SuppliedNum = 100
+Item =  1, iron_ingot
+Item =  1, gunpowder
+
+

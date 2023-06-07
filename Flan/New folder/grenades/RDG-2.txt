@@ -1,0 +1,55 @@
+////Name and icon
+Name RDG-2
+ShortName rdg2
+Icon RDG2
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+StackSize 1
+////Visuals
+Model NewAge.RDG2
+Texture SkinRDG2
+smokerino true
+TrailParticles false
+TrailParticleType flansmod.fmsmoke
+ExplodeParticles 5
+ExplodeParticleType flansmod.Smoker1
+SmokeTime 250
+SmokeRadius 5
+SmokeParticleType flansmod.Smoker1
+SmokeEffect 15 25 0
+SmokeEffect 2 25 2
+SpinWhenThrown true
+////Throwing
+ThrowDelay 30
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.25
+HitEntityDamage 1
+ThrowSpeed 2.9
+FallSpeed 1.0
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 80
+DetonateWhenShot false
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 0.0
+ExplosionBreaksBlocks true
+//DropItemOnDetonate <itemID.damage>
+//Detonate Sound <sound>
+////Misc
+MeleeDamage 4
+
+Description Soviet Smoke Grenade_Entered Service 1943_4 Second Fuse

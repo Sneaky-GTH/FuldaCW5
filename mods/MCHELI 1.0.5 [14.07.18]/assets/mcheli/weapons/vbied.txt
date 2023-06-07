@@ -1,0 +1,14 @@
+DisplayName = VBIED
+Type = Bomb
+Power = 1
+Acceleration = 0.0
+Gravity=-1
+Explosion = 15
+ExplosionBlock = 8
+Flaming = true
+Sight = None
+Delay = 0
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, hbm:item.warhead_generic_small

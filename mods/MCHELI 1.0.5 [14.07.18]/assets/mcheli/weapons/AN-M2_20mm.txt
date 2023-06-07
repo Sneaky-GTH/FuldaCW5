@@ -1,0 +1,18 @@
+DisplayName = AN-M2 20mm Machine gun
+Type = MachineGun1
+Power = 16
+Acceleration = 8.0
+Explosion = 1
+Explosionblock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 10
+HeatCount = 1
+MaxHeatCount = 100
+Sound = gun_h2_snd
+ReloadTime = 100
+MaxAmmo = 800
+SuppliedNum = 200
+Item =  200, hbm:item.casing_9
+

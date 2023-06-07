@@ -1,0 +1,39 @@
+
+; パイロット共通描画呼び出し
+Call = common_pilot
+
+; レーダーを持つ機体の場合
+If = have_radar==1
+	;Call = radar_old
+	Call = radar_new
+EndIf
+
+If = have_esm==1
+	Color = 0xFF28d448
+	DrawTexture = rwr, -144-64, 15,  64,64,  0,0, 328,328
+	RWR  = -90, -144-32, 15+32,  64,64	
+EndIf
+
+;DrawTexture = rwr_tunguska, 85, 32,  16,16,  0,0, 787,777
+
+
+;DrawLine = -2, 2, 0, 0, 2, 2
+
+
+;DrawTexture = esm, -220, -150,  64,64,  0,0, 229,229
+
+;If = tdcmode == 1
+;	DrawTexture = arrow, -190, -148,  5,60,  0,0, 10,200,tdcx
+;EndIf
+
+;DrawTexture = esm5, -190, -142,  5,50,  0,0, 10,200,73
+
+
+
+
+
+If = vtol_stat>0
+	; VTOL切替中は赤、VTOL中は緑
+	Color = vtol_stat==2? 0xFF28d448: 0xFFDF0408
+	DrawString = 50, 10, "VTOL"
+EndIf

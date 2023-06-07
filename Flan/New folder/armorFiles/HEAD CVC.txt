@@ -1,0 +1,10 @@
+Name Combat Vehicle Crewman's Helmet
+ShortName muricaTankHelmetMW
+Icon US
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+Model NewAge.CVCHelmet
+ArmourTexture SkinCVC
+Description Tier 2.5_American Tanker Helmet_Given to most of NATO_Year: 1966_Green Color
+headArmor 120

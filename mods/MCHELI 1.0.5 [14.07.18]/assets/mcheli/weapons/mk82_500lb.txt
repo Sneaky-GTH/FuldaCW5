@@ -1,0 +1,16 @@
+DisplayName = Mk82 500lb Bomb
+Type = Bomb
+Power = 50
+Acceleration = 0.1
+Explosion = 16
+ExplosionBlock = 4
+Flaming = false
+Sight = None
+Delay = 5
+ModelBullet = cbu87
+Sound = bomb_snd
+ReloadTime = 100
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.warhead_generic_small
+

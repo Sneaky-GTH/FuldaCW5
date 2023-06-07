@@ -1,0 +1,15 @@
+Name US Army Desert Combat Uniform (1991)
+ShortName DCUBDU
+Icon US
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.USArmyBDUBody
+ArmourTexture SkinUSBDU3Color
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+Description Tier 4_US Battle Dress Uniform_Year: 1991_US Desert Combat Uniform
+ModelScale 1.05

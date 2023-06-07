@@ -1,0 +1,76 @@
+﻿DisplayName = T-80u MBT
+AddDisplayName = ja_JP, T-80U 
+MaxHp = 370
+Speed = 0.27
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = true
+CameraRotationSpeed = 30
+StepHeight = 1.7
+MinRotationPitch = -14
+MaxRotationPitch = 5
+DefaultFreelook = true
+HideEntity = true
+FlareType = 10
+
+category = fr.1
+
+CameraPosition = 0.00,  2.2, 0.00, true
+CameraZoom = 2
+
+MobilityYawOnGround = 3.0
+
+HUD = m48hud
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.99,  -0.24,  3.63, 2.38, 1.03,  -1.07, -2.52
+
+AddGunnerSeat = 0.00,  0.00, 0.00
+
+AddCrawlerTrack = true, 0.13, -2.40,  -0.30/2.0, -0.17/2.7, 0.43/3.35, 0.8/3.35, 0.45/-1.1, 0.35/-1.1, 0.3/-1.2, -0.31/-0.8
+
+AddCrawlerTrack = true, 0.13, -2.40,  -0.30/2.0, -0.17/2.7, 0.43/3.35, 0.8/3.35, 0.45/-1.1, 0.35/-1.1, 0.3/-1.2, -0.31/-0.8
+
+
+AddWeapon = 90mm_AP,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = 90mm_HE,  0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddWeapon = mg_coaxial,      0.00, 1.61, 0.44,  0.0, 0.0, true,1, 0,-360,360, -14, 5
+AddPartWeapon = 90mm_AP / 90mm_HE, false, true, false,  0.00, 1.58, 0.44, 0
+AddPartWeaponChild = false, true, 0.00, 1.60, 0.81
+EnableBack = true
+
+MotionFactor = 0.9
+
+
+ArmorDamageFactor = 1
+;Rear
+ArmorMaxDamage = 3
+ ;Front
+ArmorMinDamage = 2
+ ;Side
+
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+
+BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.75
+BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.25

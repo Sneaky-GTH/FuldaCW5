@@ -1,0 +1,10 @@
+Name Balaklava
+ShortName balaklava
+ItemID 23885
+Icon Balaklava1
+Colour 255 255 255
+Type Hat
+Defence 0.05
+MoveSpeedModifier 0.99
+Model EFC.balaklava
+ArmourTexture Balaklava

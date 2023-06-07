@@ -1,0 +1,22 @@
+DisplayName = 1000lb bomb
+Type = Bomb
+Power = 0
+ModelBullet = 1000lbBomb
+Acceleration = 0.1
+Explosion = 24
+ExplosionBlock = 12
+ExplosionInWater = 3
+Flaming = false
+Sight = None
+Round = 1
+ReloadTime = 150
+Sound = bomb_snd
+
+DamageFactor = tank, 5.0
+DamageFactor = plane, 5.0
+DamageFactor = helicopter, 5.0
+
+MaxAmmo = 1
+SuppliedNum = 1
+
+Item = 1, hbm:item.warhead_generic_medium

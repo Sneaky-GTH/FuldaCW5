@@ -1,0 +1,22 @@
+DisplayName = GBU-24 Paveway III [LGB]
+Type = ASMissile
+Power = 0
+Acceleration = 1.7
+Explosion = 20
+ExplosionBlock = 10
+Flaming = true
+Sight = MoveSight
+Delay = 8
+Round = 6
+ReloadTime = 90
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu28
+Gravity = -0.01
+DisableSmoke = true
+Piercing  = 1
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.warhead_generic_large

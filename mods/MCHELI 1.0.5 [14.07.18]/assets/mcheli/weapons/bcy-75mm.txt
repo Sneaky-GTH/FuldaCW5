@@ -1,0 +1,27 @@
+DisplayName = 7.5 cm KwK 42 L/70
+Type = MachineGun2
+Power = 32
+ModelBullet = bullet76mm
+Acceleration = 18.0
+Explosion = 2
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+ModeNum = 2
+SoundVolume = 0.6
+Sound = cannon_1_snd
+Recoil = 1.0
+
+
+Delay = 1
+ReloadTime = 80
+Round = 1
+
+MaxAmmo = 80
+SuppliedNum = 20
+Item =  20, hbm:item.turret_spitfire_ammo
+
+AddMuzzleFlash = 8.2, 1.0, 6, 220, 240,140,0
+AddMuzzleFlashSmoke = 8.4, 10, 4.0,  3.0,  65,  220,140,140,140
+
+RecoilBufCount = 20, 5

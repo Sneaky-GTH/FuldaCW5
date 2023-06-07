@@ -1,0 +1,16 @@
+DisplayName = Chemical Bomb
+Type = Dispenser
+Acceleration = 0.1
+Sight = None
+Sound = bomb_snd
+Delay = 5
+SoundVolume = 8
+
+MaxAmmo = 2
+SuppliedNum = 1
+
+SmokeSize   = 0.0
+
+Item = hbm:item.grenade_nuclear
+DispenseItem = hbm:item.grenade_gas
+DispenseRange = 3	

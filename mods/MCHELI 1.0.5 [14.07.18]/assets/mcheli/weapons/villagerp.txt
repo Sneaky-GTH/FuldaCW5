@@ -1,0 +1,12 @@
+DisplayName = Carpet Bombing Siren
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = false
+Sight = None
+Delay = 10
+ModelBullet = 0_none-mdtcar_horn
+Particle = none
+Sound = villagerp
+SoundVolume = 4.0
+SoundPitchRandom = 0

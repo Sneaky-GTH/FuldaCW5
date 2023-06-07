@@ -1,0 +1,26 @@
+DisplayName = BGM-109 Super Tomahawk[Left]
+Type = TVMissile
+Power = 1240
+Acceleration = 2.0
+Explosion = 10
+Flaming = true
+Sight = MoveSight
+Delay = 5
+ModeNum = 2
+ModelBullet = agm114
+Sound = missile_1_snd
+SoundVolume = 2
+Round = 4
+ReloadTime = 40
+
+;DEBUG:Manual control only
+;FixMode = 1
+
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 16
+SuppliedNum = 16
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

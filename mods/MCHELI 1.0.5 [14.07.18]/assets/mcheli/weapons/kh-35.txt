@@ -1,0 +1,13 @@
+DisplayName = Kh-35
+Type = ASMissile
+Power = 76
+Acceleration = 4.0
+Explosion = 4
+Flaming = true
+Sight = MoveSight
+Delay = 300
+Sound = missile_2_snd
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  8, hbm:item.gun_stinger_ammo

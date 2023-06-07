@@ -1,0 +1,10 @@
+Name M1 Pot Steel Helmet - Greek Lizard
+ShortName M1PotGreek
+Icon M1PotLizard
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.GreekHelmetCW
+ArmourTexture SkinGreekArmyCW
+Description Tier 2.5_American Combat Helmet_Year: 1941American/Greek Combat Helmet_Year: 1960s
+headArmor 120

@@ -1,0 +1,20 @@
+DisplayName = FIM-92 Stinger
+Type = IRMissile
+Power = 0
+Acceleration = 3
+Explosion = 5
+ExplosionBlock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 100
+LockTime = 1
+ProximityFuseDist = 1
+Sound = missile_6_snd
+Zoom = 1.8
+
+; DEBUG
+;RigidityTime = 30
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

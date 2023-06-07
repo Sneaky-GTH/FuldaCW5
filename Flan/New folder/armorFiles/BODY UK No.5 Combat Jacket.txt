@@ -1,0 +1,14 @@
+Name British Army No.5 Battle Dress (Khaki)
+ShortName britww2
+Icon 44_British40PatternChest
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.BritishWW2
+ArmourTexture SkinBritishArmyNo5
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 1_British Battle Dress_Year: 1939_Khaki

@@ -1,0 +1,24 @@
+DisplayName = MG7 Proton Torpedo (AA)
+Type = AAMissile
+Power = 60
+Acceleration = 4
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 10
+ReloadTime = 100
+Round = 2
+LockTime = 15
+ProximityFuseDist = 1
+ModelBullet = mg7
+Sound = missile_1_snd
+
+;ModelBullet = aim9lm
+;Sound = missile_1_snd
+
+
+MaxAmmo = 4
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

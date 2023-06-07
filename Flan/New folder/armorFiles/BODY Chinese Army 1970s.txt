@@ -1,0 +1,14 @@
+Name Peoples Liberation Army Uniform (Olive Drab)
+ShortName china70s
+Icon CN
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.Chinese70s
+ArmourTexture SkinChina70s
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 2.5_Chinese Battle Dress Uniform_Year: 1966_Olive Drab

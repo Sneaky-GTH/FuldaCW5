@@ -1,0 +1,20 @@
+DisplayName = FAB-500
+Type = Bomb
+Power = 450
+Acceleration = 0.05
+Explosion = 32
+ExplosionBlock = 8
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 8
+Sound = bomb_snd
+ModelBullet = fab500sh
+Gravity = -0.01
+
+ReloadTime = 0
+Round = 18
+
+MaxAmmo = 18
+SuppliedNum = 1
+Item =  2, hbm:item.warhead_generic_small

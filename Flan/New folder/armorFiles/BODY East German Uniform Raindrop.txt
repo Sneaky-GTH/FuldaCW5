@@ -1,0 +1,14 @@
+Name NVA Felddienstuniform (Strichtarn
+ShortName eastGermoid
+Icon GERDDR
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.EastGermanBody
+ArmourTexture SkinEastGermanRaindrop
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 2.5_East German Battle Dress_Year: 1967_Strichtarn

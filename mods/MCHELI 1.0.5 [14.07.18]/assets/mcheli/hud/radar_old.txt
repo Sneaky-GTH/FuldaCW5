@@ -1,0 +1,10 @@
+DrawTexture = plane_hud, 144, 21,  64,64,  0,0, 128,128
+
+Color = 0xFF28d448
+DrawEntityRadar = -plyr_yaw-180, 144, 21,  64,64
+
+
+Color = 0xFFDF0408
+DrawEnemyRadar  = -yaw-180, 144, 21,  64,64
+
+DrawTexture = plane_hud, 144+16, 21,  32,64,  128,0, 64,128, radar_rot

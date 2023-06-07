@@ -1,0 +1,10 @@
+Name M80 Ballistic Nylon Helmet - Tonghab
+ShortName M1PotROK
+Icon IconROK
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.ROK90sHelmet
+ArmourTexture SkinROK90
+Description Tier 3.5_South Korean Combat Helmet_Year: 1980_M1 Pot copy
+headArmor 120

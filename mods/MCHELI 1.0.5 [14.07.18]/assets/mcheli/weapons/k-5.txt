@@ -1,0 +1,21 @@
+DisplayName = K-5
+Type = AAMissile
+Power = 50
+Acceleration = 4
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 2
+LockTime = 12
+ProximityFuseDist = 1
+ModelBullet = aim9b
+Sound = missile_1_snd
+
+Round = 4
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

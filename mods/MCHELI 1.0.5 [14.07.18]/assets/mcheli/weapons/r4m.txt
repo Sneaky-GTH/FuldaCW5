@@ -1,0 +1,21 @@
+DisplayName = R4M Rocket
+Type = Rocket
+Power = 25
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 2
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 7
+ReloadTime = 110
+Round = 24
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 24
+SuppliedNum = 24
+Item =  3, iron_ingot
+Item =  3, gunpowder

@@ -1,0 +1,22 @@
+﻿DisplayName = Drill
+Type = MachineGun2
+Acceleration = 4
+Power = 50
+Explosion = 0
+ExplosionBlock = 2
+Flaming = false
+Sight = MoveSight
+Delay = 0
+Sound = cutterblades_snd
+SoundDelay = 4
+Gravity = -0.5
+Particle = none
+ModelBullet = 0_none
+HeatCount = 1
+MaxHeatCount = 280
+
+
+MaxAmmo = 350
+SuppliedNum = 350
+Item =  1, iron_ingot
+

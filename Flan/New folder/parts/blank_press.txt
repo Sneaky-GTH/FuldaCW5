@@ -1,0 +1,9 @@
+Name Blank Die
+ShortName 44_Blank_Die
+Icon blank_press
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 25279
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 64

@@ -1,0 +1,30 @@
+DisplayName =L15A3 APDS
+Type = MachineGun1
+Power = 100
+ModelBullet = bullet105mm
+Explosion = 1
+ExplosionBlock = 1
+Acceleration = 16.0
+Sight = None
+ReloadTime = 50
+Delay = 100
+Round = 35
+SoundVolume = 1.0
+Sound = cannon_4_snd
+Accuracy = 1.5
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Gravity = -0.01
+
+AddMuzzleFlash      =  0.5,     2,        7,  220,254,159,74
+AddMuzzleFlash      =  0.6,      2,        6,  220,254,219,104
+AddMuzzleFlash      =  0.7,      2,        5,  220,254,219,184
+AddMuzzleFlashSmoke =  0.5, 2,  10.0,  3.0, 45,  220,160,140,120
+AddMuzzleFlashSmoke = 0.6, 2,  11.0,  6.0, 35,  200,190,170,150
+
+Recoil = 2.5
+
+MaxAmmo = 35
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder

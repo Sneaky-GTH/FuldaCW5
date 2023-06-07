@@ -1,0 +1,28 @@
+DisplayName = 8.8 cm KwK 46 L/100
+Type = MachineGun2
+Power = 50
+ModelBullet = bullet76mm
+Acceleration = 16.0
+Explosion = 4
+ExplosionBlock = 4
+Flaming = false
+Sight = MoveSight
+ModeNum = 2
+SoundVolume = 0.6
+Sound = cannon_1_snd
+Recoil = 2.0
+
+
+Delay = 1
+ReloadTime = 130
+Round = 1
+
+MaxAmmo = 74
+SuppliedNum = 37
+Item =  4, iron_ingot
+Item =  5, gunpowder
+
+AddMuzzleFlash = 10.4, 1.0, 6, 220, 240,140,0
+AddMuzzleFlashSmoke = 10.5, 10, 4.0,  3.0,  65,  220,140,140,140
+
+RecoilBufCount = 20, 5

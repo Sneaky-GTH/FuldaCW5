@@ -1,0 +1,34 @@
+DisplayName = Villager Bomb
+Type = MachineGun1
+ModelBullet = villagerm
+Power = 70
+Acceleration = 0.9
+AccelerationInWater = 4.0
+Explosion = 13
+ExplosionBlock = 6
+ExplosionInWater = 13
+Flaming = true
+Sight = MoveSight
+Delay = 3
+ReloadTime = 100
+SoundPitch = 1.0
+SoundVolume = 60
+Sound = oh
+Gravity = -0.2
+DamageFactor = helicopter, 40.0
+DamageFactor = plane,      40.0
+DamageFactor = vehicle,    30.0
+DamageFactor = tank,       20.0
+
+TrajectoryParticle = smoke
+TrajectoryParticleStartTick = 4
+
+DisplayMortarDistance = false
+
+RecoilBufCount = 80, 5
+
+MaxAmmo = 30
+SuppliedNum = 30
+Item =   7, iron_ingot
+Item =  8, gunpowder
+Item =   2, redstone

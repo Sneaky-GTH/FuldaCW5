@@ -1,0 +1,14 @@
+Name North Korean Army Uniform (Green)
+ShortName NKBody
+Icon IconNorthKorea
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.NorthKoreanUniform
+ArmourTexture SkinNK
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 2.5_North Korean Combat Jacket_Year: 1960_OD

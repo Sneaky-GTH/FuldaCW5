@@ -1,0 +1,12 @@
+Name AN PVS-14
+ShortName anpvs14
+ItemID 23885
+Icon anpvs14
+Colour 255 255 255
+Type Helmet
+Defence 0.0
+MoveSpeedModifier 0.99
+Model EFC.anpvs14
+ArmourTexture anpvs14
+Overlay NVG_1
+NightVision True

@@ -1,0 +1,17 @@
+DisplayName = AutoMissile Sky
+Type = AAMissile
+Power = 32
+Acceleration = 1.7
+Explosion = 3
+Flaming = true
+Sight = MoveSight
+Delay = 20
+ReloadTime = 100
+ModelBullet = agm114
+Sound = missile_1_snd
+
+MaxAmmo = 40
+SuppliedNum = 6
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

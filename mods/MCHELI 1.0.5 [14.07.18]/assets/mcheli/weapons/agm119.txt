@@ -1,0 +1,17 @@
+DisplayName = AGM-69A SRAM [200kT NUC]
+Type = ASMissile
+Power = 150
+Radius = 400
+NukeYield = 50
+Acceleration = 4.0
+Explosion = 1
+Flaming = true
+Sight = MoveSight
+Delay = 350
+Sound = missile_2_snd
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

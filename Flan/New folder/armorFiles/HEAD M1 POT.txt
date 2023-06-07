@@ -1,0 +1,10 @@
+Name M1 Pot Steel Helmet 
+ShortName M1Pot
+Icon M1Pot
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.M1PotElite
+ArmourTexture SkinM1PotElite
+Description Tier 1_American Combat Helmet_Year: 1941
+headArmor 120

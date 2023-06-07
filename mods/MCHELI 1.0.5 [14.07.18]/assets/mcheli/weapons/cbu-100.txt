@@ -1,0 +1,20 @@
+DisplayName = Rockeye II [Cluster]
+Type = Bomb
+Power = 200
+Acceleration = 1
+Explosion = 5
+ExplosionBlock = 1
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 4
+Bomblet = 80
+BombletSTime = 30
+BombletDiff = 2
+Sound = bomb_snd
+
+ModelBullet = cbu87
+ModelBomblet = cbc
+
+MaxAmmo = 4
+SuppliedNum = 1

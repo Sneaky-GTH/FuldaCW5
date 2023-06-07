@@ -1,0 +1,14 @@
+Name Yugoslavian Army M89 Uniform (Oak Leaf)
+ShortName yugobody80s
+Icon YU
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.YugoslaviaBody80s
+ArmourTexture SkinYugoslavaCamo
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 3.5_Yugoslavian Battle Dress_Year: 1989_Oak Leaf

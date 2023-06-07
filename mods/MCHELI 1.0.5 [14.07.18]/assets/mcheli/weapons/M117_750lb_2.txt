@@ -1,0 +1,17 @@
+DisplayName = M117 750lb Bomb
+Type = Bomb
+Power = 70
+Acceleration = 0.1
+Explosion = 18
+ExplosionBlock = 6
+ExplosionInWater = 0
+ExplosionAltitude = 8
+Flaming = true
+Sight = None
+Delay = 35
+ModelBullet = cbu87
+Sound = bomb_snd
+ReloadTime = 100
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, hbm:item.warhead_generic_medium

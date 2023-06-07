@@ -1,0 +1,10 @@
+Name M72 Steel Helmet
+ShortName m72
+Icon M56
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BulgarianHelmet
+ArmourTexture SkinBulgarianUniform
+Description Tier 3_Bulgarian Combat Helmet_Year: 1972
+headArmor 120

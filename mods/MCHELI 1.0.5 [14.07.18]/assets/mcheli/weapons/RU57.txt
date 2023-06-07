@@ -1,0 +1,22 @@
+DisplayName = RDS-4 [30kt] 
+Type = Bomb
+Power = 00
+Acceleration = 1.0
+Gravity = -0.04905
+Explosion = 1
+ExplosionBlock = 0
+NukeYield = 24
+
+Flaming = true
+Sight = None
+Delay = 2
+Sound = bomb_snd
+
+ReloadTime = 150
+Round = 12
+MaxAmmo = 12
+SuppliedNum = 1
+
+DisplayMortarDistance = true
+
+Item = 1, hbm:item.warhead_generic_small

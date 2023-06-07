@@ -1,0 +1,16 @@
+Name M1956
+ShortName m1956
+Icon US
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.M1955flak
+ArmourTexture SkinM1956Flakvest
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+backArmor 100
+Durability 50
+ModelScale 1.05
+Description Tier 2_American Flak Jacket_Year: 1956_Khaki
+

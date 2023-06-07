@@ -1,0 +1,22 @@
+DisplayName = BLU-27/B
+Type = Bomb
+Power = 0
+FAE = true
+Acceleration = 1.0
+Gravity = -0.04905
+Explosion = 1
+ExplosionBlock = 30
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 10
+Sound = bomb_snd
+ModelBullet = blu10b
+
+ReloadTime = 150
+Round = 4
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  3, gunpowder

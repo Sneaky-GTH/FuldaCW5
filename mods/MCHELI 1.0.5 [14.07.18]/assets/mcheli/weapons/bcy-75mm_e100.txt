@@ -1,0 +1,26 @@
+DisplayName = 7.5 cm KwK 44 L/36.5
+Type = MachineGun2
+Power = 32
+ModelBullet = bullet76mm
+Acceleration = 10.0
+Explosion = 3
+ExplosionBlock = 3
+Flaming = false
+Sight = MoveSight
+ModeNum = 2
+SoundVolume = 0.6
+Sound = cannon_1_snd
+Accuracy = 0.2
+
+Delay = 1
+ReloadTime = 80
+Round = 1
+
+MaxAmmo = 80
+SuppliedNum = 20
+Item =  1, iron_ingot
+Item =  2, gunpowder
+
+AddMuzzleFlash = 3.0, 1.0, 6, 220, 240,140,0
+
+

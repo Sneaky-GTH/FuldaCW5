@@ -1,0 +1,10 @@
+Name Black Bandana
+ShortName bandanaB
+Icon Bandana
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.BlackBandana
+ArmourTexture SkinBlackBandana
+Description Generic Black Bandana
+headArmor 10

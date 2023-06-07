@@ -1,0 +1,10 @@
+Name Mk7 Helmet - MM14
+ShortName mk7Ukraine
+Icon UkraineModern
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinMk7MM14
+Model NewArmor.Mk7Cover
+Description Tier 5_Ukrainian/British Ballistic-Nylon Helmet_Year: 2010_MTP Cover
+headArmor 200

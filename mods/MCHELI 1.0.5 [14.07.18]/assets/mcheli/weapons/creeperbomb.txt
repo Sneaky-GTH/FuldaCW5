@@ -1,0 +1,17 @@
+DisplayName = creeperbomb
+Type = ATMissile
+Power = 40
+ModelBullet = creeperbomb
+Acceleration = 1.0
+Explosion = 2
+ExplosionBlock = 0
+Flaming = false
+Sight = MissileSight
+Delay = 20
+HeatCount = 5
+MaxHeatCount = 60
+SoundVolume = 0.6
+Sound = creeperbomb_snd
+LockTime = 10
+MaxAmmo = 15
+BulletColor        = 255,102,255,102

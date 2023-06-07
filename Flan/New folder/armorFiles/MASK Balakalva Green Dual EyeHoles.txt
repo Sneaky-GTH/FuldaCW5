@@ -1,0 +1,9 @@
+Name Green Balaclava - Russian Army
+ShortName balaclava1RUGreen
+Icon BalaclavaRUGreen
+Colour 255 255 255
+Type Boots
+Defence 0.0
+Model NewArmor.RussianBalaclava
+ArmourTexture BalaclavaRussia
+Description Tier 4_Russian Mask_Years: 1990s_Green

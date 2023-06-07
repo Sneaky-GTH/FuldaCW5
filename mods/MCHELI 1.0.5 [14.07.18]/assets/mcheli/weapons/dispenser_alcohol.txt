@@ -1,0 +1,26 @@
+DisplayName = Alcohol Dispenser (water+Alcohol10000%)
+Type = Dispenser
+Acceleration = 2
+Sight = None
+Delay = 0
+Sound = smoke_snd
+SoundDelay = 4
+Gravity = -0.05
+
+Bomblet = 5
+BombletSTime = 3
+BombletDiff = 1
+
+Round = 20000
+ReloadTime = 2000000
+
+SmokeSize   = 3.0
+
+;着弾時に使用するアイテムに水バケツを指定する。
+; 本来水バケツは使用すると水を設置するが、ヘリMOD内では特殊な処理を行って火を消していいる。
+DispenseItem = water_bucket
+DispenseRange = 6
+
+MaxAmmo = 20000
+SuppliedNum = 20000000
+Item =  5, water_bucket

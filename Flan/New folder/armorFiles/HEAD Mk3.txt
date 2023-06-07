@@ -1,0 +1,10 @@
+Name Mk3 Steel Helmet
+ShortName mk3
+Icon UK
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.Mk3Turtle
+ArmourTexture SkinMk3Turtle
+Description Tier 1.5_British Combat Helmet_Year: 1944
+headArmor 150

@@ -1,0 +1,67 @@
+﻿DisplayName = Lockheed F-104C Starfighter
+AddDisplayName = en_US, English Electric Lightning [Fighter]
+AddDisplayName = ko_KR, F-104C 스타파이터
+AddDisplayName = ja_JP, F-104C
+ItemID = 40005
+MaxHp = 200
+Speed = 2.18
+Sound = plane
+onGroundPitch = 0.5
+ThrottleUpDown = 0.82
+MaxFuel = 191520
+FuelConsumption = 1.3
+ThrottleUpDownOnEntity = 2.0
+EnableEjectionSeat = true
+EnableSeaSurfaceParticle = true
+ParticlesScale = 0.7
+ThirdPersonDist = 20
+radarPower = 296
+enableEntityRadar=true
+range = 1330
+; M = Military.  F = Fighter
+Category = UK.F
+alt=300
+HUD = plane
+
+
+mass = 14092
+wingArea = 44.08
+
+
+MobilityYaw = 1
+MobilityPitch = 1
+MobilityRoll = 1
+
+EntityWidth  = 0.9
+EntityHeight = 0.9
+
+AddSeat = 0.0, 2.0, 3.8
+
+AddPartCanopy = 0.61, 1.08, 3.834, 0,0,-1, 60
+
+AddPartLG    =  0.00, 1.128, 3.832,  1,0,0, 110
+
+AddPartLG =  2.408, 2.364, -1.477,  1,0,0, 100,  0,0,-1, 90
+AddPartLG =  -2.408, 2.364, -1.477, 1,0,0, 100,  0,0,1, 90
+
+AddWeapon = m61a1_l, 0.343, 1.852, 4.178,   0.0, 0.0
+AddWeapon = aim9_x4, 4.298, 1.118, -6.511,  -1.0, 0.0
+AddWeapon = aim9_x4, -4.298, 1.118, -6.511,  -1.0, 0.0
+AddWeapon = nuke_15kt,  0.0, 1.17, 0.4,  0.0, -3.0
+
+AddPartWeaponMissile = aim9,  false, false, false, 4.298, 1.118, -6.511
+AddPartWeaponMissile = aim9,  false, false, false, -4.298, 1.118, -6.511
+
+;AddPartNozzle = 0.0, 1.92, -8.47, -1, 0, 0
+
+;<HitBoxes>
+BoundingBox =  0.00, 1.6, 4.75,  1.1, 1.1, 0.7
+BoundingBox =  0.00, 1.6, 2.11,  2.0, 1.8
+BoundingBox =  0.00, 1.6, -0.70,  2, 1.6
+BoundingBox =  0.00, 1.6, -3.5,  2, 1.6
+BoundingBox =  0.00, 1.6, -6,  2, 1.6
+BoundingBox =  0.00, 1.7, -8.5,  2, 1.6
+BoundingBox =  0.00, 1.8, -11,  1.6, 1.6
+
+BoundingBox = -2.59, 1.39,  -6.35,  2.5, 0.6, 0.9
+BoundingBox = 2.59, 1.39,  -6.35,  2.5, 0.6, 0.9

@@ -1,0 +1,14 @@
+Name Iraqi Gulf War Fatigues
+ShortName iraq90s
+Icon IRQ
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.IraqGulfWarBody
+ArmourTexture SkinIraqGulfWar
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 4_Iraqi Battle Dress_Year: 1990s_Iraqi DPM
+bodyArmor 10
+armArmor 10
+ModelScale 1.05

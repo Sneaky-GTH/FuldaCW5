@@ -1,0 +1,17 @@
+DisplayName = AGM-12 Bullpup
+Type = TVMissile
+Power = 110
+Acceleration = 4
+Explosion = 25
+Flaming = false
+Sight = MoveSight
+Delay = 300
+ModelBullet = agm12
+Sound = missile_2_snd
+
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  4, gunpowder
+Item =  1, redstone

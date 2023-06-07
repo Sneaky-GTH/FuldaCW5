@@ -1,0 +1,10 @@
+Name Black Balaclava - Russian Army
+ShortName balaclava1RU
+Icon BalaclavaRU
+Colour 255 255 255
+Type Boots
+Defence 0.0
+Model NewArmor.RussianBalaclava
+ArmourTexture SkinBalaclavaRussiaBlack
+Description Tier 4_Russian Mask_Years: 1990s_Black
+

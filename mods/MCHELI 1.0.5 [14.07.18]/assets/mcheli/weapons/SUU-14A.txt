@@ -1,0 +1,21 @@
+DisplayName = SUU-14A Cluster Bomb
+Type = Bomb
+Power = 15
+Acceleration = 0.1
+Explosion = 1
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 5
+Bomblet = 50
+BombletSTime = 20
+BombletDiff = 1.2
+Sound = bomb_snd
+ReloadTime = 100
+ModelBullet = cbu87
+ModelBomblet = cbc
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder

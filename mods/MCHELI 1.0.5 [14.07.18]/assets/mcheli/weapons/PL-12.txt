@@ -1,0 +1,19 @@
+DisplayName = PL-12 [SARH]
+Type = AAMissile
+Power = 0
+Acceleration = 5
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 2
+LockTime = 1
+ProximityFuseDist = 1
+ModelBullet = PL-12
+Sound = missile_1_snd
+Radius = 900
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

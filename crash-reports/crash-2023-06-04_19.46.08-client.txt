@@ -1,0 +1,236 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 6/4/23 7:46 PM
+Description: Initializing game
+
+java.lang.IllegalArgumentException: The name colourfullblocks:brush_MFStone has been registered twice, for code.elix_x.coremods.colourfulblocks.items.ItemBrush@54227f65 and code.elix_x.coremods.colourfulblocks.items.ItemBrush@6465a497.
+	at cpw.mods.fml.common.registry.FMLControlledNamespacedRegistry.add(FMLControlledNamespacedRegistry.java:389)
+	at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:849)
+	at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:812)
+	at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:149)
+	at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:137)
+	at code.elix_x.coremods.colourfulblocks.color.tool.ColoringToolsManager.init(ColoringToolsManager.java:51)
+	at code.elix_x.coremods.colourfulblocks.ColourfulBlocksBase.init(ColourfulBlocksBase.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:737)
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:311)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:552)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at cpw.mods.fml.common.registry.FMLControlledNamespacedRegistry.add(FMLControlledNamespacedRegistry.java:389)
+	at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:849)
+	at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:812)
+	at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:149)
+	at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:137)
+	at code.elix_x.coremods.colourfulblocks.color.tool.ColoringToolsManager.init(ColoringToolsManager.java:51)
+	at code.elix_x.coremods.colourfulblocks.ColourfulBlocksBase.init(ColourfulBlocksBase.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:737)
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:311)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:552)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 5.15.0-73-generic
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 690707592 bytes (658 MB) / 2080374784 bytes (1984 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 7 total; -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 Optifine OptiFine_1.7.10_HD_U_E7 75 mods loaded, 75 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHI	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHI	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHI	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHI	AdvancedRocketryCore{1} [Advanced Rocketry] (minecraft.jar) 
+	UCHI	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHI	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UCHI	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHI	cuchaz.ships.core{1.7.10-1.0.3} [Ships Mod Core] (minecraft.jar) 
+	UCHI	tickDynamic{0.1.5} [Tick Dynamic] (minecraft.jar) 
+	UCHI	FastCraft{1.25} [FastCraft] (fastcraft-1.25.jar) 
+	UCHI	unimixins{0.1.8} [UniMixins] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	unimixins-mixin{0.1.8} [UniMixins: Mixin (UniMix)] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	unimixins-compat{0.1.8} [UniMixins: Compatibility] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	mixingasm{0.2.2} [UniMixins: Mixingasm] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	gtnhmixins{2.1.9} [UniMixins: GTNHMixins] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	spongemixins{2.0.1} [UniMixins: SpongeMixins] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	mixinbooterlegacy{1.2.1} [UniMixins: MixinBooterLegacy] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	gasstation{0.5.1} [UniMixins: GasStation] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	mixinextras{0.1.8} [UniMixins: MixinExtras] (-unimixins-all-1.7.10-0.1.8.jar) 
+	UCHI	CoFHCore{1.7.10R3.1.4} [CoFH Core] (CoFHCore-[1.7.10]3.1.4-329.jar) 
+	UCHI	libVulpes{0.2.8.-34} [libVulpes] (LibVulpes-1.7.10-0.2.8-34-universal.jar) 
+	UCHI	advancedRocketry{1.4.0-20} [Advanced Rocketry] (AdvancedRocketry-1.7.10-1.4.0-20.jar) 
+	UCHI	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCHI	fluxedcore{1.0.9} [Fluxed-Core] (Fluxed-Core-MC1710-1.0.9.jar) 
+	UCHI	advancedmachinery{1.0.0} [AdvancedMachinery] (advancedmachinery-1.0.0.jar) 
+	UCHI	AncientWarfare{2.4.228-beta-MC1.7.10} [Ancient Warfare Core] (ancientwarfare-2.4.228-beta-MC1.7.10.jar) 
+	UCHI	AncientWarfareAutomation{2.4.228-beta-MC1.7.10} [Ancient Warfare Automation] (ancientwarfare-2.4.228-beta-MC1.7.10.jar) 
+	UCHI	AncientWarfareModeler{2.4.228-beta-MC1.7.10} [Ancient Warfare Model Editor] (ancientwarfare-2.4.228-beta-MC1.7.10.jar) 
+	UCHI	AncientWarfareNEIPlugin{2.4.228-beta-MC1.7.10} [Ancient Warfare NEI Plugin] (ancientwarfare-2.4.228-beta-MC1.7.10.jar) 
+	UCHI	AncientWarfareNpc{2.4.228-beta-MC1.7.10} [Ancient Warfare NPCs] (ancientwarfare-2.4.228-beta-MC1.7.10.jar) 
+	UCHI	AncientWarfareStructure{2.4.228-beta-MC1.7.10} [Ancient Warfare Structures] (ancientwarfare-2.4.228-beta-MC1.7.10.jar) 
+	UCHI	AncientWarfareVehicle{2.4.228-beta-MC1.7.10} [Ancient Warfare Vehicles] (ancientwarfare-2.4.228-beta-MC1.7.10.jar) 
+	UCHI	asielib{0.4.8} [asielib] (AsieLib-1.7.10-0.4.8.jar) 
+	UCHI	badmobs{1.0.1} [Bad Mobs] (BadMobs-1.0.1-1.7.10.jar) 
+	UCHI	ForgeMultipart{1.2.0.345} [Forge Multipart] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHI	Railcraft{9.12.2.0} [Railcraft] (Railcraft_1.7.10-9.12.2.0.jar) 
+	UCHI	chisel{2.9.5.11} [Chisel] (Chisel-2.9.5.11.jar) 
+	UCHI	CarpentersBlocks{3.3.8.1} [Carpenter's Blocks] (Carpenter's+Blocks+v3.3.8.1+-+MC+1.7.10.jar) 
+	UCHI	excore{1.5.3} [EXCore] (Excore-1.5.3-1.7.10.jar) 
+	UCHE	colourfullblocks{1.3} [Colourfull Blocks] (ColorfulBlocks-1.3-1.7.10.jar) 
+	UCHI	MineTweaker3{3.1.0} [MineTweaker 3] (CraftTweaker-1.7.10-3.1.0-CUSTOMISED-legacy.jar) 
+	UCHI	CustomMainMenu{1.9.2} [Custom Main Menu] (CustomMainMenu-MC1.7.10-1.9.2.jar) 
+	UCHI	lootablebodies{1.3.7} [DrCyano's Lootable Bodies] (CyanosLootableBodies-1.7.10-backport_1.3.7.jar) 
+	UCHI	flansmod{1.37} [Flan's Mod Ultimate] (flansmod-1.37.jar) 
+	UCHI	McMultipart{1.2.0.345} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHI	fuldaclaimsapi{1.7.10-1.0.16} [Fulda Claims API] (fuldaclaimsapi-1.7.10-1.0.16.jar) 
+	UCHI	fuldapatches{@VERSION@} [FuldaPatches] (FuldaPatches-1.0.3.jar) 
+	UCHI	gvc{0.6.1} [�aGliby's�f Voice Chat Mod] (GlibysVC-1.7.10-0.6.2a.jar) 
+	UCHI	gtnhlib{0.0.13} [GTNH Lib] (gtnhlib-0.0.13.jar) 
+	UCHI	HardcoreDarkness{1.7} [Hardcore Darkness] (HardcoreDarkness-MC1.7.10-1.7.jar) 
+	UCHI	hbm{1.0.27 BETA (3528)} [Hbm's Nuclear Tech] (hbm_1.0.27_X3528.jar) 
+	UCHI	hodgepodge{2.2.13} [Hodgepodge] (hodgepodge-2.2.13.jar) 
+	UCHI	ImmersiveEngineering{${version}} [Immersive Engineering] (ImmersiveEngineering-CUSTOMISED-Fulda-0.7.7.jar) 
+	UCHI	invention{1.0.0} [Invention] (Invention-1.0.0-Beta.jar) 
+	UCHI	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] (InventoryTweaks.jar) 
+	UCHI	journeymap{5.1.4p2} [JourneyMap] (journeymap-1.7.10-5.1.4p2-unlimited.jar) 
+	UCHI	mod_LATL{1.2 Beta} [Lamps and Traffic Lights] (LampsAndTrafficlights-1.2-Minecraft_1.7.10 (1).jar) 
+	UCHI	LookingGlass{0.2.0.01} [Looking Glass] (LookingGlass-1.7.10-0.2.0.01.jar) 
+	UCHI	LunatriusCore{1.1.2.21} [LunatriusCore] (LunatriusCore-1.7.10-1.1.2.21-universal.jar) 
+	UCHI	Magneticraft{0.6.0-final} [Magneticraft] (magneticraft-0.6.1-final.jar) 
+	UCHI	mcheli{1.0.5} [MC Helicopter] (MCHELI 1.0.5 [14.07.18]) 
+	UCHI	minechem{5.0.5.406} [Minechem] (Minechem-1.7.10-5.0.5.406.jar) 
+	UCHI	minefantasy2{2.8.14.6} [MineFantasyII] (MineFantasyII-CUSTOMISED-2.8.14.6.jar) 
+	UCHI	modtweaker2{0.9.5} [Mod Tweaker 2] (ModTweaker2-0.9.5.jar) 
+	UCHI	Morpheus{1.7.10-1.6.21} [Morpheus] (Morpheus-1.7.10-1.6.21.jar) 
+	UCHI	Netherless{0.9.0} [Netherless] (Netherless-0.9.0.jar) 
+	UCHI	OreRegen{0.0.9} [OreRegen] (OreRegen-0.0.9.jar) 
+	UCHI	roadstuff{1.0.3-final} [Road Stuff] (RoadStuff-mc1.7.10-1.0.2-final.jar) 
+	UCHI	Schematica{1.7.6.131} [Schematica] (Schematica-1.7.10-1.7.6.131-universal.jar) 
+	UCHI	cuchaz.ships{1.7.10-1.0.3} [Ships Mod] (shipsMod-v1.7.10-1.0.4.jar) 
+	UCHI	SirenMod{2.2.01} [TheRealMcrafter's Siren Mod (Version 3.0.0)] (SirenMod-3.0.0.jar) 
+	UCHI	tc{4.4.1_020} [Traincraft] (Traincraft-4.4.1_020.jar) 
+	UCHI	WailaHarvestability{1.1.6} [Waila Harvestability] (WailaHarvestability-mc1.7.10-1.1.6.jar) 
+	UCHI	worldedit{6.1.1} [WorldEdit] (worldedit-forge-mc1.7.10-6.1.1-dist (4).jar) 
+	UCHI	ForgeMicroblock{1.2.0.345} [Forge Microblocks] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 515.105.01' Renderer: 'NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2'
+	CoFHCore: -[1.7.10]3.1.4-329
+	Chisel: Errors like "[FML]: Unable to lookup ..." are NOT the cause of this crash. You can safely ignore these errors. And update forge while you're at it.
+	Flan's Mod Content Packs: 
+Global Firestorm v3.2 - Thunder Run.jar (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/Global Firestorm v3.2 - Thunder Run.jar)
+AoW.zip (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/AoW.zip)
+Warfare44ContentPack- Version 3.1 - Scott.jar (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/Warfare44ContentPack- Version 3.1 - Scott.jar)
+Minecraft SMP Parts Package 4.0-Content Pack-1.7.10-4.10.0.jar (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/Minecraft SMP Parts Package 4.0-Content Pack-1.7.10-4.10.0.jar)
+W44 2.jar (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/W44 2.jar)
+EFCH Pack 1.01 (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/EFCH Pack 1.01)
+MMPlus Beta (FM+ Ult 1.0).jar (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/MMPlus Beta (FM+ Ult 1.0).jar)
+New folder (filepath: /home/sneaky/Documents/mcmodpacks/Fulda-CW5/Flan/New folder)
+	Mixins in Stacktrace: 
+		net.minecraft.client.Minecraft:
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ToggleDebugMessage from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_UnfocusedFullscreen from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ResizableFullscreen from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.profiler.MinecraftMixin from mod hodgepodge
+	Launched Version: 1.7.10-Forge10.13.4.1614-1.7.10
+	LWJGL: 2.9.1
+	OpenGL: NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 515.105.01, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
+	OptiFine Version: OptiFine_1.7.10_HD_U_E7
+	Render Distance Chunks: 12
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 515.105.01
+	OpenGlRenderer: NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12

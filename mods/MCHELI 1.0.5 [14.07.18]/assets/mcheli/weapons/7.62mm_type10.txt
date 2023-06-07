@@ -1,0 +1,21 @@
+DisplayName = Vehicle-mounted 7.62mm machine gun Type 74
+Type = MachineGun2
+Power = 18
+Explosion = 0
+ExplosionBlock = 0
+Acceleration = 7.5
+Sight = None
+ReloadTime = 68
+Delay = 2
+SoundVolume = 10.0
+Sound = gun_h1_snd
+BulletColor = 255, 255, 100, 100
+Particle = largeexplode
+
+HeatCount = 4
+MaxHeatCount = 100
+
+MaxAmmo = 300
+SuppliedNum = 12
+Item =  1, iron_ingot
+Item =  1, gunpowder

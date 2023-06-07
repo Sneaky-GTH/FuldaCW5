@@ -1,0 +1,18 @@
+DisplayName = PL-9 [IR]
+Type = IRMissile
+Power = 0
+Acceleration = 3
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 2
+LockTime = 5
+ProximityFuseDist = 0
+ModelBullet = PL-9
+Sound = missile_1_snd
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

@@ -1,0 +1,54 @@
+////Name and icon
+Name Vest Detonator
+ShortName bombDetonator
+Icon allah
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Visuals
+Model monolith.Detonator
+Texture SkinDetonator
+TrailParticles false
+//TrailParticleType <particleType>
+FlakParticles 150
+FlakParticleType hugeexplosion
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown False
+////Throwing
+ThrowDelay 100
+ThrowSound AllahuAckbar
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 1.0
+HitEntityDamage 0
+ThrowSpeed 1.0
+FallSpeed 1.0
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky false
+StackSize 1
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger 0.5
+//Sticks to the thrower
+StickToThrower true
+//And explodes after 1.5 seconds
+Fuse 35
+DetonateWhenShot false
+////Detonation
+FireRadius 0.0
+ExplosionRadius 16.0
+ExplosionBreaksBlocks true
+//Detonate Sound <sound>
+////Misc
+CanDrop false
+
+ExplosionRadius 5.0
+ExplosionDamageVsPlayer 15.30
+ExplosionDamageVsPlane 15.0
+ExplosionDamageVsVehicle 2.0
+ExplosionBreaksBlocks true

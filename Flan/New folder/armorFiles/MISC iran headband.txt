@@ -1,0 +1,10 @@
+Name Martyr Headband
+ShortName headband
+Icon martyrHeadband
+Colour 255 255 255
+Type Boots
+Defence 0.0
+ArmourTexture skinIranHeadband
+Model monolith.iranHeadband
+
+Description Tier 3.5_Martyr Headband_Years: 1980s_Green

@@ -1,0 +1,13 @@
+Name Soviet Obr43 Uniform (Khaki)
+ShortName ussrww2
+Icon USSR
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.USSRWW2
+ArmourTexture SkinUSSRWW2
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 1_Soviet Battle Dress_Year: 1943_Khaki
+bodyArmor 10
+armArmor 10

@@ -1,0 +1,20 @@
+DisplayName = Gatling Bullet
+Type = MachineGun2
+Power = 10
+Acceleration = 10
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundDelay = 1
+ModelBullet = bullet
+Sound = gun_l2_snd
+ReloadTime = 90
+Round = 500
+MaxAmmo = 1500
+SuppliedNum = 3
+
+HeatCount = 8
+MaxHeatCount = 120
+
+SetCartridge = cartridge, 0.2,  90, 30, 2.00, -0.04, 0.40

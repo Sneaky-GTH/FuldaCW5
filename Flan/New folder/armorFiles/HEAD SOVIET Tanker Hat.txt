@@ -1,0 +1,10 @@
+Name TsH-4
+ShortName TsH4
+Icon USSR
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewAge.USSRTankerHelmet
+ArmourTexture SkinSovietTankHat
+Description Tier 1_Soviet Tanker Helmet_Year: 1941
+headArmor 20

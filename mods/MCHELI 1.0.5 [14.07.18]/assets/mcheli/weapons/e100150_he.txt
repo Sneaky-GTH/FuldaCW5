@@ -1,0 +1,44 @@
+DisplayName = 150mm Main Gun [HE]
+Type = MachineGun1
+ModelBullet = b2
+Power = 150
+Acceleration = 200
+AccelerationInWater = 80.0
+Explosion = 4
+ExplosionBlock = 4
+ExplosionInWater = 1
+Flaming = true
+Sight = None
+Delay = 150
+ReloadTime = 250
+SoundPitch = 0.8
+SoundVolume = 5
+Sound = ww2tankgun_snd
+Gravity = -0.01
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
+Recoil = 0.375
+Group = MainGun
+
+; AddMuzzleFlash = distance, size, life time,  A,  R,  G,  B
+AddMuzzleFlash      =           4.7,   2.5,        27,  220,254,159,74
+AddMuzzleFlash      =           4.8,   2.0,        20,  220,254,219,104
+AddMuzzleFlash      =           4.9,   1.5,        18,  220,254,219,184
+AddMuzzleFlash      =           4.6,   1.0,        8,  220,220,219,160
+; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,  A,  R,  G,  B
+AddMuzzleFlashSmoke   =             4.6,     30,   5.0,  7.0,       75,  240,160,140,120
+AddMuzzleFlashSmoke   =             4.7,     30,   4.0,  4.0,       65,  220,190,170,150
+AddMuzzleFlashSmoke   =             4.8,     40,   3.0,  2.0,       85,  200,190,170,150
+
+
+DisplayMortarDistance = true
+
+; RecoilBufCount = Time to for barrel to get to normal position after recoil
+RecoilBufCount = 60, 4
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  2, iron_ingot
+Item =  3, gunpowder

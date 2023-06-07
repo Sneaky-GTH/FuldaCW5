@@ -1,0 +1,15 @@
+Name Enhanced Combat Body Armor (Desert DPM)
+ShortName ECBA
+Icon UK
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.ECBA
+ArmourTexture SkinECBADesert
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 150
+backArmor 150
+ModelScale 1.05
+Durability 30
+Description Tier 3.5_British Body Armour_Year: 1986_Desert DPM

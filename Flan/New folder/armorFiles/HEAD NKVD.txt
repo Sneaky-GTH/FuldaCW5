@@ -1,0 +1,10 @@
+Name NKVD Cap
+ShortName nkvdHat
+Icon USSR
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.NKVDHat
+ArmourTexture SkinNKVD
+Description Tier 1_Soviet Patrol Cap_Year: 1930s_Khaki
+headArmor 10

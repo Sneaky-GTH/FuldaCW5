@@ -1,0 +1,10 @@
+Name PASGT UN
+ShortName UNPASGT
+Icon IconPASGTBlue
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.PASGTUN
+ArmourTexture SkinPASGTNakedAntiChrist
+Description Tier 3.5_American Combat Helmet_Year: 1988_UN Blue Cover
+headArmor 180

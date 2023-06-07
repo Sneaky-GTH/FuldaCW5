@@ -1,0 +1,71 @@
+﻿
+DisplayName = MCDONELL DOUGLAS DC-3
+AddDisplayName = ja_JP, MCDONELL DOUGLAS DC-3
+AddDisplayName = en_US, McDonnel Douglas DC-3 [Transport]
+ItemID = 30063
+MaxHp = 300
+Speed = 0.35
+Sound = dc
+onGroundPitch = 8.5
+ThrottleUpDown = 0.4
+MaxFuel         = 112080
+FuelConsumption = 1.1
+ThrottleUpDownOnEntity = 2.0
+RotorSpeed = 105
+
+UnmountPosition = 0.8060, 2.414, -3.477
+
+; P = Passanger.  T = Transport. C = Civil
+Category = naval.z
+
+HUD = plane_wwii,plane_wwii
+
+
+
+mass = 8226
+wingArea = 91.7
+
+AddTexture = c47
+AddTexture = li-2
+AddTexture = c47_dakota
+AddTexture = c47_luftwaffe
+
+;AddSeat =  X, Y, Z
+AddSeat = -0.4221,  2.3, 4.048
+AddSeat = 0.4221,  2.3, 4.048
+
+AddSeat = 0.9095,  2.0, 0.4828
+AddSeat = 0.9095,  2.0, -0.8264
+AddSeat = 0.9095,  2.0, -1.836
+AddSeat = 0.9095,  2.0, -2.922
+AddSeat = 0.9095,  2.0, -3.856
+AddSeat = 0.9095,  2.00, -4.935
+
+AddSeat = -0.9095,  2.0, 0.4828
+AddSeat = -0.9095,  2.0, -0.8264
+AddSeat = -0.9095,  2.0, -1.836
+AddSeat = -0.9095,  2.0, -2.922
+AddSeat = -0.9095,  2.0, -3.856
+AddSeat = -0.9095,  2.0, -4.935
+
+AddSeat = -0.33,  2.0, 0.4828
+AddSeat = -0.33,  2.0, -0.8264
+AddSeat = -0.33,  2.0, -1.836
+AddSeat = -0.33,  2.0, -2.922
+AddSeat = -0.33,  2.0, -3.856
+AddSeat = -0.33,  2.0, -4.935
+
+AddPartHatch    =    1.227, 2.549, -5.581,   0,1,0,   -90
+
+AddPartRotor =   -3.385,  1.992, 2.266,   1,0, 0
+AddBlade = 1, 0,  -3.385,  1.992, 2.266,   0,0, 2
+
+AddPartRotor =   3.385, 1.992, 2.266,   1, 0, 0
+AddBlade = 1, 0,  3.385, 1.992, 2.266,   0, 0, -2
+
+
+AddPartLG = 0.00, 1.682, -0.04457 ,  1,0,0, -90
+
+BoundingBox =  0.00, 2.30, -1.73,  2.0, 1.8
+BoundingBox = -2.92, 1.78, -1.23,  3.0, 0.5
+BoundingBox =  2.92, 1.78, -1.23,  3.0, 0.5

@@ -1,0 +1,14 @@
+Name Iranian Army Fatigues (OD)
+ShortName iran80s
+Icon IRN
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.IranBody
+ArmourTexture SkinIran1980s
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 3.5_Iranian Battle Dress_Year: 1980_OD
+bodyArmor 10
+armArmor 10
+ModelScale 1.05

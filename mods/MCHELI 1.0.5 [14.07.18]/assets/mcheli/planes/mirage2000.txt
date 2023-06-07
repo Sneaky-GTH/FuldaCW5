@@ -1,0 +1,91 @@
+DisplayName = Mirage 2000C
+AddDisplayName = en_US, Mirage 2000C [4th Gen Multi]
+AddDisplayName = ja_JP, F/A-18Eスーパーホーネット
+ItemID = 28716
+MaxHp = 200
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+
+FlareType = 4
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1200
+FuelConsumption = 1.0
+ThirdPersonDist = 20
+MotionFactor = 0.968
+ThrottleUpDown = 0.6
+
+
+MaxFuel         = 7000
+FuelConsumption = 15
+
+Sound = fighter_jet
+
+radarPower = 1200
+radarMax = 140
+Stealth = 1.5
+ESM = 1.0
+
+Speed = 1.1
+MobilityYaw = 1.27
+MobilityPitch = 1.27
+MobilityRoll = 1.27
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = FR.F
+
+HUD = plane, heli_gnr
+
+EnableGunnerMode = true
+CameraPosition  = 0, -1, 4.3
+AutoPilotRot = 0
+
+AddSeat =  0.00,  1.15,  4.29
+
+
+;Front
+AddPartLG =  0.00, 1.1,  4.6, 1,0,0, 90
+;Left                                       
+AddPartLG =  1.80, 1.3,  -1.0, 0,0,-1, 90
+;Right
+AddPartLG =  -1.80, 1.3,  -1.0, 0,0,1, 90
+
+
+
+AddWeapon = defa,     0.00,  2.40,  5.71,  0.0,  0.0
+
+AddWeapon = super530,   2.53, 1.43, -6.84,   0.0, 0.0
+AddWeapon = super530,  -2.53, 1.43, -6.84,   0.0, 0.0
+
+AddWeapon = magic,     3.49, 2.16, -4.95,   0.0, 0.0
+AddWeapon = magic,    -3.49, 2.16, -4.95,   0.0, 0.0
+AddWeapon = targeting_pod_block,   0.0, 3.4, 0.0,    0.0, 0.0, true,  2
+
+
+AddWeapon = gbu12,      3.9289, 0.6578, -0.4210, 0.0, 0.0
+AddWeapon = gbu12,     -3.9289, 0.6578, -0.4210, 0.0, 0.0
+
+AddWeapon = armat,      3.9289, 0.6578, -0.4210, 0.0, 0.0
+AddWeapon = armat,     -3.9289, 0.6578, -0.4210, 0.0, 0.0
+
+
+BoundingBox =  0.00, 1.82,  7.20,  1.0, 1.0
+BoundingBox =  0.00, 2.05,  5.60,  1.2, 1.4
+BoundingBox =  0.00, 2.25,  4.00,  1.2, 1.8
+BoundingBox =  0.00, 2.25,  2.35,  1.2, 1.8
+BoundingBox =  0.00, 2.20,  0.70,  1.3, 1.7
+BoundingBox =  0.00, 1.90, -1.75,  3.0, 1.7
+BoundingBox =  0.00, 1.95, -5.05,  3.0, 1.6
+BoundingBox =  0.00, 2.00, -8.05,  3.0, 1.1
+BoundingBox =  3.30, 2.20, -3.45,  3.5, 0.5
+BoundingBox = -3.30, 2.20, -3.45,  3.5, 0.5
+
+EntityWidth  = 0.875
+EntityHeight = 0.875
+
+
+
+MobilityRoll = 2.54
+MobilityYaw = 2.54
+MobilityPitch = 0.254	

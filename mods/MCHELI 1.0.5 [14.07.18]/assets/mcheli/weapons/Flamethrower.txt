@@ -1,0 +1,22 @@
+﻿DisplayName = Flamethrower
+Type = Dispenser
+Acceleration = 3
+Sight = None
+Delay = 0
+Sound = Flamethrower_snd
+SoundDelay = 0
+Gravity = -0.05
+
+Round = 200
+ReloadTime = 200
+
+TrajectoryParticle = flame
+SmokeSize   = 3.0
+
+DispenseItem = flint_and_steel
+DispenseRange = 2
+
+
+MaxAmmo = 200
+SuppliedNum = 200
+Item =  1, hbm:item.bomb_caller

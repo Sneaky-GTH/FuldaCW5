@@ -1,0 +1,19 @@
+DisplayName = M344A1(HEAT)
+Type = MachineGun2
+Power = 15
+ModelBullet = M344A1(HEAT)
+Acceleration = 10
+Explosion = 3
+ExplosionBlock = 3
+Flaming = false
+Sight = MoveSight
+Delay = 180
+ModeNum = 1
+Sound = cannon_1_snd
+Gravity = -0.01
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  4, gunpowder
+

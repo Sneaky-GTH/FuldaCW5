@@ -1,0 +1,50 @@
+////Name and icon
+Name Rock
+ShortName rock
+Icon Rock
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+ItemID 10501
+RecipeOutput 2
+ShapelessRecipe stonebrick
+StackSize 64
+////Visuals
+Model yeolde.Rock
+Texture Rock
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.5
+HitEntityDamage 5
+ThrowSpeed 3.1
+FallSpeed 1.2
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 0.5
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 200
+DetonateWhenShot false
+////Detonation
+FireRadius 0.0
+ExplosionRadius 0.0
+ExplosionBreaksBlocks false
+DropItemOnDetonate rock
+//Detonate Sound <sound>
+////Misc
+MeleeDamage 3
+//Recipe C cobblestone

@@ -1,0 +1,20 @@
+DisplayName = PAC-3 Patriot [SAM]
+Type = AAMissile
+Power = 10
+Acceleration = 3.5
+Explosion = 15
+Flaming = true
+Sight = MissileSight
+Delay = 300
+ProximityFuse = 2
+LockTime = 15
+ModelBullet = sa2missile
+Radius = 1600
+
+MaxAmmo = 16
+Round = 16
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo
+
+AddMuzzleFlashSmoke   =              8.2,     30,   12.0,  4.0,       65,  220,160,140,120
+AddMuzzleFlashSmoke   =             10.2,     20,   13.0,  7.0,       55,  200,190,170,150

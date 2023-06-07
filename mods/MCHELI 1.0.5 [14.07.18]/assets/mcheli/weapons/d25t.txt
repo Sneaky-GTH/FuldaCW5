@@ -1,0 +1,19 @@
+DisplayName = 122mm D-25T L/43
+Type = MachineGun2
+ModeNum = 2
+Piercing = 2
+Power = 300
+Gravity = -0.005
+Acceleration = 2.5
+Explosion = 3
+Flaming = false
+Sight = MoveSight
+Delay = 90
+;SoundDelay = 3
+Accuracy = 0.2
+BulletColor        = 255, 255, 20,0
+
+MaxAmmo = 44
+SuppliedNum = 44
+Item =  2, iron_ingot
+Item =  2, gunpowder

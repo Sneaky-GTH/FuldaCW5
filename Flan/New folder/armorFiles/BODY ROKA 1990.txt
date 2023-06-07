@@ -1,0 +1,14 @@
+Name Republic Of Korea Army Uniform (Tonghab)
+ShortName rok90s
+Icon IconROK
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.ROK90sBody
+ArmourTexture SkinROK90
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description South Korean Combat Jacket_Year: 1990_Tonghab Woodland

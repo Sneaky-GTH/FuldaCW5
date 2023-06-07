@@ -1,0 +1,20 @@
+DisplayName = 8.8mmFlak 122
+Type = MachineGun2
+Power = 35
+ModelBullet = bullet76mm
+Acceleration = 5.0
+Explosion = 2
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Delay = 20
+ModeNum = 2
+SoundVolume = 0.6
+SetCartridge = cartridge, 0.4,  0, 0, 5.00, -0.04, 0.40
+Sound = cannon_1_snd
+SoundPitch = 0.3
+
+MaxAmmo = 20
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  3, gunpowder

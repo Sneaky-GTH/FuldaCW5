@@ -1,0 +1,23 @@
+DisplayName = GBU-500
+Type = ASMissile
+Power = 900
+Acceleration = 2
+Explosion = 45
+Flaming = true
+Sight = MoveSight
+Delay = 50
+Round = 2
+ReloadTime = 450
+SoundVolume = 5
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu57
+Gravity = -0.01
+DisableSmoke = true
+Piercing  = 3
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  8, iron_ingot
+Item =  12, gunpowder
+Item =  8, redstone

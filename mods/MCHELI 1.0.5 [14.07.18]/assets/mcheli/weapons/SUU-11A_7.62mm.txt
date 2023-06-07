@@ -1,0 +1,18 @@
+DisplayName =7.62mm Minigun
+Type = MachineGun1
+Power = 8
+Acceleration = 8.0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+HeatCount = 1
+MaxHeatCount = 500
+SoundPitch = 1.0
+ReloadTime = 100
+Round = 3000
+SetCartridge = cartridge, 0.1,  90, 0, 1.50, -0.04, 0.40
+Sound = gun_l1_snd
+
+MaxAmmo = 3000
+SuppliedNum = 120
+Item =  40, hbm:item.casing_9

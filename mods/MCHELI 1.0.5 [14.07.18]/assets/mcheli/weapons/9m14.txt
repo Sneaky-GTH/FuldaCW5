@@ -1,0 +1,17 @@
+DisplayName = 9M14 Malyutka [ATGM]
+Type = TVMissile
+Power = 13
+Acceleration = 2.0
+
+Flaming = false
+Sight = MoveSight
+ReloadTime = 200
+Delay = 40
+Round = 3
+ModelBullet = 9M113
+Sound = missile_1_snd
+ModeNum = 2
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

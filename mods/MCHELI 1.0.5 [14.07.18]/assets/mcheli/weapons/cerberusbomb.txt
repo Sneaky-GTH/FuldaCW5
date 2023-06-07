@@ -1,0 +1,22 @@
+DisplayName = Cerberus Ground Attack Bomb
+Type = ASMissile
+Power = 100
+Acceleration = 0.9
+Explosion = 5
+ExplosionBlock = 3
+Sight = MoveSight
+Delay = 5
+Round = 3
+ReloadTime = 140
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = cerberus
+Gravity = 0.0001
+DisableSmoke = true
+
+MaxAmmo = 3
+SuppliedNum = 3
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

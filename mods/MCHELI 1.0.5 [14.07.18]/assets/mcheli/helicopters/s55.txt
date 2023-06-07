@@ -1,0 +1,45 @@
+DisplayName = SIKORSKY S-55 Chickasaw
+AddDisplayName = ja_JP, SIKORSKY S-55 Chickasaw
+ItemID = 28806
+MaxHp = 300
+MaxFuel         = 2200
+Sound = dheli
+FuelConsumption = 1.0
+ThirdPersonDist = 16
+
+; C = Civilian(民間機)
+Category = C
+
+HUD = civilian_aircraft, none, none, none, none, none
+
+AddTexture = s55ng
+AddTexture = s55
+
+Speed = 0.7
+
+AddRotor= 1, 0,  0.00,  4.792,  2.139,  0.0, 1.0, 0.0
+AddRotor= 1, 0,  0.2992,  4.574, -9.346,  1.0, 0.0, 0.0
+
+AddPartSlideHatch =  0.00, 0.00, -1.2
+
+AddSeat =-0.5223,  2.841,  3.004
+AddSeat = 0.5223,  2.841,  3.004
+AddSeat = 0.5223,  1.305,  2.872
+AddSeat = 0.5223,  1.305,  2.393
+AddSeat = 0.5223,  1.305,  1.981
+AddSeat = 0.5223,  1.305,  1.613
+AddSeat = 0.5223,  1.305,  1.223
+AddSeat = 0.5223,  1.305,  0.8555
+AddSeat = 0.5223,  1.305,  0.3206
+AddSeat = -0.7242,  1.305, 1.142
+AddSeat = -0.7242,  1.305, 0.6479
+
+
+AddRecipe = " R ",  "X X",  "X X",  X, iron_block,  R, redstone_block
+
+InventorySize = 50
+
+
+BoundingBox =  0.0, 1.7, 1.5,  2.4, 2.5
+BoundingBox =  0.0, 2.1, -1.5,  2.4, 3.3
+BoundingBox =  0.0, 3.2, -11.5,  1.0, 2.4

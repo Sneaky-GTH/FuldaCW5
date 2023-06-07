@@ -1,0 +1,10 @@
+Name Black Balaclava - Mouth and Eye Holes
+ShortName balaclava1
+Icon BalaclavaBlackMouth
+Colour 255 255 255
+Type Boots
+Defence 0.0
+Model NewArmor.BalaclavaMouth
+ArmourTexture SkinBalaclava2HoleBlack
+Description Tier -1_Crimean War Mask_Years: 1854_Black 
+

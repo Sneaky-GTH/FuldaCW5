@@ -1,0 +1,44 @@
+DrawTexture = radar, 144, 15,  64,64,  0,0, 463,442
+
+If = radarmode >= 0
+	DrawTexture = radarHorizon, 144+32-23, 10+32+5,  49,3,  0,0, 361,15, roll
+EndIf
+
+If = radarmode == -1
+	DrawCenteredString = 155, 80, "OFF"
+EndIf
+If = radarmode == 0
+	DrawCenteredString = 155, 80, "RWS"
+EndIf
+If = radarmode == 1
+	DrawCenteredString = 155, 80, "STT"
+EndIf
+If = radarmode == 2
+	DrawCenteredString = 155, 80, "TWS"
+EndIf
+If = radarmode == 3
+	DrawCenteredString = 155, 80, "SURF"
+EndIf
+
+If = radar_rot < 180
+	;DrawTexture = v, 144+radar_rot/360*120, 10+64,  4,4,  0,0, 22,24
+	;DrawTexture = v, 147, 6+radar_rot/360*120,  4,4,  0,0, 22,24, 90
+EndIf
+
+If = radar_rot > 180
+	;DrawTexture = v, 208-(radar_rot-180)/360*120, 10 +64,  4,4,  0,0, 22, 24
+	;DrawTexture = v, 147, 6-(radar_rot-180)/360*120+64,  4,4,  0,0, 22,24, 90
+EndIf
+
+Color = 0xFFDF0408
+If = 0 <= radarmode < 3
+	DrawEnemyRadar  = -yaw-180, 144, 15,  64,64
+EndIf
+
+If = radarmode == 3
+	DrawEntityRadar = -yaw-180, 144, 15,  64,64
+EndIf
+
+If = tdcmode == 0
+	DrawTexture = cursor, 176+tdcx, 45+tdcy,  4,4,  0,0, 28,25
+EndIf

@@ -1,0 +1,21 @@
+DisplayName = AIM120 AMRAAM [ARH]
+Type = AAMissile
+Power = 0
+Acceleration = 5
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 4
+LockTime = 15
+ProximityFuseDist = 1
+ModelBullet = aim120
+Sound = missile_1_snd
+
+Radius=1200
+Radius=10
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo
+

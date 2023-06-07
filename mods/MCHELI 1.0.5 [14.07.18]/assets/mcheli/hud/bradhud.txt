@@ -1,0 +1,5 @@
+
+If = cam_zoom > 1
+	DrawTexture = bradley_sight, -1536/2,-384/2, 1536, 384, 0, 0,2048,512 
+Endif
+Call = afvhudbase

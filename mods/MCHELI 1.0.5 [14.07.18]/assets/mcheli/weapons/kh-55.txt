@@ -1,0 +1,22 @@
+DisplayName = Kh-55 [ALCM]
+Type = ASMissile
+Power = 0
+Acceleration = 13
+Explosion = 15
+ExplosionBlock = 7
+Flaming = true
+Sight = MoveSight
+Delay = 4
+
+ReloadTime = 190
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = egbu-24
+Gravity = -0.001
+;DisableSmoke = true
+Radius=2500
+Round=14
+MaxAmmo = 14
+SuppliedNum = 2
+Item =  2, hbm:item.gun_stinger_ammo

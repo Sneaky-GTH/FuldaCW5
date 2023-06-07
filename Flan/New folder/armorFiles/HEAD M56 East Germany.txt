@@ -1,0 +1,10 @@
+Name M56 Steel Helmet
+ShortName m56
+Icon M56
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.EastGermanM56
+ArmourTexture SkinEastGermanGray
+Description Tier 2_East German Combat Helmet_Year: 1956
+headArmor 150

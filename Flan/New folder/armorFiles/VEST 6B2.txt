@@ -1,0 +1,15 @@
+Name 6B2 Ballistic Vest
+ShortName 6B2
+Icon USSR
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.6B2
+ArmourTexture SkinSovietAfghanka
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+backArmor 100
+ModelScale 1.05
+Durability 50
+Description Tier 3_Soviet Aramid Body Armour_Year: 1979_Kahki

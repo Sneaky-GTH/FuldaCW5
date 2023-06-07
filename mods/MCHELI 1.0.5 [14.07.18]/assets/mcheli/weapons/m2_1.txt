@@ -1,0 +1,19 @@
+DisplayName = M2 Browning
+Type = MachineGun2
+Power = 1
+Acceleration = 10.0
+Flaming = false
+Sight = MoveSight
+Delay = 2
+SoundVolume = 10.2
+SoundPitch = 1.0
+Sound = gun_h1_snd
+Accuracy = 1.0
+HeatCount = 5
+MaxHeatCount = 150
+
+DamageFactor = player,50
+
+MaxAmmo = 100
+SuppliedNum = 50
+Item =  50, hbm:item.casing_9

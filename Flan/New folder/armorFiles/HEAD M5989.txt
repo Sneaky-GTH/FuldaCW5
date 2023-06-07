@@ -1,0 +1,10 @@
+Name M59/85 Steel Helmet
+ShortName M5985
+Icon M56
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.YugoslavianHelmetCamo
+ArmourTexture SkinYugoslavaCamo
+Description Tier 3.5_Yugoslavian Combat Helmet_Year: 1986_Not steel, its kevlar ;)
+headArmor 150

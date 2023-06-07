@@ -1,0 +1,17 @@
+DisplayName = RocketGun
+Type = Rocket
+Power = 80
+Acceleration = 1.7
+Explosion = 15
+Flaming = true
+Sight = MoveSight
+Delay = 5
+ReloadTime = 80
+ModelBullet = agm114
+Sound = missile_1_snd
+
+MaxAmmo = 200
+SuppliedNum = 20
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

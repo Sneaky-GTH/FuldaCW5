@@ -1,0 +1,10 @@
+Name M80 Steel Helmet 
+ShortName M1PotIraq
+Icon M1PotIraq
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.M1PotElite
+ArmourTexture SkinM1PotIraq
+Description Tier 3.5_American Combat Helmet_Year: 1941Iraqi/American Combat Helmet_Year: 1980_M1 Pot copy
+headArmor 120

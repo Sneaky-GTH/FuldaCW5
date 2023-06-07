@@ -1,0 +1,14 @@
+Name Peoples Liberation Army Uniform (Type 99)
+ShortName china90s
+Icon CN
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.Chinese90s
+ArmourTexture SkinChina90s
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 4_Chinese Battle Dress_Year: 1992_Type 99

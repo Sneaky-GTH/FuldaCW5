@@ -1,0 +1,24 @@
+DisplayName = 500kgsc500k
+Type = ASMissile
+Power = 98
+Acceleration = 1.8
+Explosion = 9
+ExplosionBlock = 47
+Flaming = false
+Sight = MoveSight
+Delay = 9
+Round = 1
+ReloadTime = 200
+SoundVolume = 6
+SoundPitch = -0.2
+Sound = stukasi
+ModelBullet = bomb
+Gravity = -0.01
+DisableSmoke = true
+Piercing  = 5
+
+MaxAmmo = 1
+SuppliedNum = 3
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

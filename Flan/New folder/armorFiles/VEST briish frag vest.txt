@@ -1,0 +1,15 @@
+Name Mk1 Frag Vest
+ShortName fragVest
+Icon UK
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.BritishMk1FragVest
+ArmourTexture SkinBritishPattern68
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+backArmor 100
+Durability 55
+ModelScale 1.05
+Description Tier 3_British/American Flak Jacket_Year: 1960s_Green

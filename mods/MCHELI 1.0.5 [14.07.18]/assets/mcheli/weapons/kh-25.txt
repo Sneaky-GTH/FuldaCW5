@@ -1,0 +1,19 @@
+DisplayName = Kh-25ML
+Type = ASMissile
+Power = 550
+Acceleration = 4.5
+Explosion = 5
+Flaming = true
+Sight = MoveSight
+Delay = 60
+Round = 2
+ReloadTime =500
+Sound =missile_9_snd
+ModelBullet = kh-25
+SoundVolume = 3
+
+MaxAmmo = 2
+SuppliedNum = 4
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

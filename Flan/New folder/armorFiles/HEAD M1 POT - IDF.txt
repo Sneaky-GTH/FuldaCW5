@@ -1,0 +1,10 @@
+Name M1 Steel Helmet - Israeli Cover
+ShortName M1PotIsrael
+Icon M1PotIsreal
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.Israel1967Helmet
+ArmourTexture SkinIsrael1967
+Description Tier 2.5_American Combat Helmet_Year: 1941Israeli/American Combat Helmet_Year: 1967
+headArmor 120

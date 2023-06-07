@@ -1,0 +1,9 @@
+<xmlRoot>
+   <uuid>0001110b-0d36-5b30-e08f-125969ded26d</uuid>
+   <delegate>tc:minecartCabooseLogging</delegate>
+   <pos_x>350.5</pos_x>
+   <pos_y>4.849999952316284</pos_y>
+   <pos_z>78.5</pos_z>
+    <inventory>
+   </inventory>
+</xmlRoot>

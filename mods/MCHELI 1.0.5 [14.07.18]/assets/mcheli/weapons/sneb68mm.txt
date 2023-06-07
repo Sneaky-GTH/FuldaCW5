@@ -1,0 +1,17 @@
+DisplayName = SNEB 68mm Rocket
+Type = Rocket
+Power = 0
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 2
+ExplosionBlock=0
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 80
+Round = 24
+Sound = rocket_snd
+
+MaxAmmo = 24
+SuppliedNum = 2
+Item =  1, hbm:item.ammo_rocket

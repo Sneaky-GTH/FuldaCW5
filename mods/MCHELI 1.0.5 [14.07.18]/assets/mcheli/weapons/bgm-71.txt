@@ -1,0 +1,9 @@
+﻿DisplayName = BGM-71
+Type = TVMissile
+Power = 430
+Acceleration = 1
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 100
+ModeNum = 2

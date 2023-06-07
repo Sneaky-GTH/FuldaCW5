@@ -1,0 +1,31 @@
+DisplayName = CannonBall Left
+Type = MachineGun2
+Power = 30
+ModelBullet = bulletCannonBall
+Acceleration = 2.0
+Explosion = 0
+ExplosionBlock = 5
+Flaming = false
+Sight = MoveSight
+Delay = 5
+TimeFuse = 200
+ModeNum = 1
+HeatCount = 10
+MaxHeatCount = 80
+SoundVolume = 0.6
+Piercing  = 0
+SoundPitch = 0.7
+SoundVolume = 10
+Sound = cannon_1_snd
+Recoil = 2.0
+
+RecoilBufCount = 25, 5
+Gravity = -0.03
+
+MaxAmmo = 40
+SuppliedNum = 20
+Item =  1, iron_ingot
+Item =  3, gunpowder
+
+
+BulletColor        = 255, 0, 0, 0

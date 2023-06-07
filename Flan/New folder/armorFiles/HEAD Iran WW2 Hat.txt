@@ -1,0 +1,10 @@
+Name Iranian WW2 Field Cap
+ShortName iranWW2Hat
+Icon IRN
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model dunk.IranWW2Hat
+ArmourTexture SkinIranGallon
+Description Tier 1_Iranian WW2 Field Cap_Year: 1930s_Brown
+headArmor 10

@@ -1,0 +1,19 @@
+DisplayName = MK82 bomb
+Type = Bomb
+Power = 115
+Acceleration = 0.1
+Explosion = 4
+ExplosionBlock = 8
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 4
+Sound = bomb_snd
+ModelBullet = mk82_b
+
+ReloadTime = 300
+Round = 40
+MaxAmmo = 80
+SuppliedNum = 20
+Item = 20, hbm:item.warhead_generic_small
+

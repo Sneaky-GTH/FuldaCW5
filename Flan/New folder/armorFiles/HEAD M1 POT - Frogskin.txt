@@ -1,0 +1,11 @@
+Name M1 Pot Steel Helmet - Frogskin Cover
+ShortName M1PotFrog
+Icon M1PotFrogskin
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.M1PotElite
+ArmourTexture SkinM1PotEliteFrogSkin
+Description Tier 2_American Combat Helmet_Year: 1941American Combat Helmet_Year: 1959_Frogskin Pattern Helmet Cover
+headArmor 120
+ShapelessRecipe M1PotFrogArid

@@ -1,0 +1,15 @@
+Name Ballistic Combat Vest Mk1
+ShortName fragVestJap
+Icon IconJapan
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.BallisticCombatVestMk1
+ArmourTexture SkinJapaneseFragVest
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 100
+backArmor 100
+Durability 55
+ModelScale 1.05
+Description Tier 4_Japanese Flak Jacket_Year: 1992_Mk2 Jietai

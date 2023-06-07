@@ -1,0 +1,14 @@
+Name Bundeswehr Cold War Uniform
+ShortName ger60s
+Icon GERFRG
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.WestGermanBody
+ArmourTexture SkinWestGermany
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 2.5_German Battle Dress_Year: 1960_OD
+bodyArmor 10
+armArmor 10
+ModelScale 1.05

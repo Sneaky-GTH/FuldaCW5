@@ -1,0 +1,17 @@
+DisplayName = KX9 Laser cannon (S-foil)
+Type = MachineGun2
+ModelBullet = kx9
+Power = 19
+Acceleration = 10.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 0
+Sound = kx9_laser
+SoundDelay = 2
+SoundPitch = 2
+SoundVolume = 1
+Accuracy =0
+HeatCount = 5
+MaxHeatCount = 250
+ModeNum = 2

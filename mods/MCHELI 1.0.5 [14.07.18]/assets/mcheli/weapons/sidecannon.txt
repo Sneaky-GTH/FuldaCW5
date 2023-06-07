@@ -1,0 +1,22 @@
+DisplayName = SideCannon
+Type = MachineGun2
+Power = 100
+ModelBullet = bullet105mm
+Acceleration = 4.8
+Explosion = 15
+ExplosionBlock = 8
+Flaming = false
+Sight = MoveSight
+Delay = 64
+ModeNum = 1
+Piercing  = 0
+SoundPitch = 0.7
+SoundVolume = 20
+Sound = cannon_1_snd
+Recoil = 2.0
+
+
+MaxAmmo = 100
+SuppliedNum = 20
+Item =  4, iron_ingot
+Item =  5, gunpowder

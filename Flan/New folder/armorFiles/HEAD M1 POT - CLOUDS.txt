@@ -1,0 +1,11 @@
+Name M1 Pot Steel Helmet - Clouds Camouflage Cover
+ShortName M1PotClouds
+Icon M1PotClouds
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.M1PotElite
+ArmourTexture SkinM1PotEliteMitchelArid
+Description Tier 2_American Combat Helmet_Year: 1941American Combat Helmet_Year: 1959_Clouds Pattern Helmet Cover_Reversable Pattern
+headArmor 120
+ShapelessRecipe M1PotMitchell

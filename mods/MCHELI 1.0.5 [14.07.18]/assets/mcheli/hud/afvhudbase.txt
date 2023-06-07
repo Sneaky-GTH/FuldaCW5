@@ -1,0 +1,60 @@
+Call = mortar
+
+;DrawString = -70, -10, "x%.1f", CAM_ZOOM
+DrawCenteredString = -26, 105, "%s",  WPN_AMMO
+DrawCenteredString =   0, 105, "/",   WPN_AMMO
+DrawCenteredString =  26, 105, "%s",  WPN_RM_AMMO
+; 武器名 (Weapon name)
+DrawCenteredString = 0, 94, "%s",  WPN_NAME
+; 銃身の熱量タイプの場合(Heat)
+If = is_heat_wpn==1
+	Color = 0xCFA99D38
+	DrawRect = -20, 115, 41, 2
+	Color = 0xFFDF0408
+	DrawRect = -20, 115, 41*wpn_heat, 2
+EndIf
+
+;Throttle
+Color = 0xFFFFE400
+DrawLine =  145, 106,   207, 106,    207, 114,    145, 114,   145, 106,
+DrawString  = 124, 105, "%.0f%%"   , THROTTLE
+DrawRect    = 146, 107, throttle*60, 6
+
+
+;Fuel
+Color = 0xFFDF0408
+DrawString   = 124,90, "E"
+Color = 0xFFFFE400
+DrawString   = 209,90, "F"
+DrawLine =  145, 91,   207, 91,    207, 101,    145, 101,   145, 91,
+Color = fuel>0.2? 0xFFFFE400: 0xFFDF0408
+DrawRect     = 146, 92, fuel*60, 8
+
+
+If = low_fuel
+	DrawTexture = hud, -211, 90, 16,16,  0,0,  32,32
+	Color = 0xFFDF0408
+	DrawString  = -195, 95, "%s key", KEY_GUI
+EndIf
+
+;HP
+Color = 0xFFFFE400
+DrawString   = 124,77, "HP"
+DrawLine =  145, 85,   207, 85,    207, 77,    145, 77,   145,  85,
+Color = hp_rto>0.2? 0xFFFFE400: 0xFFDF0408
+DrawString  = 150,     68, "%3.0f", HP_PER
+DrawString  = 150+26,  68, "/ 100", HP_PER
+DrawRect    = 146,    78,   hp_rto*60, 6
+
+If = have_flare==1
+	Color = can_flare==1? 0xFFFFE400: 0xFFDF0408
+	DrawString = 124, 117, "[FLARE]"
+Endif
+
+
+Color = 0xFFFFE400
+
+DrawLine = 0,-133,   3,-136,  -3,-136,   0,-133
+DrawGraduationYaw   = plyr_yaw, 0,   , -150
+DrawLine = 0,-122,   3,-119,  -3,-119,   0,-122
+DrawCenteredString =   0, -131, "%.0f", PLYR_YAW

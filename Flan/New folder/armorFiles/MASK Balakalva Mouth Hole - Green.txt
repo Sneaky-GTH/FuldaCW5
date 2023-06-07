@@ -1,0 +1,10 @@
+Name Green Balaclava - Mouth and Eye Holes
+ShortName balaclava1Green
+Icon BalaclavaGreenMouth
+Colour 255 255 255
+Type Boots
+Defence 0.0
+Model NewArmor.BalaclavaMouth
+ArmourTexture SkinBalaclava2HoleGreen
+Description Tier -1_Crimean War Mask_Years: 1854_Green
+

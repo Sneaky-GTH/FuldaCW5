@@ -1,0 +1,51 @@
+﻿DisplayName = UH-1B Huey
+AddDisplayName = ja_JP, UH-1C イロコイ
+ItemID = 28821
+MaxHp = 165
+EnableGunnerMode = true
+EnableNightVision = true
+EnableEntityRadar = true
+Speed = 0.65
+ThrottleUpDown = 0.8
+FlareType = 3
+CameraPosition = 0.0, 0.7, 3.0
+MaxFuel         = 1350
+FuelConsumption = 1.0
+ConcurrentGunnerMode = true
+ThirdPersonDist = 16
+Sound = r44_heli
+
+; M = Military(軍用機).  M = Multi-Mission(多目的機)
+Category = M.M
+
+HUD = heli, heli_gnr, gunner, gunner
+
+AddTexture = uh-1c-usam1
+AddTexture = uh-1c-usam2
+AddTexture = uh-1c-usmc
+AddTexture = uh-1c-usnv
+
+AddPartCamera = 0.0, 0.55,  2.07, true, false
+
+AddPartWeapon       = m60_l,     false, true,  true,  1.6646, 1.1747, -1.4552
+AddPartWeapon       = m60_r,     false, true,  true, -1.6646, 1.1747, -1.4552
+
+
+AddRotor= 1, 0,  0.00,  3.715,  -2.536,  0.0, 1.0, 0.0, false
+AddRotor= 1, 0,  0.00,  3.715, -12.005,  1.0, 0.0, 0.0, false
+
+AddSeat       =-0.50,  0.80,  0.10
+AddGunnerSeat = 0.50,  0.80,  0.10,  0.0, 0.7, 3.0,  true
+AddSeat       = 1.05,  0.70, -1.45
+AddSeat       =-1.05,  0.70, -1.45
+AddSeat       =-0.5,  0.70,  -1.45
+AddSeat       =-0.0,  0.70,  -1.45
+AddSeat       =0.5,  0.70,  -1.45
+
+AddWeapon = m60_l,       1.66, 1.17, -1.45,   0.0, 0.0,  true, 3, -90,-80, 80, -50,80
+AddWeapon = m60_r,      -1.66, 1.17, -1.45,   0.0, 0.0,  true, 4,  90,-80, 80, -50,80
+
+
+BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
+BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4
+BoundingBox =  0.0, 3.5,-12.0,  2.0, 3.0

@@ -1,0 +1,11 @@
+Name M1 Pot Steel Helmet - Frogskin Coastal Cover
+ShortName M1PotFrogArid
+Icon M1PotFrogskinArid
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.M1PotElite
+ArmourTexture SkinM1PotEliteFrogSkinArid
+Description Tier 2_American Combat Helmet_Year: 1941American Combat Helmet_Year: 1959_Frogskin Coastal Pattern
+headArmor 120
+ShapelessRecipe M1PotFrog

@@ -1,0 +1,12 @@
+DisplayName = horn4
+Type = MachineGun1
+Power = 0
+Accuracy = 0
+Flaming = true
+Sight = None
+Delay = 10
+ModelBullet = 0_none-horn4
+Particle = none
+Sound = horn4_snd
+SoundVolume = 5.0
+SoundPitchRandom = 0

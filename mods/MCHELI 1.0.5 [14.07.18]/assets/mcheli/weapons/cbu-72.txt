@@ -1,0 +1,22 @@
+DisplayName = CBU-72 FAE1
+Type = Bomb
+Power = 150
+Acceleration = 0.1
+Explosion = 4
+ExplosionInWater = 0
+ExplosionAltitude = 8
+FAE = true
+Flaming = true
+Sight = None
+Delay = 350
+ModelBullet = cbu87
+Sound = bomb_snd
+
+Bomblet = 3
+BombletSTime = 20
+BombletDiff = 1.3
+
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  5, iron_ingot
+Item =  5, gunpowder

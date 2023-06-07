@@ -1,0 +1,16 @@
+DisplayName = LaserBeam
+Type = MachineGun2
+ModelBullet = laseryellow
+Power = 20
+Acceleration = 3.0
+Explosion = 4
+Flaming = false
+Sight = MoveSight
+Delay = 20
+Sound = laserb_snd
+SoundDelay = 4
+SoundVolume = 3
+Accuracy =2
+HeatCount = 2
+MaxHeatCount = 150
+ModeNum = 2

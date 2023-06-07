@@ -1,0 +1,29 @@
+DisplayName = 17cm Pak
+Type = MachineGun2
+Power = 200
+ModelBullet = bullet76mm
+Acceleration = 7.0
+Explosion = 11
+ExplosionBlock = 11
+Flaming = false
+Sight = MoveSight
+ModeNum = 2
+SoundVolume = 1.0
+SoundPitch = 0.4
+Sound = cannon_1_snd
+Recoil = 1.0
+Accuracy = 0.2
+
+Delay = 1
+ReloadTime = 240
+Round = 1
+
+MaxAmmo = 24
+SuppliedNum = 12
+Item =  2, iron_ingot
+Item =  5, gunpowder
+
+AddMuzzleFlash = 9.0, 1.0, 6, 220, 240,140,0
+AddMuzzleFlashSmoke = 9.0, 10, 4.0,  3.0,  65,  220,140,140,140
+
+RecoilBufCount = 20, 5

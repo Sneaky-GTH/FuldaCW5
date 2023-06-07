@@ -1,0 +1,15 @@
+DisplayName = 9M114
+Type = TVMissile
+Power = 22
+Acceleration = 2.0
+Explosion = 0
+Flaming = true
+Sight = MoveSight
+Delay = 25
+ModeNum = 2
+Sound = missile_1_snd
+
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  1, hbm:item.gun_stinger_ammo

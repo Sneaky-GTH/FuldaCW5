@@ -1,0 +1,10 @@
+Name M1938 Crash Helmet
+ShortName muricaTankHelmet
+Icon US
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+Model NewAge.USATankerWW2
+ArmourTexture SkinUSTankerWW2
+Description Tier 0.5_American Tanker Helmet_Year: 1938
+headArmor 80

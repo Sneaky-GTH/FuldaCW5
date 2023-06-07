@@ -1,0 +1,14 @@
+Name Peoples Liberation Army Uniform (Type 8-1)
+ShortName china80s
+Icon CN
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.China80s
+ArmourTexture 30PLA
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 3_Chinese Battle Dress_Year: 1979_Type 8-1

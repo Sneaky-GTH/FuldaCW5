@@ -1,0 +1,17 @@
+DisplayName = skeletonbullet
+Type = MachineGun2
+Power = 20
+ModelBullet = skeletonbullet
+Acceleration = 1.0
+Explosion = 0
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 10
+HeatCount = 5
+MaxHeatCount = 60
+SoundVolume = 0.6
+Sound = skeletonbullet_snd
+
+MaxAmmo = 80
+BulletColor        = 255,255,255,255

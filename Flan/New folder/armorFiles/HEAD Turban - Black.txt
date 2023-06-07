@@ -1,0 +1,10 @@
+Name Generic Turban - Black
+ShortName genericturbanBlack
+Icon persianHat
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinTurbanBlack
+Model NewAge.GenericTurban
+Description Tier -3_Middle Eastern Headwear_Year: No idea!
+headArmor 10

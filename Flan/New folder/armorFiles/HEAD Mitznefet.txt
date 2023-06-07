@@ -1,0 +1,10 @@
+Name Advanced Combat Helmet (Mitznefet)
+ShortName achMitznefet
+Icon IDF
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewAge.Mitznefet
+ArmourTexture SkinMitzfenet
+Description Tier 4.5_American/Israeli Combat Helmet_Year: 2002_Mitznefet Helmet Cover
+headArmor 200

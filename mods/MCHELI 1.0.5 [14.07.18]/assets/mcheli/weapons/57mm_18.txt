@@ -1,0 +1,23 @@
+DisplayName = 57mm Rocket
+Type = Rocket
+Power = 0
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 2
+ExplosionBlock = 0
+Sound = rocket_snd
+Flaming = true
+Sight = MoveSight
+Delay = 5
+ReloadTime = 110
+Round = 18
+
+DamageFactor = player,50
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 18
+SuppliedNum = 3
+Item =  1, hbm:item.ammo_rocket

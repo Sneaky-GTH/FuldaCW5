@@ -1,0 +1,19 @@
+DisplayName = mg81_7.92mm
+Type = MachineGun2
+Power = 40
+Acceleration = 4.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+;SoundDelay = 3
+;Accuracy = 2.0
+HeatCount = 3
+MaxHeatCount = 750
+ReloadTime = 40
+Round = 500
+
+MaxAmmo = 1000
+SuppliedNum = 1000
+Item =  3, iron_ingot
+Item =  2, gunpowder

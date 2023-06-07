@@ -1,0 +1,10 @@
+Name PACA
+ShortName pacapress
+ItemID 23886
+Icon PACAPRESS
+Colour 255 255 255
+Type Chest
+Model EFC.PACAPRESS
+MoveSpeedModifier 0.965
+ArmourTexture PACAPress
+Defence 0.05

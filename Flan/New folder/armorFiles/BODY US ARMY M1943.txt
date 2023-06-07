@@ -1,0 +1,13 @@
+Name US Army M1943 Jacket (OD)
+ShortName us40s
+Icon 44_AmericanM1943CombatFieldUniformChest
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.USArmyWW2
+ArmourTexture SkinAmericanM1943
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+Description Tier 1_American Battle Dress_Year: 1943_OD
+bodyArmor 10
+armArmor 10

@@ -1,0 +1,15 @@
+Name Libyan Cold War Uniform
+ShortName libya
+Icon Libya
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.LibyaCW
+ArmourTexture SkinLibyaCW
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+Description Tier 3_Libyan Battle Dress Uniform_Year: 1970s?_Moo Pattern
+ModelScale 1.05

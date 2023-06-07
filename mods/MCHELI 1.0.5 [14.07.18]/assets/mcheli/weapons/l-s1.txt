@@ -1,0 +1,17 @@
+DisplayName = L-s1 Laser cannon
+Type = MachineGun2
+ModelBullet = l-s1
+Power = 15
+Acceleration = 11.0
+Explosion = 1
+Flaming = false
+Sight = MoveSight
+Delay = 1
+Sound = tie_laser
+SoundDelay = 2
+SoundPitch = 2
+SoundVolume = 1
+Accuracy = 0
+HeatCount = 5
+MaxHeatCount = 110
+ModeNum = 2

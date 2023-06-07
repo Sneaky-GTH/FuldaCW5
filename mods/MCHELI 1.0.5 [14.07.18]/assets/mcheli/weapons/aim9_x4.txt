@@ -1,0 +1,18 @@
+DisplayName = AIM-9 Sidewinder
+Type = IRMissile
+Power = 58
+Acceleration = 40
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 4
+LockTime = 10
+ProximityFuseDist = 1
+ModelBullet = aim9lm
+Sound = missile_1_snd
+
+
+MaxAmmo = 4
+SuppliedNum = 1

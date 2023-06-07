@@ -1,0 +1,10 @@
+Name PASGT Kevlar Helmet - Tan
+ShortName pasgtnakedTn
+Icon IconPASGTTan
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.PASGTHelmetNaked
+ArmourTexture SkinPASGTNakedTan
+Description  Tier 3.5_American Combat Helmet_Year: 1988_No Cover_Tan
+headArmor 180

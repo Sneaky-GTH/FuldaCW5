@@ -1,0 +1,14 @@
+Name French Army Uniform (Olive Drab)
+ShortName FRF1
+Icon FRarmor
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewAge.FrenchF1
+ArmourTexture SkinF1
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 4_French F1 Battle Dress_Year: 1980_OD

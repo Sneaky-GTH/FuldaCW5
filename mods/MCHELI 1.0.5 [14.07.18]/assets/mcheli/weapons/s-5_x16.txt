@@ -1,0 +1,17 @@
+DisplayName = S-5K 57mm Rocket
+Type = Rocket
+Power = 32
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 3
+ExplosionBlock = 1
+Flaming = false
+Sight = MoveSight
+Sound = rocket_snd
+Delay = 7
+ReloadTime = 110
+Round = 8
+
+MaxAmmo = 16
+SuppliedNum = 16
+Item =  16, hbm:item.gun_rpg_ammo

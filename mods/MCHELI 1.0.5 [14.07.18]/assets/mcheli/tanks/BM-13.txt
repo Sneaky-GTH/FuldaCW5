@@ -1,0 +1,110 @@
+﻿DisplayName = BM-13N
+ItemID = 30000
+MaxHp = 300
+ThrottleUpDown = 5.0
+Speed = 0.9
+MobilityYawOnGround = 5.0
+StepHeight = 2.0
+Sound = prop
+MinRotationPitch = -90
+MaxRotationPitch = 90
+MobilityRoll     = 0
+Gravity        = -0.15
+GravityInWater = -0.1
+DamageFactor   = 0.52
+EnableNightVision = true
+MaxFuel           = 1500
+FuelConsumption   = 1.0
+
+OnGroundPitchFactor = 4.0
+OnGroundRollFactor  = 2.3
+
+
+VariableSweepWing  = true
+SweepWingSpeed  = 0.0
+
+;AddTexture =
+
+EnableBack = true
+
+Category = C
+
+WeightType = Car
+
+SetWheelPos =  1.07,-0.24,3.51, -1.07,-0.24,3.51, 1.12,-0.24,-1.07, -1.12,-0.24,-1.07, 1.12,-0.24,-2.65, -1.12,-0.24,-2.65,
+
+HUD = heli_gnr, heli_gnr,heli_gnr,none, none,none,
+
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+AddSeat =   0.48,  1.07, 1.50
+AddSeat =  -0.48,  1.07, 1.50
+
+PivotTurnThrottle = 0.1
+
+PartWheelRot = 25
+
+AddPartWheel     = -1.0407,  0.3455,  3.5124, 45
+AddPartWheel     =  1.0407,  0.3455,  3.5124, 45
+AddPartWheel     =  0.00,    0.3314, -1.0706
+AddPartWheel     =  0.00,    0.3314, -2.6545
+
+InventorySize = 9
+
+AddPartCanopy =  0.7722, 2.553, 2.5476, 0.0, -1.0, 0.0, 50
+AddPartHatch =   0.00, 2.6444, 2.2844, 1.0, 0.0, 0.0, -100
+
+;兵器
+AddWeapon =  M13,  -1.40, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  -1.40, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddWeapon =  M13,  -1.01, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  -1.01, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddWeapon =  M13,  -0.57, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  -0.57, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddWeapon =  M13,  -0.20, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  -0.20, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddWeapon =  M13,  0.20, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  0.40, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddWeapon =  M13,  0.57, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  0.57, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddWeapon =  M13,  1.01, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  1.01, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddWeapon =  M13,  1.40, 3.38, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+AddWeapon =  M13,  1.40, 2.92, -4.05, 0.00, 1.00 , true,3, 0, -10, 10, -45, 5
+
+
+AddPartWeapon = M13, false, true, false,  0.00, 1.33, -3.2951, 0
+AddPartWeaponChild = false, true, 0.00, 1.7065, -3.2739, 0.0
+AddPartWeaponChild = false, true, 0.00, 1.7065, -3.2739, 0.5
+
+;ヘッドライト
+AddFixedSearchLight =  0.7316, 1.4488, 4.2398,   0x50FFFFFF,   0x00FFFFC0,    5.0, 2.0,  0,  0
+AddFixedSearchLight = -0.7316, 1.4488, 4.2398,   0x50FFFFFF,   0x00FFFFC0,    5.0, 2.0,  0,  0
+
+A
+
+AddRecipe = " G ",  "I I",  "RIR",   G, glass, I, iron_ingot, R, redstone

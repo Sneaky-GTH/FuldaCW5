@@ -1,0 +1,18 @@
+DisplayName = Rocket Bullet
+Type = Rocket
+Power = 40
+Acceleration = 40.0
+Explosion = 15
+Flaming = false
+Sight = MoveSight
+
+Delay = 26
+ReloadTime = 80
+
+SoundDelay = 1
+ModelBullet = rocketbullet
+Sound = missile_1_snd
+
+Round = 40
+MaxAmmo = 260
+SuppliedNum = 1

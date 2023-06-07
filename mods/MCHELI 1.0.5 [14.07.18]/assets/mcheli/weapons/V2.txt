@@ -1,0 +1,49 @@
+DisplayName = Aggregat 4 Missile
+Type = MachineGun1
+Power = 1000
+Acceleration = 5
+Explosion = 35
+ExplosionBlock = 25
+ExplosionInWater = 20
+Flaming = true
+Sight = MoveSight
+Delay = 50
+Sound = bomb_snd
+ModelBullet = V2
+Gravity = -0.01
+DisableSmoke = false
+ModeNum = 2
+Radius = 90
+RigidityTime = 10
+DisplayMortarDistance = true
+FixCameraPitch = true
+TrajectoryParticle = largeexplode
+Group = MainGun
+
+AddMuzzleFlash      =  5,      4.10,        16,  200,254,129,44
+AddMuzzleFlash      =  5,      4.05,         10,  200,254,219,104
+AddMuzzleFlash      =  5,      4.00,         8,  200,254,219,184
+AddMuzzleFlashSmoke =  5, 37,  30.0,  25.0, 180,  220,160,130,120
+AddMuzzleFlashSmoke =  5, 26,  38.0,  27.0, 160,   200,190,170,150
+
+AddMuzzleFlashSmoke =  5, 47,  45.0,  30.0, 180,  220,190,180,180
+AddMuzzleFlashSmoke =  5, 36,  50.0,  32.0, 160,  200,190,170,150
+AddMuzzleFlashSmoke =  5, 47,  45.0,  30.0, 180,  220,190,180,180
+AddMuzzleFlashSmoke =  -1, 36,  50.0,  32.0, 160,  200,190,170,150
+AddMuzzleFlashSmoke =  -4, 47,  45.0,  30.0, 180,  220,190,180,180
+AddMuzzleFlashSmoke =  -4, 36,  50.0,  32.0, 160,  200,190,170,150
+
+AddMuzzleFlashSmoke =  -2, 47,  48.0,  33.0, 180,  220,190,180,180
+AddMuzzleFlashSmoke =  -2, 36,  52.0,  37.0, 160,  200,190,170,150
+
+AddMuzzleFlash      =  -2.5,      7.10,        16,  200,254,129,44
+AddMuzzleFlash      =  -2.4,      7.05,         10,  200,254,219,104
+AddMuzzleFlash      =  -1.9,      7.00,         8,  200,254,219,184
+
+ReloadTime = 1200
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 8, iron_ingot
+Item = 4, tnt
+Item = 8, redstone

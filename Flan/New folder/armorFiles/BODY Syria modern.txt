@@ -1,0 +1,15 @@
+Name Syrian Army Uniform (SAA)
+ShortName syriamod
+Icon SYR
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.SyriaModernBody
+ArmourTexture SkinSyriaModern
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+Description Tier 4_Syrian Battle Dress Uniform_Year: ????
+ModelScale 1.05

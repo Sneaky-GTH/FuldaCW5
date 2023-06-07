@@ -1,0 +1,21 @@
+DisplayName = FAB-250M-54 GPB
+Type = Bomb
+Power = 00
+Acceleration = 1.0
+Gravity = -0.04905
+Explosion = 9
+ExplosionBlock = 5
+
+Flaming = true
+Sight = None
+Delay = 2
+Sound = bomb_snd
+
+ReloadTime = 150
+Round = 2
+MaxAmmo = 2
+SuppliedNum = 1
+
+DisplayMortarDistance = true
+
+Item = 1, hbm:item.warhead_generic_small

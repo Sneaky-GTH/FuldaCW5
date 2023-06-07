@@ -1,0 +1,10 @@
+Name M1935 Stahlhelm
+ShortName Stahlhelm
+Icon stahlhelm
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model monolith.stahlhelm1935
+ArmourTexture SkinStahlhelm1935
+Description Tier 0_German/Tunisian Steel Combat Helmet_Year: 1935
+headArmor 120

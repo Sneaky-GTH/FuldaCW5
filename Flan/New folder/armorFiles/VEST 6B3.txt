@@ -1,0 +1,15 @@
+Name 6B3 Ballistic Vest
+ShortName 6B3
+Icon 6B3
+Colour 255 255 255
+Type Pants
+Defence 0.05
+Model NewArmor.6B3
+ArmourTexture Skin6B3
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 200
+backArmor 200
+ModelScale 1.05
+Durability 50
+Description Tier 3.5_Soviet Aramid Body Armour_Year: 1984_Kahki

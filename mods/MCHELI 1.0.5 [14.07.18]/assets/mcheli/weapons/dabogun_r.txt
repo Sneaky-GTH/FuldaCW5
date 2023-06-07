@@ -1,0 +1,18 @@
+DisplayName = 12.7mmMG(Rear)
+Type = MachineGun2
+Power = 10
+Acceleration = 10.0
+Flaming = false
+Sight = MoveSight
+Delay = 1
+SoundVolume = 1.0
+SoundPitch = 1.0
+Sound = gun_h1_snd
+Accuracy = 1.5
+HeatCount = 8
+MaxHeatCount = 180
+
+MaxAmmo = 500
+SuppliedNum = 100
+Item =  5, iron_ingot
+Item =  5, gunpowder

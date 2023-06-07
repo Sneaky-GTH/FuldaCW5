@@ -1,0 +1,21 @@
+DisplayName = D-10T 100mm [AP]
+Type = MachineGun1
+Power = 11
+ModelBullet =3bk18m
+Explosion = 0
+ExplosionBlock =0
+Acceleration = 16.0
+Sight = None
+ReloadTime = 80
+Round = 1
+SoundVolume = 10.0
+Sound = cannon_6_snd
+Accuracy = 8
+BulletColor        = 255, 255, 100, 100
+Particle = largeexplode
+Gravity = -0.03
+
+MaxAmmo = 40
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder

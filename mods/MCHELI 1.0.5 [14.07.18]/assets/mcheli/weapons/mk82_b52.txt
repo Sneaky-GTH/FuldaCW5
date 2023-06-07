@@ -1,0 +1,21 @@
+DisplayName = MK82 500lb bomb
+Type = Bomb
+Power = 0
+Acceleration = 1.0
+Penetration = 1
+Gravity = -0.04905
+Explosion = 9
+ExplosionBlock = 5
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 2
+Sound = bomb_snd
+ModelBullet = mk82_b
+
+ReloadTime = 300
+Round = 108
+MaxAmmo = 108
+SuppliedNum = 21
+Item = 21, hbm:item.warhead_generic_small
+

@@ -1,0 +1,15 @@
+Name Israel Defense Force Uniform (1967)
+ShortName IDF67
+Icon IDF
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.Israel1967
+ArmourTexture SkinIsrael1967
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+Description Tier 2.5_Israeli Battle Dress Uniform_Year: 1967_Lizard Pattern
+ModelScale 1.05

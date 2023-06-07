@@ -1,0 +1,18 @@
+DisplayName = AGM-114 Hellfire [ATGM]
+Type = ATMissile
+Power = 26
+Acceleration = 4.0
+Explosion = 0
+Flaming = true
+Sight = MissileSight 
+Delay = 100
+LockTime = 20
+ModeNum = 2
+ProximityFuseDist = 1
+ModelBullet = agm114
+Sound = missile_1_snd
+RidableOnly = true
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  1, hbm:item.gun_stinger_ammo

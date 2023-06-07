@@ -1,0 +1,10 @@
+Name Mk6 Helmet - MTP
+ShortName Mk6MTP
+Icon UK
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinMk6MTP
+Model NewArmor.BritishMk6Covered
+Description Tier 3.5_British Ballistic-Nylon Helmet_MTP Cover
+headArmor 180

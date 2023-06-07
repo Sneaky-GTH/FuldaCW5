@@ -1,0 +1,21 @@
+DisplayName = 125mm APFSDS
+Type = MachineGun1
+Power = 200
+ModelBullet = bullet76mm
+Acceleration = 3.5
+Explosion = 3
+Flaming = false
+Sight = MoveSight
+Delay = 15
+SoundVolume = 0.6
+Round = 1
+ReloadTime = 80
+Piercing = 1
+Gravity = -0.01
+
+; MaxAmmo = 20
+; SuppliedNum = 3
+; Item =  3, iron_ingot
+; Item =  4, gunpowder
+; Item =  2, redstone
+SetCartridge = cartridge, 0.4,  0, 0, 5.00, -0.04, 0.40

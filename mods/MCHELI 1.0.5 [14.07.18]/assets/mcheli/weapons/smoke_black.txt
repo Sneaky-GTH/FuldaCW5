@@ -1,0 +1,8 @@
+DisplayName = Smoke black
+Type = Smoke
+
+Acceleration= 2.0
+SmokeColor  = 230, 64, 64, 64
+SmokeSize   = 5.0
+SmokeMaxAge = 1200
+Gravity     = 0.5

@@ -1,0 +1,14 @@
+Name Irregular Militia Uniform
+ShortName gopnikMilitia
+Icon wargopnik
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.GopnikMilitia
+ArmourTexture SkinIrregularMilitia
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+ModelScale 1.05
+Description Tier 4_Irregular Militiamen Battle Dress_Year: 1998_Flora

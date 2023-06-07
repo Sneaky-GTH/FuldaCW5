@@ -1,0 +1,19 @@
+DisplayName = BLU-1 Napalm
+Type = Bomb
+Power = 45
+Acceleration = 0.1
+Explosion = 6
+ExplosionInWater = 0
+Flaming = true
+Sight = None
+Delay = 6
+Sound = bomb_snd
+ModelBullet = blu10b
+FAE = true
+
+ReloadTime = 150
+Round = 4
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  4, hbm:item.warhead_generic_small

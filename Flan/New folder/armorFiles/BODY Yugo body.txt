@@ -1,0 +1,14 @@
+Name Yugoslavian Army M68 Uniform (OD)
+ShortName yugobody
+Icon YU
+Colour 255 255 255
+Type Chest
+Defence 0.3
+Model NewArmor.YugoslaviaBody
+ArmourTexture SkinYugoSlaviaOD
+MoveSpeedModifier 1.0
+KnockbackModifier 0.8
+bodyArmor 10
+armArmor 10
+
+Description Tier 2.5_Yugoslavian Battle Dress_Year: 1968_OD

@@ -1,0 +1,26 @@
+﻿DisplayName = Fire Dispenser
+Type = Dispenser
+Acceleration = 0
+Sight = None
+Delay = 0
+Sound = smoke_snd
+SoundDelay = 4
+Gravity = -0.05
+
+Bomblet = 14
+BombletSTime = 3
+BombletDiff = 3
+
+Round = 150
+ReloadTime = 170
+
+TrajectoryParticle = flame
+SmokeSize   = 3.0
+
+;着弾時に使用するアイテムに火打ち石を指定する。地面に火がつく。
+DispenseItem = hbm:item.grenade_poison
+DispenseRange = 1
+
+MaxAmmo = 150
+SuppliedNum = 150
+Item =  1, flint_and_steel

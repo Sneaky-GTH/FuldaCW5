@@ -1,0 +1,10 @@
+Name PASGT Kevlar Helmet 
+ShortName PASGT
+Icon IconPASGTWoodland
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+Model NewArmor.USPasgt
+ArmourTexture SkinPASGTCover
+Description Tier 3.5_American Combat Helmet_Year: 1984_US Woodland
+headArmor 180

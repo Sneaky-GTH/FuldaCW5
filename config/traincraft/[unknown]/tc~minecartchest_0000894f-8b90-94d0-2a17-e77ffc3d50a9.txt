@@ -1,0 +1,9 @@
+<xmlRoot>
+   <uuid>0000894f-8b90-94d0-2a17-e77ffc3d50a9</uuid>
+   <delegate>tc:minecartChest</delegate>
+   <pos_x>-321.5</pos_x>
+   <pos_y>4.849999952316284</pos_y>
+   <pos_z>4861.5</pos_z>
+    <inventory>
+   </inventory>
+</xmlRoot>

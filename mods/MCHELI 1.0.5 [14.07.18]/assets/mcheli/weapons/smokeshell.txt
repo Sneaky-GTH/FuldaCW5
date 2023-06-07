@@ -1,0 +1,18 @@
+DisplayName = 155mm Howitzer Barrage
+Type = MkRocket
+Power = 0
+Acceleration = 7.0
+Explosion = 6
+ExplosionBlock = 5
+Flaming = false
+Sight = MoveSight
+
+SoundVolume = 10.0
+ReloadTime = 180
+Round = 1
+Gravity = -0.02
+DisableSmoke = true
+ModelBullet = blank
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  1, hbm:item.ammo_rocket

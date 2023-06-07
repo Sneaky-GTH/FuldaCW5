@@ -1,0 +1,55 @@
+DisplayName = 420mm howitzer
+Type = MachineGun1
+ModelBullet = 420mm
+Power = 140
+Acceleration = 4.26
+Explosion = 8
+ExplosionBlock = 7
+Flaming = true
+Sight = MoveSight
+Delay = 180
+Round = 1
+HeatCount = 90
+MaxHeatCount = 170
+
+
+SoundPitch = 0.4
+ReloadTime = 200
+SoundDelay = 3
+Sound = cannon_4_snd
+DamageFactor = helicopter, 8.0
+DamageFactor = plane,      8.0
+DamageFactor = vehicle,    8.0
+DamageFactor = tank,       8.0
+
+Recoil = 3
+
+
+
+CameraRotationSpeedPitch = 0.2
+
+DisplayMortarDistance = true
+
+FixCameraPitch = true
+
+
+; AddMuzzleFlash = distance, bigness, life time,  A,  R,  G,  B
+AddMuzzleFlash      =           12.0,   3,        27,  220,254,159,74
+AddMuzzleFlash      =           12.0,   3,        20,  220,254,219,104
+AddMuzzleFlash      =           12.0,   1,        18,  220,254,219,184
+AddMuzzleFlash      =           10.0,   2.00,        8,  220,254,219,184
+; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,  A,  R,  G,  B
+AddMuzzleFlashSmoke   =              16.2,     30,   32.0,  4.0,       65,  220,160,140,120
+AddMuzzleFlashSmoke   =             17.2,     20,   23.0,  7.0,       55,  200,190,170,150
+AddMuzzleFlashSmoke   =             17.2,     40,   43.0,  12.0,       75,  200,190,170,150
+
+
+Gravity = -0.050
+
+; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
+RecoilBufCount = 40, 5
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  7, iron_ingot
+Item =  7, gunpowder

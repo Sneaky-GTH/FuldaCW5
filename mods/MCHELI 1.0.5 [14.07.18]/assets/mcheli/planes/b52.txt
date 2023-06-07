@@ -1,0 +1,95 @@
+﻿DisplayName = B-52H Stratofortress
+AddDisplayName = en_US, B-52 Stratofortress [Bomber]
+AddDisplayName = ja_JP, B-52H ストラトフォートレス
+ItemID = 28729
+MaxHp = 1500
+
+Sound = plane
+;EnableNightVision = true
+;EnableEntityRadar = true
+EnableNightVision = true
+EnableGunnerMode = true
+CameraPosition  = 0, 0, -3
+InventorySize = 18
+MaxFuel         = 265274
+FuelConsumption = 30
+AutoPilotRot = 0
+FlareType = 2
+range=7200
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = US.B
+
+
+radarPower = 277
+radarMax = 140
+Stealth = 5.5
+ESM = 1.0
+
+HUD = plane, heli_gnr
+
+AddTexture = b52_tb
+
+Speed = 0.946
+MobilityYaw = 0.73
+MobilityPitch = 0.73
+MobilityRoll = 0.73
+
+ThrottleUpDown = 1.0
+
+AddSeat =  0.72,  3.22,  -2.7
+AddSeat = -0.72,  3.32,  -2.7
+
+AddPartLG =   0.00, 1.40, -10.55,  1,0,0, 
+AddPartLG =   0.00, 3.75, -27.71,  1,0,0, 
+
+AddPartWeaponBay = gbu24_x35/ nuke_300kt_x2, -1.54, 2.61,-17.28,  0, -0.04, 1.0, -90
+AddPartWeaponBay = gbu24_x35/ nuke_300kt_x2, 1.54, 2.61,-17.28,   0, -0.04, 1.0,  90
+
+;AddPartWeaponMissile =alcm, false,  false,  false, 4.17, 3.67, -9.98
+;AddPartWeaponMissile =alcm, false,  false,  false, 4.77, 3.99, -9.98
+;AddPartWeaponMissile =alcm, false,  false,  false, 3.55, 3.99, -9.98
+;AddPartWeaponMissile =alcm, false,  false, false, -4.17, 3.67, -9.98
+;AddPartWeaponMissile =alcm, false,  false, false, -4.77, 3.99, -9.98
+;AddPartWeaponMissile =alcm, false,  false, false, -3.55, 3.99, -9.98
+;AddPartWeaponMissile =alcm, false, false, false, -4.17, 3.67, -15.14
+;AddPartWeaponMissile =alcm, false, false, false, -4.77, 3.99, -15.14
+;AddPartWeaponMissile =alcm, false, false, false, -3.55, 3.99, -15.14
+;AddPartWeaponMissile =alcm, false, false, false,  4.17, 3.67, -15.14
+;AddPartWeaponMissile =alcm, false, false, false,  4.77, 3.99, -15.14
+;AddPartWeaponMissile =alcm, false, false, false,  3.55, 3.99, -15.14
+
+
+mass = 83250
+wingArea = 370
+
+onGroundPitch = 2.0
+
+;AddWeapon = targeting_pod_block,  0.00, 3.0, 0.3,    0.0, 0.0, 1
+
+;AddWeapon = CBU-58,  0.00,  3.32, -20.41,  0, 0
+;AddWeapon = CBU-58,  0.10,  3.32, -19.54,  0, 0
+AddWeapon = mk84_b52,  0.00,  3.32, -20.41,  0, 0
+AddWeapon = mk84_b52,  5.10,  3.32, -19.54,  0, 0
+AddWeapon = mk84_b52,  -5.10,  3.32, -19.54,  0, 0
+
+
+AddWeapon = mk82_b52,  0.00,  3.32, -20.41,  0, 0
+AddWeapon = mk82_b52,  5.10,  3.32, -19.54,  0, 0
+AddWeapon = mk82_b52,  -5.10,  3.32, -19.54,  0, 0
+
+AddWeapon = nuke_300kt_x2,  0.00,  3.32, -20.41,  0, 0
+
+BoundingBox =  0.0, 2.6,  -1.6,  4.0, 4.0
+BoundingBox =  0.0, 2.6,  -6.6,  4.0, 4.0
+BoundingBox =  0.0, 2.6, -11.6,  4.0, 4.0
+BoundingBox =  0.0, 2.6, -16.6,  4.0, 4.0
+BoundingBox =  0.0, 3.0, -20.6,  3.0, 3.0
+BoundingBox =  0.0, 3.0, -23.6,  2.0, 2.0
+BoundingBox =  0.0, 3.0, -26.6,  2.0, 2.0
+
+BoundingBox =  -5.0, 2.2, -11.6,  5.0, 1.0
+BoundingBox = -10.0, 3.0, -11.6,  5.0, 1.0
+BoundingBox = -15.0, 3.0, -12.0,  4.4, 1.0
+BoundingBox =   5.0, 2.2, -11.6,  5.0, 1.0
+BoundingBox =  10.0, 3.0, -11.6,  5.0, 1.0
+BoundingBox =  15.0, 3.0, -12.0,  4.4, 1.0

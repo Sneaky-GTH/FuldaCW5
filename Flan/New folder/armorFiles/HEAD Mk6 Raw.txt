@@ -1,0 +1,10 @@
+Name Mk6 Helmet
+ShortName Mk6Raw
+Icon UK
+Colour 255 255 255
+Type Helmet
+Defence 0.2
+ArmourTexture SkinMk6HelmetNaked
+Model NewArmor.BritishMk6
+Description Tier 3.5_British Ballistic-Nylon Helmet_No Cover
+headArmor 180

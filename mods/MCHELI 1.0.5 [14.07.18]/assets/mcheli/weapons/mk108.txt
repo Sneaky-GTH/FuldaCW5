@@ -1,0 +1,18 @@
+DisplayName = MK108 30mm Canon
+Type = MachineGun1
+Power = 25
+Acceleration = 4.5
+Explosion = 1
+ExplosionBlock = 0
+Flaming = true
+Sight = MoveSight
+Delay = 2
+Accuracy = 6.5
+Gravity = -0.03
+Particle = largeexplode
+Round = 10
+ReloadTime = 50
+
+MaxAmmo = 50
+SuppliedNum = 10
+Item =  1, hbm:item.turret_heavy_ammo

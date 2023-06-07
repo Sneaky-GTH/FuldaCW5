@@ -1,0 +1,17 @@
+DisplayName = Dr1 Prussian Bomb
+Type = Bomb
+Power = 6
+Acceleration = 1.0
+Explosion = 3
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 8
+Round = 4
+ReloadTime = 220
+Sound = bomb_snd
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  1, gunpowder

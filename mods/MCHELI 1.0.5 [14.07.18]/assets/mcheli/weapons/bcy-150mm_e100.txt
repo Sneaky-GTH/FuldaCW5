@@ -1,0 +1,29 @@
+DisplayName = 15cm KwK44 L/38
+Type = MachineGun2
+Power = 140
+ModelBullet = bullet76mm
+Acceleration = 7.0
+Explosion = 8
+ExplosionBlock = 8
+Flaming = false
+Sight = MoveSight
+ModeNum = 2
+SoundVolume = 1.0
+SoundPitch = 0.5
+Sound = cannon_1_snd
+Recoil = 1.0
+Accuracy = 0.4
+
+Delay = 1
+ReloadTime = 180
+Round = 1
+
+MaxAmmo = 50
+SuppliedNum = 25
+Item =  3, iron_ingot
+Item =  4, gunpowder
+
+AddMuzzleFlash = 8.0, 1.0, 6, 220, 240,140,0
+AddMuzzleFlashSmoke = 8.0, 10, 4.0,  3.0,  65,  220,140,140,140
+
+RecoilBufCount = 20, 5
